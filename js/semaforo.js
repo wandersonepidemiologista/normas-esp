@@ -201,6 +201,7 @@
   $('#q').addEventListener('input', function (e) { state.q = e.target.value.trim(); if (state.v !== 'semaforo') vista('semaforo'); renderPainel(); });
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape') fechar(); });
   var rz; window.addEventListener('resize', function () { clearTimeout(rz); rz = setTimeout(renderTL, 150); });
+  (function () { var d = NORMAS.map(function (n) { return n.dataAcesso; }).sort().pop(); if (d) $('#rodData').textContent = 'Dados conferidos em ' + d.split('-').reverse().join('/') + '.'; })();
   if (/[?&]embed=1/.test(location.search)) document.body.classList.add('embed');
   var m = /c=([a-z_]+)/.exec(location.hash); if (m && comps[m[1]]) state.comp = m[1];
   renderMapa(); renderTL(); renderPainel();
