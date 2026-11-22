@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Semáforo ESP · Legislação por componente</title>
+<style>
+:root{--epic-primary:#4f8aac;--epic-secondary:#03658c;--epic-highlight:#02735e;--epic-attention:#ffde59;--ink:#1E293B;--muted:#64748B;--bg:#F8FAFC;--card:#fff;--line:#E2E8F0}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--bg);line-height:1.45}
+#topo{background:linear-gradient(135deg,var(--epic-secondary),#024B69);color:#fff;padding:16px 20px 12px;border-bottom:4px solid var(--epic-highlight)}
+.marca h1{margin:0;font-size:20px;font-weight:650}
+.marca p{margin:4px 0 0;font-size:13.5px;opacity:.9}
+.embed .marca{display:none}
+.barra{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;margin-top:12px}
+.abas{display:flex;gap:6px;flex-wrap:wrap}
+.abas button{font:inherit;font-size:14px;border:1px solid rgba(255,255,255,.45);background:transparent;color:#fff;border-radius:999px;padding:6px 14px;cursor:pointer}
+.abas button[aria-selected=true]{background:#fff;color:var(--epic-secondary);font-weight:600}
+.busca{flex:1;min-width:240px}
+.busca input{width:100%;font:inherit;font-size:14.5px;padding:8px 12px;border-radius:8px;border:1px solid transparent}
+main{max-width:1240px;margin:0 auto;padding:18px 16px 60px}
+.vista[hidden]{display:none}
+.mapa{display:grid;grid-template-columns:minmax(210px,.27fr) 1fr;gap:16px}
+.faixas{display:flex;flex-direction:column;gap:14px}
+.grupo{background:var(--card);border:1.5px dashed var(--gbd,#94A3B8);border-radius:14px;padding:10px 12px 12px}
+.grupo h2{margin:0 0 8px;font-size:13px;font-weight:600;color:#475569}
+.itens{display:grid;grid-template-columns:repeat(auto-fit,minmax(138px,1fr));gap:10px}
+.col-trans .itens{grid-template-columns:1fr}
+.comp{position:relative;text-align:left;font:inherit;cursor:pointer;border:1px solid var(--bd);background:var(--bg2);color:var(--tx);border-radius:10px;padding:10px 12px}
+.comp b{display:block;font-size:15px}
+.comp small{display:block;font-size:12.5px;opacity:.88}
+.comp .n{position:absolute;top:7px;right:8px;font-size:11px;font-weight:600;background:#fff;border:1px solid var(--bd);border-radius:999px;padding:0 7px;color:var(--tx)}
+.comp.vazio{opacity:.6}
+.comp[aria-pressed=true]{outline:3px solid var(--epic-secondary);outline-offset:1px}
+.comp:focus-visible,.abas button:focus-visible,button:focus-visible,a:focus-visible{outline:3px solid var(--epic-attention);outline-offset:2px}
+.seta{align-self:center;color:#94A3B8;font-size:18px}
+#painel{margin-top:22px}
+.cab{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap;margin-bottom:6px}
+.cab h2{margin:0;font-size:18px}
+.dica,.vazio-msg{color:var(--muted);font-size:14px}
+.vazio-msg{background:#fff;border:1px dashed var(--line);border-radius:12px;padding:16px}
+.trecho{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:10px 0}
+.trecho header{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:baseline}
+.nl{font-weight:650;color:var(--epic-secondary);text-decoration:none;cursor:pointer}
+.nl:hover{text-decoration:underline}
+.disp{color:#334155;font-size:14px}
+.texto{white-space:pre-wrap;font-family:Georgia,"Times New Roman",serif;font-size:15.5px;line-height:1.55;margin:10px 0;padding-left:12px;border-left:3px solid var(--epic-primary)}
+mark{background:var(--epic-attention);padding:0 1px}
+.nota{font-size:13px;color:#475569;margin:6px 0}
+.ver{font-size:11.5px;color:var(--epic-highlight);border:1px solid #BFE3D6;background:#EAF7F2;border-radius:999px;padding:0 8px}
+.vig{font-size:11.5px;border-radius:999px;padding:0 8px;border:1px solid var(--line);background:#fff}
+.rodape{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;margin-top:8px}
+.tag{font:inherit;font-size:12px;border:1px solid var(--bd,#CBD5E1);background:var(--bg2,#fff);color:var(--tx,#334155);border-radius:999px;padding:2px 9px;cursor:pointer}
+.btn{font:inherit;font-size:13px;border:1px solid #CBD5E1;background:#fff;color:var(--ink);border-radius:8px;padding:5px 10px;cursor:pointer;text-decoration:none;display:inline-block}
+.btn:hover{background:#F1F5F9}
+.btn.pri{background:var(--epic-secondary);border-color:var(--epic-secondary);color:#fff}
+.btn.pri:hover{background:#024B69}
+.sp{flex:1}
+.chips{margin-bottom:10px}
+.chip{font:inherit;font-size:12.5px;padding:3px 11px;border-radius:999px;border:1px solid #CBD5E1;background:#fff;color:#475569;cursor:pointer;margin:0 6px 6px 0}
+.chip.on{border-color:var(--epic-secondary);background:#E6F1F6;color:var(--ink);font-weight:600}
+.dec{font-size:13px;color:var(--muted);padding:14px 0 2px 76px}
+.row{display:grid;grid-template-columns:52px 14px 1fr;gap:10px;padding:7px 0;align-items:start}
+.yr{text-align:right;font-weight:600;padding-top:1px}
+.dot{width:10px;height:10px;border-radius:50%;margin-top:6px}
+.nm{font-weight:600}
+.ds{font-size:13.5px;color:#475569}
+.tg{display:inline-block;font-size:11px;padding:1px 8px;border-radius:999px;margin:3px 6px 0 0}
+.fm{border:1px dashed #94A3B8;color:#475569}
+.pend{font-size:12px;color:var(--muted)}
+.fonte{font-size:12px;color:var(--muted);margin-top:14px}
+.acoes{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.aviso{background:#FFFBEA;border:1px solid #F2E3A0;border-radius:10px;padding:10px 12px;font-size:13.5px;margin-bottom:12px}
+.ncard{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:10px 0}
+.ncard h3{margin:0 0 4px;font-size:15.5px}
+.ncard p{margin:4px 0 8px;font-size:14px;color:#334155}
+.ficha{position:fixed;top:0;right:0;bottom:0;width:min(680px,100%);background:#fff;box-shadow:-8px 0 30px rgba(15,23,42,.25);overflow:auto;z-index:20;padding:18px 20px 40px}
+.ficha[hidden]{display:none}
+.ficha h2{margin:0 30px 6px 0;font-size:17px;line-height:1.35}
+.fx{position:absolute;top:10px;right:12px;font-size:22px;border:0;background:transparent;cursor:pointer}
+table.meta{width:100%;border-collapse:collapse;font-size:14px;margin:10px 0 16px}
+table.meta th{width:34%;text-align:left;vertical-align:top;color:#475569;font-weight:600;padding:6px 8px 6px 0;border-bottom:1px solid #EEF2F7}
+table.meta td{padding:6px 0;border-bottom:1px solid #EEF2F7;overflow-wrap:anywhere}
+.vz{color:#94A3B8}
+.ficha h3{font-size:14px;margin:18px 0 4px}
+#toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#1E293B;color:#fff;padding:8px 14px;border-radius:8px;font-size:13.5px;opacity:0;pointer-events:none;transition:opacity .2s;z-index:40}
+#toast.on{opacity:1}
+@media(max-width:820px){.mapa{grid-template-columns:1fr}.col-trans .itens{grid-template-columns:repeat(auto-fit,minmax(138px,1fr))}.dec{padding-left:0}}
+@media print{#topo,.rodape,.abas,.busca,.acoes{display:none}.ficha{position:static;box-shadow:none;width:auto}}
+</style>
+</head>
+<body>
+<header id="topo">
+  <div class="marca">
+    <h1>Semáforo da preparação e resposta às emergências em saúde pública</h1>
+    <p>Trechos da legislação organizados pelos componentes do semáforo, com fonte oficial e metadados para o Zotero</p>
+  </div>
+  <div class="barra">
+    <nav class="abas" role="tablist" aria-label="Vistas">
+      <button role="tab" data-v="semaforo" aria-selected="true">Semáforo</button>
+      <button role="tab" data-v="tempo" aria-selected="false">Linha do tempo</button>
+      <button role="tab" data-v="normas" aria-selected="false">Normas e Zotero</button>
+    </nav>
+    <div class="busca"><input id="q" type="search" placeholder="Buscar nos trechos (ex.: notificação compulsória, requisição, 24 horas)" aria-label="Buscar nos trechos"></div>
+  </div>
+</header>
+<main>
+  <section id="v-semaforo" class="vista">
+    <div class="mapa" id="mapa"></div>
+    <div id="painel" aria-live="polite"></div>
+  </section>
+  <section id="v-tempo" class="vista" hidden>
+    <div class="chips" id="chips"></div>
+    <div id="linha"></div>
+    <p class="fonte" id="fonteTempo"></p>
+  </section>
+  <section id="v-normas" class="vista" hidden>
+    <div class="aviso">O <b>RIS</b> preenche todos os campos do tipo Legislação do Zotero (Propositor, Código, Seção, Corpo legislativo, Sessão, Histórico e demais). O <b>BibTeX</b> traz título, autor, data, URL, idioma, direitos e etiquetas; os outros campos seguem numa nota.</div>
+    <div class="acoes" id="acoesNormas"></div>
+    <div id="listaNormas"></div>
+  </section>
+</main>
+<aside id="ficha" class="ficha" hidden aria-label="Ficha da norma"></aside>
+<div id="toast" role="status"></div>
+<script src="dados/semaforo.js"></script>
+<script src="dados/linha_tempo.js"></script>
+<script src="dados/normas.js"></script>
+<script src="dados/trechos.js"></script>
+<script src="js/exportacao.js"></script>
+<script src="js/semaforo.js"></script>
+</body>
+</html>
