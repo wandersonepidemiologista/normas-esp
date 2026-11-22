@@ -2,7 +2,17 @@
   'use strict';
   var S = window.SEMAFORO, NORMAS = window.NORMAS, TR = window.TRECHOS, LT = window.LINHA_TEMPO, E = window.Exportacao;
   var $ = function (s) { return document.querySelector(s); };
-  var state = { v: 'semaforo', comp: null, q: '', cat: 'all', tl: null };
+  var state = { v: 'semaforo', comp: null, q: '', cat: 'all', tl: null, tipo: 'todos' };
+  /* tipo de norma, deduzido do nome do item da linha do tempo */
+  function tipoDe(nome) {
+    if (/^Lei\b/.test(nome)) return 'lei';
+    if (/^Decreto\b/.test(nome)) return 'decreto';
+    if (/^Portaria\b/.test(nome)) return 'portaria';
+    if (/^(Resolução|Glossário|Instrução|Orientação)/.test(nome)) return 'infra';
+    return 'outros';
+  }
+  function okTipo(it) { return state.tipo === 'todos' || tipoDe(it.nome) === state.tipo; }
+  function sincTipo() { [].forEach.call(document.querySelectorAll('select[data-tipo]'), function (s) { s.value = state.tipo; }); }
   var comps = {}, compNome = {};
   S.grupos.forEach(function (g) { g.itens.forEach(function (i) { comps[i.id] = i; i.grupo = g.id; compNome[i.id] = i.nome; }); });
   function norma(id) { return NORMAS.filter(function (n) { return n.id === id; })[0]; }
@@ -93,7 +103,7 @@
     $('#chips').innerHTML = ch.map(function (x) { return '<button class="chip' + (state.cat === x[0] ? ' on' : '') + '" data-cat="' + x[0] + '">' + esc(x[1]) + '</button>'; }).join('');
     var h = '', ult = '';
     LT.itens.forEach(function (it) {
-      var ok = state.cat === 'all' || (state.cat === 'fm' ? it.foraMatriz : it.cat === state.cat);
+      var ok = (state.cat === 'all' || (state.cat === 'fm' ? it.foraMatriz : it.cat === state.cat)) && okTipo(it);
       if (!ok) return;
       var dec = it.ano < 2000 ? '1970 a 1999' : it.ano < 2010 ? '2000 a 2009' : it.ano < 2020 ? '2010 a 2019' : '2020 em diante';
       if (state.cat === 'all' && dec !== ult) { h += '<div class="dec">' + dec + '</div>'; ult = dec; }
@@ -102,6 +112,8 @@
         '<span class="tg" style="background:' + c.bg + ';color:' + c.tx + '">' + esc(c.rotulo) + '</span>' + (it.foraMatriz ? '<span class="tg fm">fora da matriz</span>' : '') +
         (f ? ' <button class="btn" data-ficha="' + f.id + '">Ficha e ' + trsDe(f.id).length + ' trechos</button>' : ' <span class="pend">ficha pendente</span>') + '</div></div>';
     });
+    if (!h) h = '<div class="vazio-msg">Nenhuma norma deste tipo na categoria escolhida.</div>';
+    sincTipo();
     $('#linha').innerHTML = h; $('#fonteTempo').textContent = 'Fonte: ' + LT.fonte;
   }
 
@@ -126,7 +138,7 @@
     var lanes = '';
     Object.keys(cats).forEach(function (k) {
       var c = cats[k], its = [];
-      LT.itens.forEach(function (it, i) { if (it.cat === k) its.push({ it: it, i: i }); });
+      LT.itens.forEach(function (it, i) { if (it.cat === k && okTipo(it)) its.push({ it: it, i: i }); });
       if (!its.length) return;
       its.sort(function (a, b) { return (a.it.data || a.it.ano + '-07-01') < (b.it.data || b.it.ano + '-07-01') ? -1 : 1; });
       var placed = [], maxS = 0, pts = '';
@@ -139,6 +151,8 @@
       });
       lanes += '<div class="lane" style="height:' + (16 + (maxS + 1) * H) + 'px"><div class="ll" style="color:' + c.tx + ';background:' + c.bg + ';border-color:' + c.cor + '">' + esc(c.rotulo) + '</div>' + pts + '</div>';
     });
+    sincTipo();
+    if (!lanes) lanes = '<div class="vazio-msg" style="margin:14px">Nenhuma norma deste tipo.</div>';
     cv.style.width = (LAB + (y1 - y0) * W) + 'px';
     cv.innerHTML = h + '<div class="lanes">' + grade + lanes + '</div>';
     if (wrap) wrap.scrollLeft = sl;
@@ -197,6 +211,10 @@
     if (d.expall) return exportar(NORMAS.map(function (n) { return n.id; }), d.expall);
     if (d.cat) { state.cat = d.cat; return renderTempo(); }
     if (d.tl) { state.tl = state.tl === +d.tl - 1 ? null : +d.tl - 1; return renderTL(); }
+  });
+  document.addEventListener('change', function (ev) {
+    var s = ev.target; if (!s || !s.getAttribute || !s.getAttribute('data-tipo')) return;
+    state.tipo = s.value; state.tl = null; renderTL(); renderTempo();
   });
   $('#q').addEventListener('input', function (e) { state.q = e.target.value.trim(); if (state.v !== 'semaforo') vista('semaforo'); renderPainel(); });
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape') fechar(); });

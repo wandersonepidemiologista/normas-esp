@@ -60,6 +60,8 @@ mark{background:var(--epic-attention);padding:0 1px}
 .sp{flex:1}
 .chips{margin-bottom:10px}
 .chip{font:inherit;font-size:12.5px;padding:3px 11px;border-radius:999px;border:1px solid #CBD5E1;background:#fff;color:#475569;cursor:pointer;margin:0 6px 6px 0}
+.seltipo{font-size:13px;color:#475569;margin-right:12px}
+.selt{font:inherit;font-size:13px;padding:3px 8px;border:1px solid #CBD5E1;border-radius:8px;background:#fff;color:var(--ink);margin-left:4px;max-width:100%}
 .chip.on{border-color:var(--epic-secondary);background:#E6F1F6;color:var(--ink);font-weight:600}
 .dec{font-size:13px;color:var(--muted);padding:14px 0 2px 76px}
 .row{display:grid;grid-template-columns:52px 14px 1fr;gap:10px;padding:7px 0;align-items:start}
@@ -153,7 +155,7 @@ table.meta td{padding:6px 0;border-bottom:1px solid #EEF2F7;overflow-wrap:anywhe
   <section id="v-semaforo" class="vista">
     <div class="mapa" id="mapa"></div>
     <section class="tlbox" aria-label="Linha do tempo das normas">
-      <div class="cab"><h2>Linha do tempo das normas</h2><span class="dica" id="tlDica"></span></div>
+      <div class="cab"><h2>Linha do tempo das normas</h2><label class="seltipo">Tipo de norma <select id="selTipoTL" class="selt" data-tipo="1" aria-label="Filtrar a linha do tempo por tipo de norma"><option value="todos">Todos os tipos</option><option value="lei">Leis</option><option value="decreto">Decretos</option><option value="portaria">Portarias</option><option value="infra">Resoluções e outras normas infralegais</option><option value="outros">Projetos de lei e instrumentos internacionais</option></select></label><span class="dica" id="tlDica"></span></div>
       <div class="tlwrap" id="tlwrap"><div class="tl" id="tlcanvas"></div></div>
       <div class="tlleg"><span><i class="lg ok"></i> com ficha e trechos</span><span><i class="lg"></i> ficha pendente</span><span><i class="lg fm"></i> fora da matriz</span></div>
       <div id="tlDet"></div>
@@ -161,6 +163,7 @@ table.meta td{padding:6px 0;border-bottom:1px solid #EEF2F7;overflow-wrap:anywhe
     <div id="painel" aria-live="polite"></div>
   </section>
   <section id="v-tempo" class="vista" hidden>
+    <div class="chips"><label class="seltipo">Tipo de norma <select id="selTipoLista" class="selt" data-tipo="1" aria-label="Filtrar a lista por tipo de norma"><option value="todos">Todos os tipos</option><option value="lei">Leis</option><option value="decreto">Decretos</option><option value="portaria">Portarias</option><option value="infra">Resoluções e outras normas infralegais</option><option value="outros">Projetos de lei e instrumentos internacionais</option></select></label></div>
     <div class="chips" id="chips"></div>
     <div id="linha"></div>
     <p class="fonte" id="fonteTempo"></p>
