@@ -152,6 +152,8 @@ table.meta td{padding:6px 0;border-bottom:1px solid #EEF2F7;overflow-wrap:anywhe
 .espb.def{background:var(--epic-attention);border-color:var(--epic-attention);color:#1E293B;font-weight:600}
 .leg{font-size:12.5px;color:var(--muted);margin:10px 0}
 .nota-f{font-size:12.5px;color:var(--muted);margin:10px 0}
+.nv{background:#FFF8D6;border-radius:4px;padding:1px 6px;font-size:12px;margin-left:6px;white-space:nowrap}
+.tabnot tr.nova td:nth-child(2){font-weight:600}
 .aviso2{background:#FFF8D6;border:1px solid var(--epic-attention);border-radius:8px;padding:8px 12px;font-size:13px;margin:10px 0}
 @media(max-width:700px){.tabnot{font-size:13px}.tabnot th,.tabnot td{padding:6px 6px}}
 </style>
@@ -173,11 +175,16 @@ table.meta td{padding:6px 0;border-bottom:1px solid #EEF2F7;overflow-wrap:anywhe
 <main>
   <section class="conceito" id="conceito" aria-label="Conceito de evento de saúde pública"></section>
   <div class="ferr">
+    <button class="fch" id="vVig" data-v="vig" aria-pressed="true">Lista vigente (PC 4/2017)</button>
+    <button class="fch" id="vNova" data-v="nova" aria-pressed="false">Portaria 12.508/2026 (ainda não em vigor)</button>
+  </div>
+  <div class="aviso2" id="avNova" hidden></div>
+  <div class="ferr">
     <input id="q" type="search" placeholder="Buscar doença ou agravo" aria-label="Buscar doença ou agravo">
-    <button class="fch" data-f="todas" aria-pressed="true">Todas</button>
-    <button class="fch" data-f="ims" aria-pressed="false">Imediata ao Ministério da Saúde</button>
-    <button class="fch" data-f="sem" aria-pressed="false">Somente semanal ou local</button>
-    <button class="fch" data-f="esp" aria-pressed="false">Relacionadas ao conceito de ESP</button>
+    <button class="fch ff" data-f="todas" aria-pressed="true">Todas</button>
+    <button class="fch ff" data-f="ims" aria-pressed="false">Imediata ao Ministério da Saúde</button>
+    <button class="fch ff" data-f="sem" aria-pressed="false">Somente semanal ou local</button>
+    <button class="fch ff" data-f="esp" aria-pressed="false">Relacionadas ao conceito de ESP</button>
     <span class="cont" id="cont"></span>
   </div>
   <div class="leg"><span class="x">X</span> notificação imediata (até 24 horas) para o MS, a SES ou a SMS; <span class="x xs">X</span> notificação semanal. A linha verde clara marca itens com notificação imediata ao MS.</div>
