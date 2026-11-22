@@ -279,6 +279,15 @@ window.LINHA_TEMPO = {
    "cat": "defesa",
    "foraMatriz": false,
    "fichaId": null
+  },
+  {
+   "ano": 2026,
+   "data": "2026-11-16",
+   "nome": "Portaria GM/MS nº 12.508/2026",
+   "desc": "Inclui brucelose humana e altera nomenclaturas na Lista Nacional de Notificação Compulsória",
+   "cat": "saude",
+   "foraMatriz": false,
+   "fichaId": "prt_gm_ms_12508_2026"
   }
  ]
 };

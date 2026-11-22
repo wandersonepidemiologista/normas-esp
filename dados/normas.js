@@ -327,7 +327,45 @@ window.NORMAS = [
    "Data e página de publicação no DOU (o nome do arquivo da BVS sugere 03/10/2017; conferir)",
    "URL da BVS inferida do nome do arquivo; conferir",
    "Reconferir vigência dos dispositivos, pois a página traz redações alteradas por portarias posteriores",
-   "Número de edição e seção do DOU em branco"
+   "Número de edição e seção do DOU em branco",
+   "A Portaria GM/MS nº 12.508/2026 altera o Anexo 1 do Anexo V (Lista de Notificação Compulsória), com vigência 45 dias após 17/11/2026; atualizar a ficha quando entrar em vigor"
+  ]
+ },
+ {
+  "id": "prt_gm_ms_12508_2026",
+  "chave": "portaria_gmms12508_2026",
+  "tipo": "Portaria GM/MS",
+  "numero": "12.508",
+  "ano": 2026,
+  "data": "2026-11-16",
+  "titulo": "Portaria GM/MS nº 12.508, de 16/11/2026 - Altera as Portarias de Consolidação GM/MS nº 4 e nº 5, de 28 de setembro de 2017, para incluir a brucelose humana na Lista Nacional de Notificação Compulsória de Doenças, Agravos e Eventos de Saúde Pública e alterar nomenclaturas de doenças e agravos.",
+  "tituloCurto": "Brucelose humana e nomenclaturas na Lista de Notificação Compulsória",
+  "ementa": "Altera as Portarias de Consolidação GM/MS nº 4 e nº 5, de 28 de setembro de 2017, para incluir a brucelose humana na Lista Nacional de Notificação Compulsória de Doenças, Agravos e Eventos de Saúde Pública e alterar nomenclaturas de doenças e agravos.",
+  "propositor": "Brasil. Ministério da Saúde. Gabinete do Ministro",
+  "signatarios": "Alexandre Rocha Santos Padilha",
+  "codigo": "Diário Oficial da União",
+  "volumeCodigo": "Edição 216",
+  "secao": "Seção 1",
+  "paginas": "75",
+  "corpoLegislativo": "Ministério da Saúde",
+  "sessao": null,
+  "historico": "Altera o Anexo 1 do Anexo V da Portaria de Consolidação GM/MS nº 4/2017 (Lista Nacional de Notificação Compulsória) e o Anexo XLIII da Portaria de Consolidação GM/MS nº 5/2017 (vigilância sentinela). Publicada no DOU de 17/11/2026, edição 216, seção 1, p. 75. Entra em vigor 45 dias após a publicação (art. 4º).",
+  "doi": null,
+  "url": "https://www.in.gov.br/web/dou/-/portaria-gm/ms-n-12.508-de-16-de-novembro-de-2026-744731818",
+  "dataAcesso": "2026-11-22",
+  "idioma": "pt-BR",
+  "licenca": "Domínio público (Lei nº 9.610/1998, art. 8º, IV)",
+  "orgao": "Ministério da Saúde",
+  "douData": "2026-11-17",
+  "vigencia": {
+   "situacao": "publicada, vigência futura",
+   "verificadoEm": "2026-11-22",
+   "obs": "Entra em vigor 45 dias após a publicação em 17/11/2026 (art. 4º). Calcular e conferir a data exata (início de janeiro de 2027). Nos documentos normativos, citar a Portaria de Consolidação GM/MS nº 4/2017 e não esta portaria alteradora."
+  },
+  "pendencias": [
+   "Conferir a data exata de início da vigência",
+   "Colunas de periodicidade da lista (imediata e semanal) não vieram na cópia do texto",
+   "Texto do DOU lido em cópia enviada pelo usuário; conferir na versão certificada"
   ]
  }
 ];

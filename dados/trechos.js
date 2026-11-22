@@ -1168,5 +1168,103 @@ window.TRECHOS = [
   "fonteUrl": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0004_03_10_2017.html",
   "verificacao": "Extraído por programa do texto da página da Portaria de Consolidação nº 4 enviada pelo usuário (arquivo da BVS), sem digitação; a indicação de origem foi movida para a nota.",
   "status": "proposta"
+ },
+ {
+  "id": "prt_gm_ms_12508_2026-art1",
+  "normaId": "prt_gm_ms_12508_2026",
+  "dispositivo": "Art. 1º",
+  "texto": "Art. 1º Esta portaria inclui a Brucelose humana na Lista Nacional de Notificação Compulsória de Doenças, Agravos e Eventos de Saúde pública, constante do Anexo 1 do Anexo V à portaria de Consolidação GM/MS 4, de 28 de setembro de 2017, e altera a nomenclatura de doenças e agravos dessa Lista e da Lista Nacional de Doenças e Agravos a serem Monitorados pela Estratégia de Vigilância Sentinela, constante do Anexo XLIII à Portaria de Consolidação GM/MS nº 5, de 28 de setembro de 2017.",
+  "componentes": [
+   "notificar",
+   "vigilancia"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.in.gov.br/web/dou/-/portaria-gm/ms-n-12.508-de-16-de-novembro-de-2026-744731818",
+  "verificacao": "Extraído por programa do texto da página do DOU enviado pelo usuário, sem digitação.",
+  "status": "proposta"
+ },
+ {
+  "id": "prt_gm_ms_12508_2026-art4",
+  "normaId": "prt_gm_ms_12508_2026",
+  "dispositivo": "Art. 4º",
+  "texto": "Art. 4º Esta Portaria entra em vigor após 45 (quarenta e cinco) dias da data de sua publicação.",
+  "componentes": [
+   "notificar"
+  ],
+  "nota": "O texto do DOU repete a numeração \"Art. 2º\" duas vezes; a numeração aqui é a do artigo de vigência.",
+  "fonteUrl": "https://www.in.gov.br/web/dou/-/portaria-gm/ms-n-12.508-de-16-de-novembro-de-2026-744731818",
+  "verificacao": "Extraído por programa do texto da página do DOU enviado pelo usuário, sem digitação.",
+  "status": "proposta"
+ },
+ {
+  "id": "prt_gm_ms_12508_2026-lista19",
+  "normaId": "prt_gm_ms_12508_2026",
+  "dispositivo": "Anexo I, item 19 (Lista Nacional de Notificação Compulsória)",
+  "texto": "19. Doenças com suspeita de disseminação intencional: a. Antraz pneumônico b. Tularemia c. Varíola",
+  "componentes": [
+   "detectar",
+   "notificar"
+  ],
+  "nota": "Texto da página do DOU. A tabela perdeu as colunas de periodicidade na cópia (imediata para MS, SES e SMS, e semanal); consultar a versão certificada. Espaços inseridos entre as alíneas, que vieram coladas na cópia.",
+  "fonteUrl": "https://www.in.gov.br/web/dou/-/portaria-gm/ms-n-12.508-de-16-de-novembro-de-2026-744731818",
+  "verificacao": "Extraído por programa do texto da página do DOU enviado pelo usuário, sem digitação.",
+  "status": "proposta"
+ },
+ {
+  "id": "prt_gm_ms_12508_2026-lista20",
+  "normaId": "prt_gm_ms_12508_2026",
+  "dispositivo": "Anexo I, item 20 (Lista Nacional de Notificação Compulsória)",
+  "texto": "20. Doenças febris hemorrágicas emergentes/ reemergentes: a. Arenavírus b. Ebola c. Marburg d. Lassa e. Febre purpúrica brasileira",
+  "componentes": [
+   "detectar",
+   "notificar"
+  ],
+  "nota": "Texto da página do DOU. A tabela perdeu as colunas de periodicidade na cópia (imediata para MS, SES e SMS, e semanal); consultar a versão certificada. Espaços inseridos entre as alíneas, que vieram coladas na cópia.",
+  "fonteUrl": "https://www.in.gov.br/web/dou/-/portaria-gm/ms-n-12.508-de-16-de-novembro-de-2026-744731818",
+  "verificacao": "Extraído por programa do texto da página do DOU enviado pelo usuário, sem digitação.",
+  "status": "proposta"
+ },
+ {
+  "id": "prt_gm_ms_12508_2026-lista25",
+  "normaId": "prt_gm_ms_12508_2026",
+  "dispositivo": "Anexo I, item 25 (Lista Nacional de Notificação Compulsória)",
+  "texto": "25. Evento de Saúde Pública (ESP) que se constitua ameaça à saúde pública (ver definição no art. 2º desta portaria)",
+  "componentes": [
+   "detectar",
+   "verificar",
+   "notificar"
+  ],
+  "nota": "Texto da página do DOU. A tabela perdeu as colunas de periodicidade na cópia (imediata para MS, SES e SMS, e semanal); consultar a versão certificada.",
+  "fonteUrl": "https://www.in.gov.br/web/dou/-/portaria-gm/ms-n-12.508-de-16-de-novembro-de-2026-744731818",
+  "verificacao": "Extraído por programa do texto da página do DOU enviado pelo usuário, sem digitação.",
+  "status": "proposta"
+ },
+ {
+  "id": "prt_gm_ms_12508_2026-lista42",
+  "normaId": "prt_gm_ms_12508_2026",
+  "dispositivo": "Anexo I, item 42 (Lista Nacional de Notificação Compulsória)",
+  "texto": "42. Influenza humana produzida por novo subtipo viral",
+  "componentes": [
+   "detectar",
+   "notificar"
+  ],
+  "nota": "Texto da página do DOU. A tabela perdeu as colunas de periodicidade na cópia (imediata para MS, SES e SMS, e semanal); consultar a versão certificada.",
+  "fonteUrl": "https://www.in.gov.br/web/dou/-/portaria-gm/ms-n-12.508-de-16-de-novembro-de-2026-744731818",
+  "verificacao": "Extraído por programa do texto da página do DOU enviado pelo usuário, sem digitação.",
+  "status": "proposta"
+ },
+ {
+  "id": "prt_gm_ms_12508_2026-lista49",
+  "normaId": "prt_gm_ms_12508_2026",
+  "dispositivo": "Anexo I, item 49 (Lista Nacional de Notificação Compulsória)",
+  "texto": "49. Monkeypox (varíola dos macacos)",
+  "componentes": [
+   "detectar",
+   "notificar"
+  ],
+  "nota": "Texto da página do DOU. A tabela perdeu as colunas de periodicidade na cópia (imediata para MS, SES e SMS, e semanal); consultar a versão certificada.",
+  "fonteUrl": "https://www.in.gov.br/web/dou/-/portaria-gm/ms-n-12.508-de-16-de-novembro-de-2026-744731818",
+  "verificacao": "Extraído por programa do texto da página do DOU enviado pelo usuário, sem digitação.",
+  "status": "proposta"
  }
 ];
