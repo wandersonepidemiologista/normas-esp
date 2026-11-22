@@ -132,7 +132,7 @@ window.LINHA_TEMPO = {
    "desc": "Política e Sistema Nacional de Proteção e Defesa Civil",
    "cat": "dc",
    "foraMatriz": false,
-   "fichaId": null
+   "fichaId": "lei12608_2012"
   },
   {
    "ano": 2013,
@@ -172,7 +172,7 @@ window.LINHA_TEMPO = {
    "desc": "Ações e programas de saúde, incluindo a Rede Vigidesastres",
    "cat": "saude",
    "foraMatriz": false,
-   "fichaId": null
+   "fichaId": "prc5_2017"
   },
   {
    "ano": 2018,
@@ -196,7 +196,7 @@ window.LINHA_TEMPO = {
    "desc": "GEI-ESPII, coordenação interministerial",
    "cat": "saude",
    "foraMatriz": false,
-   "fichaId": null
+   "fichaId": "decreto10211_2020"
   },
   {
    "ano": 2020,
@@ -212,7 +212,7 @@ window.LINHA_TEMPO = {
    "desc": "Declara a ESPIN pela covid-19; encerrada em 2022",
    "cat": "trans",
    "foraMatriz": false,
-   "fichaId": null
+   "fichaId": "prt_gm_ms_188_2020"
   },
   {
    "ano": 2020,
@@ -229,7 +229,7 @@ window.LINHA_TEMPO = {
    "desc": "Situação de emergência e estado de calamidade pública",
    "cat": "dc",
    "foraMatriz": false,
-   "fichaId": null
+   "fichaId": "decreto10593_2020"
   },
   {
    "ano": 2021,
@@ -245,7 +245,7 @@ window.LINHA_TEMPO = {
    "desc": "ESPIN Yanomami e papel do Ministério da Defesa",
    "cat": "trans",
    "foraMatriz": false,
-   "fichaId": null
+   "fichaId": "decreto11405_2023"
   },
   {
    "ano": 2023,
@@ -253,7 +253,7 @@ window.LINHA_TEMPO = {
    "desc": "Altera a Lei nº 12.608/2012",
    "cat": "dc",
    "foraMatriz": false,
-   "fichaId": null
+   "fichaId": "lei14750_2023"
   },
   {
    "ano": 2024,

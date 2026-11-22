@@ -1266,5 +1266,474 @@ window.TRECHOS = [
   "fonteUrl": "https://www.in.gov.br/web/dou/-/portaria-gm/ms-n-12.508-de-16-de-novembro-de-2026-744731818",
   "verificacao": "Extraído por programa do texto da página do DOU enviado pelo usuário, sem digitação.",
   "status": "proposta"
+ },
+ {
+  "id": "lei12608_2012-art1-p-def1",
+  "normaId": "lei12608_2012",
+  "dispositivo": "Art. 1º, parágrafo único, incisos V, VI e XIV",
+  "texto": "Parágrafo único. Para os fins desta Lei, considera-se: (Redação dada pela Lei nº 14.750, de 2023)\nV - desastre: resultado de evento adverso, de origem natural ou induzido pela ação humana, sobre ecossistemas e populações vulneráveis que causa significativos danos humanos, materiais ou ambientais e prejuízos econômicos e sociais; (Incluído pela Lei nº 14.750, de 2023)\nVI - estado de calamidade pública: situação anormal provocada por desastre causadora de danos e prejuízos que implicam o comprometimento substancial da capacidade de resposta do poder público do ente atingido, de tal forma que a situação somente pode ser superada com o auxílio dos demais entes da Federação; (Incluído pela Lei nº 14.750, de 2023)\nXIV - situação de emergência: situação anormal provocada por desastre causadora de danos e prejuízos que implicam o comprometimento parcial da capacidade de resposta do poder público do ente atingido e da qual decorre a necessidade de recursos complementares dos demais entes da Federação para o enfrentamento da situação; e (Incluído pela Lei nº 14.750, de 2023)",
+  "componentes": [
+   "avaliacao_risco",
+   "ativar"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12608.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei12608_2012-art1-p-def2",
+  "normaId": "lei12608_2012",
+  "dispositivo": "Art. 1º, parágrafo único, incisos VII a XI",
+  "texto": "Parágrafo único. Para os fins desta Lei, considera-se: (Redação dada pela Lei nº 14.750, de 2023)\nVII - plano de contingência: conjunto de procedimentos e de ações previsto para prevenir acidente ou desastre específico ou para atender emergência dele decorrente, incluída a definição dos recursos humanos e materiais para prevenção, preparação, resposta e recuperação, elaborado com base em hipóteses de acidente ou desastre, com o objetivo de reduzir o risco de sua ocorrência ou de minimizar seus efeitos; (Incluído pela Lei nº 14.750, de 2023)\nVIII - prevenção: ações de planejamento, de ordenamento territorial e de investimento destinadas a reduzir a vulnerabilidade dos ecossistemas e das populações e a evitar a ocorrência de acidentes ou de desastres ou a minimizar sua intensidade, por meio da identificação, do mapeamento e do monitoramento de riscos e da capacitação da sociedade em atividades de proteção e defesa civil, entre outras estabelecidas pelos órgãos do Sinpdec; (Incluído pela Lei nº 14.750, de 2023)\nIX - preparação: ações destinadas a preparar os órgãos do Sinpdec, a comunidade e o setor privado, incluídas, entre outras ações, a capacitação, o monitoramento e a implantação de sistemas de alerta e da infraestrutura necessária para garantir resposta adequada aos acidentes ou desastres e para minimizar danos e prejuízos deles decorrentes; (Incluído pela Lei nº 14.750, de 2023)\nX - proteção e defesa civil: conjunto de ações de prevenção, de preparação, de resposta e de recuperação destinado a evitar ou a reduzir os riscos de acidentes ou desastres, a minimizar seus impactos socioeconômicos e ambientais e a restabelecer a normalidade social, incluída a geração de conhecimentos sobre acidentes ou desastres; (Incluído pela Lei nº 14.750, de 2023)\nXI - recuperação: conjunto de ações de caráter definitivo tomadas após a ocorrência de acidente ou desastre, destinado a restaurar os ecossistemas, a restabelecer o cenário destruído e as condições de vida da comunidade afetada, a impulsionar o desenvolvimento socioeconômico local, a recuperar as áreas degradadas e a evitar a reprodução das condições de vulnerabilidade, incluídas a reconstrução de unidades habitacionais e da infraestrutura pública e a recuperação dos serviços e das atividades econômicas, entre outras ações definidas pelos órgãos do Sinpdec; (Incluído pela Lei nº 14.750, de 2023)",
+  "componentes": [
+   "gestao_risco",
+   "prevenir",
+   "preparar",
+   "recuperar"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12608.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei12608_2012-art1-p-xii",
+  "normaId": "lei12608_2012",
+  "dispositivo": "Art. 1º, parágrafo único, inciso XII",
+  "texto": "Parágrafo único. Para os fins desta Lei, considera-se: (Redação dada pela Lei nº 14.750, de 2023)\nXII - resposta a desastres: ações imediatas com o objetivo de socorrer a população atingida e restabelecer as condições de segurança das áreas atingidas, incluídas ações de busca e salvamento de vítimas, de primeiros-socorros, atendimento pré-hospitalar, hospitalar, médico e cirúrgico de urgência, sem prejuízo da atenção aos problemas crônicos e agudos da população, de provisão de alimentos e meios para sua preparação, de abrigamento, de suprimento de vestuário e produtos de limpeza e higiene pessoal, de suprimento e distribuição de energia elétrica e água potável, de esgotamento sanitário, limpeza urbana, drenagem das águas pluviais, transporte coletivo, trafegabilidade e comunicações, de remoção de escombros e desobstrução das calhas dos rios, de manejo dos mortos e outras estabelecidas pelos órgãos do Sinpdec; (Incluído pela Lei nº 14.750, de 2023)",
+  "componentes": [
+   "responder"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12608.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei12608_2012-art2",
+  "normaId": "lei12608_2012",
+  "dispositivo": "Art. 2º, caput e § 2º",
+  "texto": "Art. 2º É dever da União, dos Estados, do Distrito Federal e dos Municípios adotar as medidas necessárias à redução dos riscos de acidentes ou desastres. (Redação dada pela Lei nº 14.750, de 2023)\n§ 2º A incerteza quanto ao risco de desastre não constituirá óbice para a adoção das medidas preventivas e mitigadoras da situação de risco.",
+  "componentes": [
+   "gestao_risco",
+   "prevenir",
+   "proteger_mitigar"
+  ],
+  "nota": "O § 2º traduz o princípio da precaução: a incerteza sobre o risco não impede medidas preventivas.",
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12608.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei12608_2012-art3",
+  "normaId": "lei12608_2012",
+  "dispositivo": "Art. 3º, caput e parágrafo único",
+  "texto": "Art. 3º A PNPDEC abrange as ações de prevenção, mitigação, preparação, resposta e recuperação voltadas à proteção e defesa civil.\nParágrafo único. A PNPDEC deve integrar-se às políticas de ordenamento territorial, desenvolvimento urbano, saúde, meio ambiente, mudanças climáticas, gestão de recursos hídricos, geologia, infraestrutura, educação, ciência e tecnologia e às demais políticas setoriais, tendo em vista a promoção do desenvolvimento sustentável.",
+  "componentes": [
+   "gestao_risco",
+   "prevenir",
+   "proteger_mitigar",
+   "preparar",
+   "responder",
+   "recuperar"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12608.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei12608_2012-art5-viii-ix",
+  "normaId": "lei12608_2012",
+  "dispositivo": "Art. 5º, caput e incisos VII, VIII, IX e XV",
+  "texto": "Art. 5º São objetivos da PNPDEC:\nVII - promover a identificação e avaliação das ameaças, suscetibilidades e vulnerabilidades a desastres, de modo a evitar ou reduzir sua ocorrência;\nVIII - monitorar os eventos meteorológicos, hidrológicos, geológicos, biológicos, nucleares, químicos e outros potencialmente causadores de desastres;\nIX - produzir alertas antecipados em razão de possibilidade de ocorrência de desastres; (Redação dada pela Lei nº 14.750, de 2023)\nXV - integrar informações em sistema capaz de subsidiar os órgãos do SINPDEC na previsão e no controle dos efeitos negativos de eventos adversos sobre a população, os bens e serviços e o meio ambiente.",
+  "componentes": [
+   "vigilancia",
+   "avaliacao_risco",
+   "detectar",
+   "comunicacao_risco"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12608.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei12608_2012-art6-ix-xiv",
+  "normaId": "lei12608_2012",
+  "dispositivo": "Art. 6º, caput e incisos IX, X e XIV",
+  "texto": "Art. 6º Compete à União:\nIX - realizar o monitoramento meteorológico, hidrológico e geológico das áreas de risco, bem como dos riscos biológicos, nucleares e químicos, e produzir alertas sobre a possibilidade de ocorrência de desastres, em articulação com os Estados, o Distrito Federal e os Municípios;\nX - estabelecer critérios e condições para a declaração e o reconhecimento de situações de emergência e estado de calamidade pública;\nXIV - realizar repasse adicional de recursos a Estados e a Municípios com reconhecimento de estado de calamidade pública ou situação de emergência, no âmbito do Sistema Único de Saúde (SUS), para assistência prioritária e continuada à saúde física e mental de pessoas atingidas por desastres, nos termos do inciso VII do caput do art. 9º desta Lei. (Incluído pela Lei nº 14.750, de 2023)",
+  "componentes": [
+   "vigilancia",
+   "detectar",
+   "ativar",
+   "recuperar"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12608.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei12608_2012-art8-viii-xi",
+  "normaId": "lei12608_2012",
+  "dispositivo": "Art. 8º, caput e incisos VI, VIII, IX e XI",
+  "texto": "Art. 8º Compete aos Municípios:\nVI - declarar situação de emergência e estado de calamidade pública;\nVIII - organizar e administrar abrigos provisórios para assistência à população em situação de desastre, em condições adequadas de higiene e segurança;\nIX - manter a população informada sobre áreas de risco e ocorrência de eventos extremos, bem como sobre protocolos de prevenção e alerta e sobre as ações emergenciais em circunstâncias de desastres;\nXI - realizar regularmente exercícios simulados, conforme Plano de Contingência de Proteção e Defesa Civil;",
+  "componentes": [
+   "ativar",
+   "responder",
+   "comunicacao_risco",
+   "preparar"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12608.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei12608_2012-art9-vii",
+  "normaId": "lei12608_2012",
+  "dispositivo": "Art. 9º, caput e inciso VII",
+  "texto": "Art. 9º Compete à União, aos Estados e aos Municípios:\nVII - prestar assistência prioritária e continuada à saúde física e mental das pessoas atingidas por desastres, por meio do SUS, com realização de exames clínicos e laboratoriais periódicos, conforme a necessidade detectada pelos profissionais de saúde assistentes, nos termos do inciso II do caput do art. 7º da Lei nº 8.080, de 19 de setembro de 1990 (Lei Orgânica da Saúde), sem prejuízo dos deveres do empreendedor previstos nesta Lei. (Incluído pela Lei nº 14.750, de 2023)",
+  "componentes": [
+   "recuperar",
+   "responder"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12608.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei12608_2012-art12a-i-v",
+  "normaId": "lei12608_2012",
+  "dispositivo": "Art. 12-A, caput e incisos I, II e V",
+  "texto": "Art. 12-A. É dever do empreendedor público ou privado, de acordo com o risco de acidente ou desastre e o dano potencial associado do empreendimento, definidos pelo poder público, a adoção de medidas preventivas de acidente ou desastre, mediante: (Incluído pela Lei nº 14.750, de 2023)\nI - incorporação da análise de risco previamente à implantação de seus empreendimentos e atividades, bem como em eventuais alterações e ampliações de projeto e durante a operação do empreendimento ou da atividade; (Incluído pela Lei nº 14.750, de 2023)\nII - elaboração e implantação de plano de contingência ou de documento correlato no caso de atividades e de empreendimentos com risco de acidente ou desastre; (Incluído pela Lei nº 14.750, de 2023)\nV - realização regular e periódica de exercícios simulados com a população potencialmente atingida, em conformidade com o plano de contingência ou documento correlato e com a participação dos órgãos do Sinpdec; (Incluído pela Lei nº 14.750, de 2023)",
+  "componentes": [
+   "avaliacao_risco",
+   "prevenir",
+   "preparar"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12608.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei14750_2023-art1",
+  "normaId": "lei14750_2023",
+  "dispositivo": "Art. 1º",
+  "texto": "Art. 1º Esta Lei altera as Leis nºs 12.608, de 10 de abril de 2012, e 12.340, de 1º de dezembro de 2010, para aprimorar os instrumentos de prevenção de acidentes ou desastres e de recuperação de áreas por eles atingidas, as ações de monitoramento de riscos de acidentes ou desastres e a produção de alertas antecipados.",
+  "componentes": [
+   "gestao_risco",
+   "prevenir",
+   "recuperar",
+   "vigilancia"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14750.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei14750_2023-art2-art6-xiv",
+  "normaId": "lei14750_2023",
+  "dispositivo": "Art. 2º (nova redação do art. 6º, XIV, da Lei nº 12.608/2012)",
+  "texto": "XIV - realizar repasse adicional de recursos a Estados e a Municípios com reconhecimento de estado de calamidade pública ou situação de emergência, no âmbito do Sistema Único de Saúde (SUS), para assistência prioritária e continuada à saúde física e mental de pessoas atingidas por desastres, nos termos do inciso VII do caput do art. 9º desta Lei.",
+  "componentes": [
+   "recuperar",
+   "responder"
+  ],
+  "nota": "Dispositivo vetado e depois promulgado pela parte vetada (DOU de 22/05/2024), nos termos do § 5º do art. 66 da Constituição.",
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14750.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "decreto10593_2020-art2-i-vi",
+  "normaId": "decreto10593_2020",
+  "dispositivo": "Art. 2º, caput e incisos I a VI",
+  "texto": "Art. 2º Para fins do disposto neste Decreto, considera-se:\nI - ações de mitigação - medidas destinadas a reduzir, limitar ou evitar o risco de desastre;\nII - ações de preparação - medidas destinadas a otimizar as ações de resposta e minimizar os danos e as perdas decorrentes do desastre;\nIII - ações de prevenção - medidas prioritárias destinadas a evitar a conversão de risco em desastre ou a instalação de vulnerabilidades;\nIV - ações de recuperação - medidas desenvolvidas após a ocorrência do desastre destinadas a restabelecer a normalidade social que abrangem a reconstrução de infraestrutura danificada ou destruída e a recuperação do meio ambiente e da economia;\nV - ações de resposta - medidas de caráter emergencial, executadas durante ou após a ocorrência do desastre, destinadas a socorrer e assistir a população atingida e restabelecer os serviços essenciais;\nVI - ações de restabelecimento - medidas de caráter emergencial destinadas a restabelecer as condições de segurança e habitabilidade e os serviços essenciais à população na área atingida pelo desastre;",
+  "componentes": [
+   "prevenir",
+   "proteger_mitigar",
+   "preparar",
+   "responder",
+   "recuperar"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/D10593.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "decreto10593_2020-art2-vii-xiv",
+  "normaId": "decreto10593_2020",
+  "dispositivo": "Art. 2º, caput e incisos VII, VIII, IX e XIV",
+  "texto": "Art. 2º Para fins do disposto neste Decreto, considera-se:\nVII - desastre - resultado de evento adverso decorrente de ação natural ou antrópica sobre cenário vulnerável que cause danos humanos, materiais ou ambientais e prejuízos econômicos e sociais;\nVIII - estado de calamidade pública - situação anormal provocada por desastre que causa danos e prejuízos que impliquem o comprometimento substancial da capacidade de resposta do Poder Público do ente federativo atingido ou que demande a adoção de medidas administrativas excepcionais para resposta e recuperação;\nIX - plano de contingência - conjunto de medidas preestabelecidas destinadas a responder a situação de emergência ou a estado de calamidade pública de forma planejada e intersetorialmente articulada, elaborado com base em hipóteses de desastre, com o objetivo de minimizar os seus efeitos;\nXIV - situação de emergência - situação anormal provocada por desastre que causa danos e prejuízos que impliquem o comprometimento parcial da capacidade de resposta do Poder Público do ente federativo atingido ou que demande a adoção de medidas administrativas excepcionais para resposta e recuperação.",
+  "componentes": [
+   "ativar",
+   "preparar",
+   "gestao_risco"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/D10593.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "decreto10593_2020-art29-31",
+  "normaId": "decreto10593_2020",
+  "dispositivo": "Art. 29 a 31",
+  "texto": "Art. 29. Os Estados, o Distrito Federal e os Municípios poderão declarar situação de emergência ou estado de calamidade pública por ato do respectivo Chefe do Poder Executivo quando for necessária a adoção de medidas imediatas ou excepcionais para mitigar os efeitos do desastre.\nArt. 30. Ato do Chefe do Poder Executivo de Estado poderá reconhecer a situação de emergência e o estado de calamidade pública decretado pelo Município atingido por desastre.\nArt. 31. A decretação da situação de emergência e do estado de calamidade pública tem por finalidade a adoção de medidas administrativas excepcionais no território afetado.",
+  "componentes": [
+   "ativar"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/D10593.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "decreto10593_2020-art32-33",
+  "normaId": "decreto10593_2020",
+  "dispositivo": "Art. 32 e 33",
+  "texto": "Art. 32. O Ministro de Estado da Integração e do Desenvolvimento Regional poderá reconhecer, pelo Poder Executivo federal, a situação de emergência ou o estado de calamidade pública, mediante a apresentação de requerimento pelo ente federativo atingido pelo desastre. (Redação dada pelo Decreto nº 11.774, de 2023)\nParágrafo único. Ato do Ministro de Estado da Integração e do Desenvolvimento Regional estabelecerá os critérios e os procedimentos para requerer o reconhecimento da situação de emergência ou do estado de calamidade pública. (Redação dada pelo Decreto nº 11.774, de 2023)\nArt. 33. Observados a intensidade do desastre, os seus impactos sociais, econômicos e ambientais e a existência de evidências de que a adoção de medidas em decorrência do desastre seja urgente, a Secretaria Nacional de Proteção e Defesa Civil do Ministério da Integração e do Desenvolvimento Regional poderá reconhecer, de forma sumária, a situação de emergência ou o estado de calamidade pública, hipótese em que o ente federativo deverá remeter, posteriormente, à Secretaria a documentação necessária ao seu reconhecimento. (Redação dada pelo Decreto nº 11.774, de 2023)",
+  "componentes": [
+   "ativar"
+  ],
+  "nota": "Redação do Decreto nº 11.774/2023, que trocou o Ministério do Desenvolvimento Regional pelo da Integração e do Desenvolvimento Regional.",
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/D10593.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "decreto10593_2020-art36",
+  "normaId": "decreto10593_2020",
+  "dispositivo": "Art. 36, caput e parágrafo único",
+  "texto": "Art. 36. O Sistema Nacional de Informações de Monitoramento de Desastres será integrado pelos sistemas existentes ou que venham a ser instituídos pelos órgãos e entidades integrantes do Sinpdec.\nParágrafo único. Os sistemas integrantes do Sistema Nacional de Informações de Monitoramento de Desastres deverão fornecer dados e informações relativos aos seguintes tipos de risco, entre outros:\nI - climatológicos;\nII - de incêndio;\nIII - de manejo de produtos perigosos;\nIV - de saúde;\nV - em barragens;\nVI - hidrogeológicos;\nVII - hidrológicos;\nVIII - meteorológicos;\nIX - nucleares e radiológicos; e\nX - sismológicos.",
+  "componentes": [
+   "vigilancia",
+   "detectar",
+   "avaliacao_risco"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/D10593.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "decreto10211_2020-art2",
+  "normaId": "decreto10211_2020",
+  "dispositivo": "Art. 2º, caput, incisos I a IV e parágrafo único",
+  "texto": "Art. 2º Compete ao GEI-ESPII:\nI - propor, acompanhar e articular medidas de preparação e de enfrentamento às emergências em saúde pública de importância nacional e internacional;\nII - propor e acompanhar a alocação de recursos orçamentário-financeiros para execução das medidas necessárias em casos de emergências em saúde pública;\nIII - estabelecer as diretrizes para a definição de critérios locais de acompanhamento da implementação das medidas de emergência em saúde pública de importância nacional e internacional; e\nIV - elaborar relatórios de situações de emergência em saúde pública de importância nacional e internacional e encaminhar aos Ministros de Estado dos órgãos representados.\nParágrafo único. Para fins do disposto neste Decreto, considera-se medidas de emergência em saúde pública de importância nacional e internacional as situações dispostas no Regulamento Sanitário Internacional de que trata o Decreto Legislativo nº 395, de 9 de julho de 2009.",
+  "componentes": [
+   "gestao_risco",
+   "preparar",
+   "ativar",
+   "responder"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/D10211.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "decreto10211_2020-art3-i-iv",
+  "normaId": "decreto10211_2020",
+  "dispositivo": "Art. 3º, caput e incisos I a IV",
+  "texto": "Art. 3º O GEI-ESPII é composto por representantes dos seguintes órgãos e entidade:\nI - Ministério da Saúde, que o coordenará;\nII - Casa Civil da Presidência da República;\nIII - Ministério da Justiça e Segurança Pública;\nIV - Ministério da Defesa;",
+  "componentes": [
+   "gestao_risco",
+   "ativar"
+  ],
+  "nota": "Lista parcial do art. 3º. O texto compilado traz ainda outros órgãos, com redação do Decreto nº 10.238/2020.",
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/D10211.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "decreto10211_2020-art6",
+  "normaId": "decreto10211_2020",
+  "dispositivo": "Art. 6º",
+  "texto": "Art. 6º A Secretaria-Executiva do GEI-ESPII será exercida pela Secretaria de Vigilância em Saúde do Ministério da Saúde.",
+  "componentes": [
+   "gestao_risco",
+   "vigilancia"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/D10211.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "decreto11405_2023-art1",
+  "normaId": "decreto11405_2023",
+  "dispositivo": "Art. 1º, caput, incisos I a V e parágrafo único",
+  "texto": "Art. 1º Para enfrentamento da Emergência em Saúde Pública de Importância Nacional em decorrência de desassistência à população Yanomami e combate ao garimpo ilegal, ficam os Ministros de Estado da Defesa, da Saúde, Desenvolvimento Social e Assistência Social, Família e Combate à Fome e dos Povos Indígenas autorizados a efetuar as requisições de bens, servidores e serviços necessários:\nI - ao transporte de equipes de segurança, de saúde e de assistência;\nII - ao abastecimento de água potável, à alocação de cisternas e à perfuração de poços artesianos;\nIII - ao fornecimento de alimentos relacionados com a cultura, as crenças e as tradições indígenas;\nIV - ao fornecimento de vestuário, de calçados e outros gêneros semelhantes; e\nV - à abertura ou à reabertura de postos de apoio da Fundação Nacional dos Povos Indígenas - Funai e de unidades básicas de saúde do Ministério da Saúde.\nParágrafo único. Na hipótese de ser necessário o uso de propriedade particular, caberá indenização, na forma prevista no inciso XXV do caput do art. 5º da Constituição, observado disposto na legislação.",
+  "componentes": [
+   "ativar",
+   "responder"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11405.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "decreto11405_2023-art4",
+  "normaId": "decreto11405_2023",
+  "dispositivo": "Art. 4º, caput e incisos I a III",
+  "texto": "Art. 4º O Ministério da Defesa atuará: (Redação dada pelo Decreto nº 11.575, de 2023)\nI - na execução de ações preventivas e repressivas contra delitos transfronteiriços e ambientais, na faixa de fronteira terrestre e nas águas interiores, por meio da promoção de ações de patrulhamento, de revista de pessoas, veículos terrestres, embarcações e aeronaves, e de prisões em flagrante delito, entre outras; (Incluído pelo Decreto nº 11.575, de 2023)\nII - no fornecimento de dados de inteligência; e (Incluído pelo Decreto nº 11.575, de 2023)\nIII - no transporte aéreo logístico das equipes da Polícia Federal, do Ibama e dos demais órgãos e entidades da administração pública federal que participarão diretamente na neutralização de aeronaves e de equipamentos relacionados com a mineração ilegal no território Yanomami. (Incluído pelo Decreto nº 11.575, de 2023)",
+  "componentes": [
+   "responder",
+   "ativar"
+  ],
+  "nota": "Redação do Decreto nº 11.575/2023. A redação original do art. 4º (sem incisos) está revogada pela nova.",
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11405.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "decreto11405_2023-art5",
+  "normaId": "decreto11405_2023",
+  "dispositivo": "Art. 5º",
+  "texto": "Art. 5º O acesso de pessoas ao território Yanomami ocorrerá de acordo com o disposto em ato conjunto editado pelo Ministro de Estado da Saúde e pelo Ministro de Estado dos Povos Indígenas, com vistas à prevenção e à redução do risco de transmissão de doenças e de outros agravos.",
+  "componentes": [
+   "proteger_mitigar",
+   "prevenir"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11405.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "prt_gm_ms_188_2020-art1-2",
+  "normaId": "prt_gm_ms_188_2020",
+  "dispositivo": "Art. 1º e art. 2º",
+  "texto": "Art. 1º Declarar Emergência em Saúde Pública de Importância Nacional conforme Decreto nº 7.616, de 17 de novembro de 2011;\nArt. 2º Estabelecer o Centro de Operações de Emergências em Saúde Pública (COE-nCoV) como mecanismo nacional da gestão coordenada da resposta à emergência no âmbito nacional.\nParágrafo único. A gestão do COE estará sob responsabilidade da Secretaria de Vigilância em Saúde (SVS/MS).",
+  "componentes": [
+   "ativar",
+   "gestao_risco",
+   "responder"
+  ],
+  "nota": null,
+  "fonteUrl": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2020/prt0188_04_02_2020.html",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página da BVS lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "prt_gm_ms_188_2020-art3",
+  "normaId": "prt_gm_ms_188_2020",
+  "dispositivo": "Art. 3º, caput e incisos I a V",
+  "texto": "Art. 3º Compete ao COE-nCoV:\nI- planejar, organizar, coordenar e controlar as medidas a serem empregadas durante a ESPIN, nos termos das diretrizes fixadas pelo Ministro de Estado da Saúde;\nII- articular-se com os gestores estaduais, distrital e municipais do SUS;\nIII- encaminhar ao Ministro de Estado da Saúde relatórios técnicos sobre a ESPIN e as ações administrativas em curso;\nIV - divulgar à população informações relativas à ESPIN; e\nV - propor, de forma justificada, ao Ministro de Estado da Saúde:\na) o acionamento de equipes de saúde incluindo a contratação temporária de profissionais, nos termos do disposto no inciso II do caput do art. 2º da Lei nº 8.745, de 9 de dezembro de 1993;\nb) a aquisição de bens e a contratação de serviços necessários para a atuação na ESPIN;\nc) a requisição de bens e serviços, tanto de pessoas naturais como de jurídicas, nos termos do inciso XIII do caput do art. 15 da Lei nº 8.080, de 19 de setembro de 1990; e\nd) o encerramento da ESPIN.",
+  "componentes": [
+   "gestao_risco",
+   "responder",
+   "comunicacao_risco",
+   "desativar"
+  ],
+  "nota": null,
+  "fonteUrl": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2020/prt0188_04_02_2020.html",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página da BVS lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "prc5_2017-art141ag-ai",
+  "normaId": "prc5_2017",
+  "dispositivo": "Art. 141-AG, 141-AH e 141-AI (CIEVS)",
+  "texto": "Art. 141-AG. Fica instituído o Centro de Informações Estratégicas em Vigilância em Saúde (CIEVS) como serviço de inteligência epidemiológica no âmbito do Sistema Nacional de Vigilância em Saúde - SNVS do Sistema Único de Saúde (SUS). (Redação dada pela PRT GM/MS nº 4.641 de 28.12.2022)\nArt. 141-AH. O CIEVS tem como finalidade realizar a detecção, a notificação, o monitoramento e o apoio à resposta a eventos de saúde que possam constituir emergência em saúde pública, no âmbito das três esferas de gestão do SUS. (Redação dada pela PRT GM/MS nº 4.641 de 28.12.2022)\nArt. 141-AI. Para os fins desta Seção, considera-se: (Redação dada pela PRT GM/MS nº 4.641 de 28.12.2022)\nI - evento de saúde pública: situação que pode constituir potencial ameaça à saúde pública, como a ocorrência de surto ou epidemia, doença ou agravo de causa desconhecida, alteração no padrão clínico-epidemiológico das doenças conhecidas, considerando o potencial de disseminação, a magnitude, a gravidade, a severidade, a transcendência e a vulnerabilidade, bem como epizootias ou agravos decorrentes de desastres ou acidentes; e (Redação dada pela PRT GM/MS nº 4.641 de 28.12.2022)\nII - emergência em saúde pública: situação que demanda o emprego urgente de medidas de prevenção, controle e contenção de riscos, danos e agravos à saúde pública. (Redação dada pela PRT GM/MS nº 4.641 de 28.12.2022)",
+  "componentes": [
+   "vigilancia",
+   "detectar",
+   "notificar",
+   "responder"
+  ],
+  "nota": null,
+  "fonteUrl": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0005_03_10_2017.html",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página da BVS lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "prc5_2017-art141aj",
+  "normaId": "prc5_2017",
+  "dispositivo": "Art. 141-AJ (competências do CIEVS)",
+  "texto": "Art. 141-AJ. Compete ao CIEVS: (Redação dada pela PRT GM/MS nº 4.641 de 28.12.2022)\nI - coletar, consolidar, avaliar, analisar e disseminar informações referentes a eventos de saúde pública; (Redação dada pela PRT GM/MS nº 4.641 de 28.12.2022)\nII - detectar doenças inusitadas ou inesperadas e eventos de saúde que possam constituir emergência em saúde pública; (Redação dada pela PRT GM/MS nº 4.641 de 28.12.2022)\nIII - verificar eventos e rumores de saúde pública que possam constituir ameaça à saúde da população; (Redação dada pela PRT GM/MS nº 4.641 de 28.12.2022)\nIV - avaliar o risco das doenças, agravos e eventos de saúde pública que possam constituir uma emergência em saúde pública; (Redação dada pela PRT GM/MS nº 4.641 de 28.12.2022)\nV - elaborar estratégias de comunicação de riscos para resposta a potenciais eventos de saúde pública; (Redação dada pela PRT GM/MS nº 4.641 de 28.12.2022)\nVI - monitorar eventos de saúde pública para subsidiar ações de preparação, vigilância e resposta; (Redação dada pela PRT GM/MS nº 4.641 de 28.12.2022)\nVII - apoiar processos de formação continuada junto aos profissionais para o fortalecimento das ações de preparação, vigilância e resposta a eventos de saúde pública; e (Redação dada pela PRT GM/MS nº 4.641 de 28.12.2022)\nVIII - apoiar o acionamento de equipes de pronta resposta a eventos de saúde pública. (Redação dada pela PRT GM/MS nº 4.641 de 28.12.2022)",
+  "componentes": [
+   "vigilancia",
+   "detectar",
+   "verificar",
+   "avaliacao_risco",
+   "comunicacao_risco",
+   "preparar",
+   "responder"
+  ],
+  "nota": null,
+  "fonteUrl": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0005_03_10_2017.html",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página da BVS lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "prc5_2017-art141l-n",
+  "normaId": "prc5_2017",
+  "dispositivo": "Art. 141-L, 141-M e 141-N, incisos I a III (Rede Vigidesastres)",
+  "texto": "Art. 141-L. Fica instituída a Rede Nacional de Vigilância em Saúde dos Riscos Associados aos Desastres - Vigidesastres, no âmbito do Sistema Único de Saúde - SUS. (Redação dada pela PRT GM/MS n° 12.137 de 17.09.2026)\nArt. 141-M. A Rede Vigidesastres tem por finalidade articular, integrar, orientar e fortalecer as ações de vigilância em saúde relacionadas aos riscos associados aos desastres, incluindo prevenção, mitigação, preparação, resposta e recuperação, no âmbito do Sistema Único de Saúde, sem prejuízo das competências legais e constitucionais dos entes federativos. (Redação dada pela PRT GM/MS n° 12.137 de 17.09.2026)\nArt. 141-N. São objetivos específicos da Rede Vigidesastres: (Redação dada pela PRT GM/MS n° 12.137 de 17.09.2026)\nI - fortalecer a capacidade do setor saúde nas esferas federal, estadual, distrital e municipal, de realizar a gestão de riscos associados aos desastres, por meio de ações voltadas à prevenção, mitigação, preparação, resposta e recuperação; (Redação dada pela PRT GM/MS n° 12.137 de 17.09.2026)\nII - fomentar a melhoria da governança da gestão de risco de desastres no âmbito do setor saúde; e (Redação dada pela PRT GM/MS n° 12.137 de 17.09.2026)\nIII - promover a atuação coordenada e articulada da vigilância em saúde dos riscos associados aos desastres, em âmbito nacional, articulando-se intra e intersetorialmente. (Redação dada pela PRT GM/MS n° 12.137 de 17.09.2026)",
+  "componentes": [
+   "vigilancia",
+   "gestao_risco",
+   "prevenir",
+   "preparar",
+   "responder",
+   "recuperar"
+  ],
+  "nota": "Redação da PRT GM/MS nº 12.137/2026, que transformou o Programa Vigidesastres em Rede Vigidesastres.",
+  "fonteUrl": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0005_03_10_2017.html",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página da BVS lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "prc5_2017-art141o",
+  "normaId": "prc5_2017",
+  "dispositivo": "Art. 141-O, caput (Rede Vigidesastres)",
+  "texto": "Art. 141-O. A Rede Vigidesastres é constituída por Unidades Vigidesastres, entendidas como arranjos organizativos e referências técnicas designados no âmbito do Ministério da Saúde, das Secretarias Estaduais de Saúde, das Secretarias Municipais de Saúde, do Distrito Federal e dos Distritos Sanitários Especiais Indígenas - DSEI, com a finalidade de operacionalizar a articulação e a coordenação das ações de vigilância em saúde dos riscos associados aos desastres. (Redação dada pela PRT GM/MS n° 12.137 de 17.09.2026)",
+  "componentes": [
+   "vigilancia",
+   "gestao_risco"
+  ],
+  "nota": null,
+  "fonteUrl": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0005_03_10_2017.html",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página da BVS lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "prc5_2017-art141a-c",
+  "normaId": "prc5_2017",
+  "dispositivo": "Art. 141-A, 141-B, inciso I, e 141-C, caput e incisos I e II (Profesp)",
+  "texto": "Art. 141-A. Fica instituído o Programa de Formação em Emergências em Saúde Pública (Profesp), no âmbito do Sistema Único de Saúde - SUS. (Redação dada pela PRT GM/MS nº 4.111 de 28.11.2022)\nArt. 141-B. Para os efeitos desta Seção, considera-se: (Redação dada pela PRT GM/MS nº 4.111 de 28.11.2022)\nI - emergência em saúde pública: situação que demande o emprego urgente de medidas de prevenção, controle e contenção de riscos, danos e agravos à saúde pública, nos termos da Resolução nº 588, de 12 de julho de 2018, do Conselho Nacional de Saúde; (Redação dada pela PRT GM/MS nº 4.111 de 28.11.2022)\nArt. 141-C. O Profesp tem por finalidade capacitar os profissionais que atuam na vigilância das emergências em saúde pública, nos três níveis de gestão do SUS, e tem por objetivos: (Redação dada pela PRT GM/MS nº 4.111 de 28.11.2022)\nI - identificar as necessidades de formação no contexto da vigilância das emergências em saúde pública; (Redação dada pela PRT GM/MS nº 4.111 de 28.11.2022)\nII - estruturar, produzir e ofertar cursos de capacitação, atualização e aperfeiçoamento em vigilância das emergências em saúde pública; (Redação dada pela PRT GM/MS nº 4.111 de 28.11.2022)",
+  "componentes": [
+   "preparar",
+   "aprender",
+   "vigilancia"
+  ],
+  "nota": null,
+  "fonteUrl": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0005_03_10_2017.html",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página da BVS lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "prc5_2017-art320-321",
+  "normaId": "prc5_2017",
+  "dispositivo": "Art. 320 e 321 (vigilância sentinela)",
+  "texto": "Art. 320. Esta Seção define a lista nacional de doenças e agravos, na forma do Anexo XLIII, a serem monitorados por meio da estratégia de vigilância em unidades sentinelas e suas diretrizes. (Origem: PRT MS/GM 205/2016, Art. 1º)\nArt. 321. Para efeito desta Seção considera-se vigilância sentinela o modelo de vigilância realizada a partir de estabelecimento de saúde estratégico para a vigilância de morbidade, mortalidade ou agentes etiológicos de interesse para a saúde pública, com participação facultativa, segundo norma técnica específica estabelecida pela Secretaria de Vigilância em Saúde (SVS/MS). (Origem: PRT MS/GM 205/2016, Art. 2º)",
+  "componentes": [
+   "vigilancia",
+   "detectar"
+  ],
+  "nota": null,
+  "fonteUrl": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0005_03_10_2017.html",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página da BVS lida em 22/11/2026.",
+  "status": "proposta"
  }
 ];
