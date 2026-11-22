@@ -830,22 +830,22 @@ window.TRECHOS = [
    "gestao_risco"
   ],
   "nota": null,
-  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13979.htm",
-  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "fonteUrl": "https://www.in.gov.br/en/web/dou/-/lei-n-13.979-de-6-de-fevereiro-de-2020-242078735",
+  "verificacao": "Redação original publicada no DOU de 07/02/2020, conforme o texto integral fornecido pelo usuário em 22/11/2026; trecho copiado sem alteração de palavras.",
   "status": "proposta"
  },
  {
   "id": "lei13979_2020-art1-p2p3",
   "normaId": "lei13979_2020",
   "dispositivo": "Art. 1º, §§ 2º e 3º",
-  "texto": "§ 2º Ato do Ministro de Estado da Saúde disporá sobre a duração da situação de emergência de saúde pública de que trata esta Lei. (Vide Decreto nº 10.538, de 2020)\n§ 3º O prazo de que trata o § 2º deste artigo não poderá ser superior ao declarado pela Organização Mundial de Saúde.",
+  "texto": "§ 2º Ato do Ministro de Estado da Saúde disporá sobre a duração da situação de emergência de saúde pública de que trata esta Lei.\n§ 3º O prazo de que trata o § 2º deste artigo não poderá ser superior ao declarado pela Organização Mundial de Saúde.",
   "componentes": [
    "ativar",
    "desativar"
   ],
   "nota": null,
-  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13979.htm",
-  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "fonteUrl": "https://www.in.gov.br/en/web/dou/-/lei-n-13.979-de-6-de-fevereiro-de-2020-242078735",
+  "verificacao": "Redação original publicada no DOU de 07/02/2020, conforme o texto integral fornecido pelo usuário em 22/11/2026; trecho copiado sem alteração de palavras.",
   "status": "proposta"
  },
  {
@@ -858,36 +858,36 @@ window.TRECHOS = [
    "responder"
   ],
   "nota": null,
-  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13979.htm",
-  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "fonteUrl": "https://www.in.gov.br/en/web/dou/-/lei-n-13.979-de-6-de-fevereiro-de-2020-242078735",
+  "verificacao": "Redação original publicada no DOU de 07/02/2020, conforme o texto integral fornecido pelo usuário em 22/11/2026; trecho copiado sem alteração de palavras.",
   "status": "proposta"
  },
  {
   "id": "lei13979_2020-art3-i-iii",
   "normaId": "lei13979_2020",
   "dispositivo": "Art. 3º, caput e incisos I a III",
-  "texto": "Art. 3º Para enfrentamento da emergência de saúde pública de importância internacional de que trata esta Lei, as autoridades poderão adotar, no âmbito de suas competências, entre outras, as seguintes medidas: (Redação dada pela Lei nº 14.035, de 2020)\nI - isolamento;\nII - quarentena;\nIII - determinação de realização compulsória de:\na) exames médicos;\nb) testes laboratoriais;\nc) coleta de amostras clínicas;\nd) vacinação e outras medidas profiláticas; ou (Vide ADPF nº 754)\ne) tratamentos médicos específicos;",
+  "texto": "Art. 3º Para enfrentamento da emergência de saúde pública de importância internacional decorrente do coronavírus, poderão ser adotadas, entre outras, as seguintes medidas:\nI - isolamento;\nII - quarentena;\nIII - determinação de realização compulsória de:\na) exames médicos;\nb) testes laboratoriais;\nc) coleta de amostras clínicas;\nd) vacinação e outras medidas profiláticas; ou\ne) tratamentos médicos específicos;",
   "componentes": [
    "proteger_mitigar",
    "responder"
   ],
-  "nota": null,
-  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13979.htm",
-  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "nota": "Redação original. Algumas passagens foram alteradas depois, por exemplo o caput do art. 3º e o art. 8º (Lei nº 14.035/2020).",
+  "fonteUrl": "https://www.in.gov.br/en/web/dou/-/lei-n-13.979-de-6-de-fevereiro-de-2020-242078735",
+  "verificacao": "Redação original publicada no DOU de 07/02/2020, conforme o texto integral fornecido pelo usuário em 22/11/2026; trecho copiado sem alteração de palavras.",
   "status": "proposta"
  },
  {
   "id": "lei13979_2020-art3-iv",
   "normaId": "lei13979_2020",
   "dispositivo": "Art. 3º, caput e inciso IV",
-  "texto": "Art. 3º Para enfrentamento da emergência de saúde pública de importância internacional de que trata esta Lei, as autoridades poderão adotar, no âmbito de suas competências, entre outras, as seguintes medidas: (Redação dada pela Lei nº 14.035, de 2020)\nIV - estudo ou investigação epidemiológica;",
+  "texto": "Art. 3º Para enfrentamento da emergência de saúde pública de importância internacional decorrente do coronavírus, poderão ser adotadas, entre outras, as seguintes medidas:\nIV - estudo ou investigação epidemiológica;",
   "componentes": [
    "verificar",
    "vigilancia"
   ],
-  "nota": null,
-  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13979.htm",
-  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "nota": "Redação original. Algumas passagens foram alteradas depois, por exemplo o caput do art. 3º e o art. 8º (Lei nº 14.035/2020).",
+  "fonteUrl": "https://www.in.gov.br/en/web/dou/-/lei-n-13.979-de-6-de-fevereiro-de-2020-242078735",
+  "verificacao": "Redação original publicada no DOU de 07/02/2020, conforme o texto integral fornecido pelo usuário em 22/11/2026; trecho copiado sem alteração de palavras.",
   "status": "proposta"
  },
  {
@@ -900,8 +900,8 @@ window.TRECHOS = [
    "gestao_risco"
   ],
   "nota": null,
-  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13979.htm",
-  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "fonteUrl": "https://www.in.gov.br/en/web/dou/-/lei-n-13.979-de-6-de-fevereiro-de-2020-242078735",
+  "verificacao": "Redação original publicada no DOU de 07/02/2020, conforme o texto integral fornecido pelo usuário em 22/11/2026; trecho copiado sem alteração de palavras.",
   "status": "proposta"
  },
  {
@@ -914,8 +914,8 @@ window.TRECHOS = [
    "detectar"
   ],
   "nota": null,
-  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13979.htm",
-  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "fonteUrl": "https://www.in.gov.br/en/web/dou/-/lei-n-13.979-de-6-de-fevereiro-de-2020-242078735",
+  "verificacao": "Redação original publicada no DOU de 07/02/2020, conforme o texto integral fornecido pelo usuário em 22/11/2026; trecho copiado sem alteração de palavras.",
   "status": "proposta"
  },
  {
@@ -929,21 +929,21 @@ window.TRECHOS = [
    "notificar"
   ],
   "nota": null,
-  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13979.htm",
-  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "fonteUrl": "https://www.in.gov.br/en/web/dou/-/lei-n-13.979-de-6-de-fevereiro-de-2020-242078735",
+  "verificacao": "Redação original publicada no DOU de 07/02/2020, conforme o texto integral fornecido pelo usuário em 22/11/2026; trecho copiado sem alteração de palavras.",
   "status": "proposta"
  },
  {
   "id": "lei13979_2020-art8",
   "normaId": "lei13979_2020",
   "dispositivo": "Art. 8º",
-  "texto": "Art. 8º Esta Lei vigorará enquanto estiver vigente o Decreto Legislativo nº 6, de 20 de março de 2020, observado o disposto no art. 4º-H desta Lei. (Redação dada pela Lei nº 14.035, de 2020)",
+  "texto": "Art. 8º Esta Lei vigorará enquanto perdurar o estado de emergência internacional pelo coronavírus responsável pelo surto de 2019.",
   "componentes": [
    "desativar"
   ],
-  "nota": null,
-  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13979.htm",
-  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "nota": "Redação original. Algumas passagens foram alteradas depois, por exemplo o caput do art. 3º e o art. 8º (Lei nº 14.035/2020).",
+  "fonteUrl": "https://www.in.gov.br/en/web/dou/-/lei-n-13.979-de-6-de-fevereiro-de-2020-242078735",
+  "verificacao": "Redação original publicada no DOU de 07/02/2020, conforme o texto integral fornecido pelo usuário em 22/11/2026; trecho copiado sem alteração de palavras.",
   "status": "proposta"
  }
 ];

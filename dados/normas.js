@@ -267,19 +267,19 @@ window.NORMAS = [
   "ementa": "Dispõe sobre as medidas para enfrentamento da emergência de saúde pública de importância internacional decorrente do coronavírus responsável pelo surto de 2019.",
   "propositor": "Brasil",
   "corpoLegislativo": "Congresso Nacional",
-  "historico": "Texto compilado do Planalto, com alterações das Medidas Provisórias nº 926, 927, 928 e 951/2020 e das Leis nº 14.006, 14.019, 14.022, 14.023, 14.028 e 14.035/2020, conforme indicado na página. Publicada no DOU de 07/02/2020 (conforme a nota da página do Planalto). O art. 8º, na redação da Lei nº 14.035/2020, liga a vigência da lei ao Decreto Legislativo nº 6/2020.",
-  "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13979.htm",
+  "historico": "Texto compilado do Planalto, com alterações das Medidas Provisórias nº 926, 927, 928 e 951/2020 e das Leis nº 14.006, 14.019, 14.022, 14.023, 14.028 e 14.035/2020, conforme indicado na página. Publicada no DOU de 07/02/2020 (conforme a nota da página do Planalto). O art. 8º, na redação da Lei nº 14.035/2020, liga a vigência da lei ao Decreto Legislativo nº 6/2020. Os trechos do projeto usam a redação original.",
+  "url": "https://www.in.gov.br/en/web/dou/-/lei-n-13.979-de-6-de-fevereiro-de-2020-242078735",
   "orgao": "Presidência da República",
   "douData": "2020-02-07",
   "vigencia": {
    "situacao": "histórica",
    "verificadoEm": "2026-11-22",
-   "obs": "Lei de vigência temporária: o art. 8º (redação da Lei nº 14.035/2020) a vincula ao Decreto Legislativo nº 6/2020. Conferir a data em que o decreto legislativo deixou de produzir efeitos. Os trechos reproduzem as redações finais mostradas na página do Planalto, que traz também redações antigas e com vigência encerrada."
+   "obs": "Lei de vigência temporária: o art. 8º original a vincula ao estado de emergência internacional; a redação da Lei nº 14.035/2020 a liga ao Decreto Legislativo nº 6/2020. Os trechos reproduzem a redação original publicada no DOU de 07/02/2020 (texto fornecido pelo usuário). Conferir a data de término da vigência."
   },
   "pendencias": [
-   "Página de publicação no DOU (o site do DOU não abriu no navegador interno; texto lido no Planalto)",
-   "Confirmar o término da vigência (Decreto Legislativo nº 6/2020)",
-   "Legislatura não informada na página (sessão em branco)"
+   "Página de publicação no DOU (edição e página; o link foi indicado pelo usuário, mas o site não abriu no navegador interno)",
+   "Confirmar o término da vigência",
+   "Legislatura não informada"
   ],
   "signatarios": "Jair Messias Bolsonaro; Sérgio Moro; Luiz Henrique Mandetta",
   "codigo": "Diário Oficial da União",
