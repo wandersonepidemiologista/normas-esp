@@ -546,7 +546,7 @@
         let matches = [];
         let currentMatchIndex = -1;
 
-        const removeAccents = (str) => str.normalize("NFD").replace(/[̀-ͯ]/g, "");
+        const removeAccents = (str) => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 
         function getPlainText(html) {
             const tmp = document.createElement("div");
@@ -556,7 +556,7 @@
 
         function countRootOccurrences(normalizedText, root) {
             if (!root) return 0;
-            const escaped = root.replace(/[.*+?^${}()|[\]\]/g, '\$&');
+            const escaped = root.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
             const regex = new RegExp(escaped, "g");
             const found = normalizedText.match(regex);
             return found ? found.length : 0;
@@ -597,6 +597,10 @@
                 const opt = document.createElement("option");
                 opt.textContent = `Nenhuma norma cadastrada em "${categoriaAtiva}"`;
                 select.appendChild(opt);
+                if (CATALOGO.length === 0) {
+                    document.getElementById("doc-banner").innerHTML = "<strong>Catálogo não carregado</strong>";
+                    document.getElementById("legis-content").innerHTML = "<p>Não foi possível carregar o arquivo <code>legislacoes.js</code>. Verifique se ele está na mesma pasta que o <code>index.html</code> no repositório.</p>";
+                }
                 return;
             }
 
