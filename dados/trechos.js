@@ -945,5 +945,228 @@ window.TRECHOS = [
   "fonteUrl": "https://www.in.gov.br/en/web/dou/-/lei-n-13.979-de-6-de-fevereiro-de-2020-242078735",
   "verificacao": "Redação original publicada no DOU de 07/02/2020, conforme o texto integral fornecido pelo usuário em 22/11/2026; trecho copiado sem alteração de palavras.",
   "status": "proposta"
+ },
+ {
+  "id": "prc4_2017-a3-art2",
+  "normaId": "prc4_2017",
+  "dispositivo": "Anexo III, art. 2º",
+  "texto": "Art. 2º A Vigilância em Saúde constitui um processo contínuo e sistemático de coleta, consolidação, análise e disseminação de dados sobre eventos relacionados à saúde, visando o planejamento e a implementação de medidas de saúde pública para a proteção da saúde da população, a prevenção e controle de riscos, agravos e doenças, bem como para a promoção da saúde.",
+  "componentes": [
+   "vigilancia"
+  ],
+  "nota": "Origem: PRT MS/GM 1378/2013, Art. 2º",
+  "fonteUrl": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0004_03_10_2017.html",
+  "verificacao": "Extraído por programa do texto da página da Portaria de Consolidação nº 4 enviada pelo usuário (arquivo da BVS), sem digitação; a indicação de origem foi movida para a nota.",
+  "status": "proposta"
+ },
+ {
+  "id": "prc4_2017-a3-art4-ii",
+  "normaId": "prc4_2017",
+  "dispositivo": "Anexo III, art. 4º, caput e inciso II",
+  "texto": "Art. 4º As ações de Vigilância em Saúde abrangem toda a população brasileira e envolvem práticas e processos de trabalho voltados para:\nII - a detecção oportuna e adoção de medidas adequadas para a resposta às emergências de saúde pública;",
+  "componentes": [
+   "detectar",
+   "responder"
+  ],
+  "nota": "Origem: PRT MS/GM 1378/2013, Art. 4º; PRT MS/GM 1378/2013, Art. 4º, II",
+  "fonteUrl": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0004_03_10_2017.html",
+  "verificacao": "Extraído por programa do texto da página da Portaria de Consolidação nº 4 enviada pelo usuário (arquivo da BVS), sem digitação; a indicação de origem foi movida para a nota.",
+  "status": "proposta"
+ },
+ {
+  "id": "prc4_2017-a3-art6-ix",
+  "normaId": "prc4_2017",
+  "dispositivo": "Anexo III, art. 6º, caput e inciso IX",
+  "texto": "Art. 6º Compete à SVS/MS:\nIX - coordenação da preparação e resposta das ações de vigilância em saúde, nas emergências de saúde pública de importância nacional e internacional, bem como cooperação com estados, Distrito Federal e municípios em emergências de saúde pública, quando indicado;",
+  "componentes": [
+   "ativar",
+   "preparar",
+   "responder",
+   "gestao_risco"
+  ],
+  "nota": "Origem: PRT MS/GM 1378/2013, Art. 6º; PRT MS/GM 1378/2013, Art. 6º, IX",
+  "fonteUrl": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0004_03_10_2017.html",
+  "verificacao": "Extraído por programa do texto da página da Portaria de Consolidação nº 4 enviada pelo usuário (arquivo da BVS), sem digitação; a indicação de origem foi movida para a nota.",
+  "status": "proposta"
+ },
+ {
+  "id": "prc4_2017-a3-art8-pu",
+  "normaId": "prc4_2017",
+  "dispositivo": "Anexo III, art. 8º, parágrafo único",
+  "texto": "Parágrafo Único. Em situações especiais e de emergência em saúde pública, a União adotará as medidas de saúde pública necessárias para o seu enfrentamento, que serão posteriormente comunicadas à CIT.",
+  "componentes": [
+   "responder",
+   "gestao_risco"
+  ],
+  "nota": "Origem: PRT MS/GM 1378/2013, Art. 8º, Parágrafo Único",
+  "fonteUrl": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0004_03_10_2017.html",
+  "verificacao": "Extraído por programa do texto da página da Portaria de Consolidação nº 4 enviada pelo usuário (arquivo da BVS), sem digitação; a indicação de origem foi movida para a nota.",
+  "status": "proposta"
+ },
+ {
+  "id": "prc4_2017-a3-art9-ix",
+  "normaId": "prc4_2017",
+  "dispositivo": "Anexo III, art. 9º, caput e inciso IX",
+  "texto": "Art. 9º Compete às Secretarias Estaduais de Saúde a coordenação do componente estadual dos Sistemas Nacionais de Vigilância em Saúde e de Vigilância Sanitária, no âmbito de seus limites territoriais e de acordo com as políticas, diretrizes e prioridades estabelecidas, compreendendo:\nIX - coordenação da preparação e resposta das ações de vigilância, nas emergências de saúde pública de importância estadual, bem como cooperação com municípios em emergências de saúde pública de importância municipal, quando indicado;",
+  "componentes": [
+   "preparar",
+   "responder"
+  ],
+  "nota": "Origem: PRT MS/GM 1378/2013, Art. 9º; PRT MS/GM 1378/2013, Art. 9º, IX",
+  "fonteUrl": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0004_03_10_2017.html",
+  "verificacao": "Extraído por programa do texto da página da Portaria de Consolidação nº 4 enviada pelo usuário (arquivo da BVS), sem digitação; a indicação de origem foi movida para a nota.",
+  "status": "proposta"
+ },
+ {
+  "id": "prc4_2017-a3-art10-pu",
+  "normaId": "prc4_2017",
+  "dispositivo": "Anexo III, art. 10, parágrafo único",
+  "texto": "Parágrafo Único. Em situações especiais e de emergência em saúde pública, o estado adotará as medidas de saúde pública necessárias para o seu enfrentamento, que serão posteriormente comunicadas à CIB.",
+  "componentes": [
+   "responder",
+   "gestao_risco"
+  ],
+  "nota": "Origem: PRT MS/GM 1378/2013, Art. 10, Parágrafo Único",
+  "fonteUrl": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0004_03_10_2017.html",
+  "verificacao": "Extraído por programa do texto da página da Portaria de Consolidação nº 4 enviada pelo usuário (arquivo da BVS), sem digitação; a indicação de origem foi movida para a nota.",
+  "status": "proposta"
+ },
+ {
+  "id": "prc4_2017-a3-art11-vi",
+  "normaId": "prc4_2017",
+  "dispositivo": "Anexo III, art. 11, caput e inciso VI",
+  "texto": "Art. 11. Compete às Secretarias Municipais de Saúde a coordenação do componente municipal dos Sistemas Nacionais de Vigilância em Saúde e de Vigilância Sanitária, no âmbito de seus limites territoriais, de acordo com a política, diretrizes e prioridades estabelecidas, compreendendo:\nVI - coordenação da preparação e resposta das ações de vigilância, nas emergências de saúde pública de importância municipal;",
+  "componentes": [
+   "preparar",
+   "responder"
+  ],
+  "nota": "Origem: PRT MS/GM 1378/2013, Art. 11; PRT MS/GM 1378/2013, Art. 11, VI",
+  "fonteUrl": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0004_03_10_2017.html",
+  "verificacao": "Extraído por programa do texto da página da Portaria de Consolidação nº 4 enviada pelo usuário (arquivo da BVS), sem digitação; a indicação de origem foi movida para a nota.",
+  "status": "proposta"
+ },
+ {
+  "id": "prc4_2017-a5-art2-v",
+  "normaId": "prc4_2017",
+  "dispositivo": "Anexo V, art. 2º, caput e inciso V",
+  "texto": "Art. 2º Para fins de notificação compulsória de importância nacional, serão considerados os seguintes conceitos:\nV - evento de saúde pública (ESP): situação que pode constituir potencial ameaça à saúde pública, como a ocorrência de surto ou epidemia, doença ou agravo de causa desconhecida, alteração no padrão clínicoepidemiológico das doenças conhecidas, considerando o potencial de disseminação, a magnitude, a gravidade, a severidade, a transcendência e a vulnerabilidade, bem como epizootias ou agravos decorrentes de desastres ou acidentes;",
+  "componentes": [
+   "detectar",
+   "vigilancia"
+  ],
+  "nota": "Origem: PRT MS/GM 204/2016, Art. 2º; PRT MS/GM 204/2016, Art. 2º, V",
+  "fonteUrl": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0004_03_10_2017.html",
+  "verificacao": "Extraído por programa do texto da página da Portaria de Consolidação nº 4 enviada pelo usuário (arquivo da BVS), sem digitação; a indicação de origem foi movida para a nota.",
+  "status": "proposta"
+ },
+ {
+  "id": "prc4_2017-a5-art2-vi-ix",
+  "normaId": "prc4_2017",
+  "dispositivo": "Anexo V, art. 2º, caput e incisos VI a IX",
+  "texto": "Art. 2º Para fins de notificação compulsória de importância nacional, serão considerados os seguintes conceitos:\nVI - notificação compulsória: comunicação obrigatória à autoridade de saúde, realizada pelos médicos, profissionais de saúde ou responsáveis pelos estabelecimentos de saúde, públicos ou privados, sobre a ocorrência de suspeita ou confirmação de doença, agravo ou evento de saúde pública, descritos no Anexo 1 do Anexo V , podendo ser imediata ou semanal;\nVII - notificação compulsória imediata (NCI): notificação compulsória realizada em até 24 (vinte e quatro) horas, a partir do conhecimento da ocorrência de doença, agravo ou evento de saúde pública, pelo meio de comunicação mais rápido disponível;\nVIII - notificação compulsória semanal (NCS): notificação compulsória realizada em até 7 (sete) dias, a partir do conhecimento da ocorrência de doença ou agravo;\nIX - notificação compulsória negativa: comunicação semanal realizada pelo responsável pelo estabelecimento de saúde à autoridade de saúde, informando que na semana epidemiológica não foi identificado nenhuma doença, agravo ou evento de saúde pública constante da Lista de Notificação Compulsória; e",
+  "componentes": [
+   "notificar"
+  ],
+  "nota": "Origem: PRT MS/GM 204/2016, Art. 2º; PRT MS/GM 204/2016, Art. 2º, VI; PRT MS/GM 204/2016, Art. 2º, VII; PRT MS/GM 204/2016, Art. 2º, VIII; PRT MS/GM 204/2016, Art. 2º, IX",
+  "fonteUrl": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0004_03_10_2017.html",
+  "verificacao": "Extraído por programa do texto da página da Portaria de Consolidação nº 4 enviada pelo usuário (arquivo da BVS), sem digitação; a indicação de origem foi movida para a nota.",
+  "status": "proposta"
+ },
+ {
+  "id": "prc4_2017-a5-art3",
+  "normaId": "prc4_2017",
+  "dispositivo": "Anexo V, art. 3º, caput e §§ 1º a 3º",
+  "texto": "Art. 3º A notificação compulsória é obrigatória para os médicos, outros profissionais de saúde ou responsáveis pelos serviços públicos e privados de saúde, que prestam assistência ao paciente, em conformidade com o art. 8º da Lei nº 6.259, de 30 de outubro de 1975.\n§ 1º A notificação compulsória será realizada diante da suspeita ou confirmação de doença ou agravo, de acordo com o estabelecido no Anexo 1 do Anexo V , observando-se, também, as normas técnicas estabelecidas pela SVS/MS.\n§ 2º A comunicação de doença, agravo ou evento de saúde pública de notificação compulsória à autoridade de saúde competente também será realizada pelos responsáveis por estabelecimentos públicos ou privados educacionais, de cuidado coletivo, além de serviços de hemoterapia, unidades laboratoriais e instituições de pesquisa.\n§ 3º A comunicação de doença, agravo ou evento de saúde pública de notificação compulsória pode ser realizada à autoridade de saúde por qualquer cidadão que deles tenha conhecimento.",
+  "componentes": [
+   "notificar"
+  ],
+  "nota": "Origem: PRT MS/GM 204/2016, Art. 3º; PRT MS/GM 204/2016, Art. 3º, § 1º; PRT MS/GM 204/2016, Art. 3º, § 2º; PRT MS/GM 204/2016, Art. 3º, § 3º",
+  "fonteUrl": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0004_03_10_2017.html",
+  "verificacao": "Extraído por programa do texto da página da Portaria de Consolidação nº 4 enviada pelo usuário (arquivo da BVS), sem digitação; a indicação de origem foi movida para a nota.",
+  "status": "proposta"
+ },
+ {
+  "id": "prc4_2017-a5-art4",
+  "normaId": "prc4_2017",
+  "dispositivo": "Anexo V, art. 4º, caput e parágrafo único",
+  "texto": "Art. 4º A notificação compulsória imediata deve ser realizada pelo profissional de saúde ou responsável pelo serviço assistencial que prestar o primeiro atendimento ao paciente, em até 24 (vinte e quatro) horas desse atendimento, pelo meio mais rápido disponível.\nParágrafo Único. A autoridade de saúde que receber a notificação compulsória imediata deverá informa-la, em até 24 (vinte e quatro) horas desse recebimento, às demais esferas de gestão do SUS, o conhecimento de qualquer uma das doenças ou agravos constantes no Anexo 1 do Anexo V .",
+  "componentes": [
+   "notificar",
+   "comunicacao_risco"
+  ],
+  "nota": "Origem: PRT MS/GM 204/2016, Art. 4º; PRT MS/GM 204/2016, Art. 4º, Parágrafo Único",
+  "fonteUrl": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0004_03_10_2017.html",
+  "verificacao": "Extraído por programa do texto da página da Portaria de Consolidação nº 4 enviada pelo usuário (arquivo da BVS), sem digitação; a indicação de origem foi movida para a nota.",
+  "status": "proposta"
+ },
+ {
+  "id": "prc4_2017-a5-art6",
+  "normaId": "prc4_2017",
+  "dispositivo": "Anexo V, art. 6º",
+  "texto": "Art. 6º A notificação compulsória, independente da forma como realizada, também será registrada em sistema de informação em saúde e seguirá o fluxo de compartilhamento entre as esferas de gestão do SUS estabelecido pela SVS/MS.",
+  "componentes": [
+   "notificar",
+   "vigilancia"
+  ],
+  "nota": "Origem: PRT MS/GM 204/2016, Art. 6º",
+  "fonteUrl": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0004_03_10_2017.html",
+  "verificacao": "Extraído por programa do texto da página da Portaria de Consolidação nº 4 enviada pelo usuário (arquivo da BVS), sem digitação; a indicação de origem foi movida para a nota.",
+  "status": "proposta"
+ },
+ {
+  "id": "prc4_2017-a5-art22-24",
+  "normaId": "prc4_2017",
+  "dispositivo": "Anexo V, arts. 22 a 24 (notificação de resultados de testes)",
+  "texto": "Art. 22. Este Capítulo dispõe sobre a obrigatoriedade de notificação ao Ministério da Saúde de todos os resultados de testes diagnóstico para detecção da covid19 e do Monkeypox Vírus, realizados por laboratórios da rede pública, rede privada, universitários e quaisquer outros, em todo o território nacional. (Redação dada pela PRT GM/MS nº 3.328 de 22.08.2022)\nArt. 23. Deverão ser notificados todos os resultados de testes diagnóstico realizados, sejam positivos, negativos, inconclusivos e correlatos, qualquer que seja a metodologia utilizada. (Redação dada pela PRT GM/MS nº 1.164 de 24.05.2022)\n§ 1º A notificação deverá ser realizada no prazo de até 24 (vinte e quatro) horas contado do resultado do teste, mediante registro e transmissão de informações na Rede Nacional de Dados em Saúde - RNDS. (Redação dada pela PRT GM/MS nº 1.164 de 24.05.2022)\nArt. 24. A notificação ficará cargo dos gestores e responsáveis dos respectivos laboratórios e será fiscalizada pelo gestor de saúde local. (Redação dada pela PRT GM/MS nº 1.164 de 24.05.2022)",
+  "componentes": [
+   "notificar",
+   "detectar"
+  ],
+  "nota": null,
+  "fonteUrl": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0004_03_10_2017.html",
+  "verificacao": "Extraído por programa do texto da página da Portaria de Consolidação nº 4 enviada pelo usuário (arquivo da BVS), sem digitação; a indicação de origem foi movida para a nota.",
+  "status": "proposta"
+ },
+ {
+  "id": "prc4_2017-a2-art8-p1p2",
+  "normaId": "prc4_2017",
+  "dispositivo": "Anexo II, art. 8º, §§ 1º e 2º",
+  "texto": "§ 1º Em situações contingenciais, independentemente da posição hierárquica que tiver a unidade laboratorial em sua sub-rede, as amostras para investigação de surtos devem ser encaminhadas diretamente ao Laboratório de Referência Nacional específico da subrede.\n§ 2º Os gestores nacionais das redes definirão, por meio de regulamentação específica, as situações contingenciais e as rotinas para operacionalização das ações necessárias, conforme previsto no art. 8º, § 1º .",
+  "componentes": [
+   "detectar",
+   "verificar"
+  ],
+  "nota": "Origem: PRT MS/GM 2031/2004, Art. 8º, § 1º; PRT MS/GM 2031/2004, Art. 8º, § 2º",
+  "fonteUrl": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0004_03_10_2017.html",
+  "verificacao": "Extraído por programa do texto da página da Portaria de Consolidação nº 4 enviada pelo usuário (arquivo da BVS), sem digitação; a indicação de origem foi movida para a nota.",
+  "status": "proposta"
+ },
+ {
+  "id": "prc4_2017-a6-art9-p3",
+  "normaId": "prc4_2017",
+  "dispositivo": "Anexo VI, art. 9º, § 3º",
+  "texto": "§ 3º Em circunstâncias especiais, como na ocorrência de agravos inusitados à saúde que possam escapar ao controle da direção estadual ou municipal do SUS, ou que representem risco de disseminação estadual, regional ou nacional, a União e o Estado poderão executar ações de vigilância sanitária e de vigilância epidemiológica em qualquer localidade.",
+  "componentes": [
+   "responder",
+   "gestao_risco"
+  ],
+  "nota": "Origem: PRT MS/GM 1565/1994, Art. 9º, § 3º",
+  "fonteUrl": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0004_03_10_2017.html",
+  "verificacao": "Extraído por programa do texto da página da Portaria de Consolidação nº 4 enviada pelo usuário (arquivo da BVS), sem digitação; a indicação de origem foi movida para a nota.",
+  "status": "proposta"
+ },
+ {
+  "id": "prc4_2017-a6-art21",
+  "normaId": "prc4_2017",
+  "dispositivo": "Anexo VI, art. 21",
+  "texto": "Art. 21. Os órgãos de vigilância epidemiológica e sanitária nas três esferas de gestão do SUS deverão desenvolver ações conjuntas que visem à promoção e à proteção da saúde da população, quando da ocorrência de eventos, com relevância epidemiológica, relacionados com os produtos sob vigilância sanitária.",
+  "componentes": [
+   "responder",
+   "vigilancia"
+  ],
+  "nota": "Origem: PRT MS/GM 1660/2009, Art. 8º",
+  "fonteUrl": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0004_03_10_2017.html",
+  "verificacao": "Extraído por programa do texto da página da Portaria de Consolidação nº 4 enviada pelo usuário (arquivo da BVS), sem digitação; a indicação de origem foi movida para a nota.",
+  "status": "proposta"
  }
 ];

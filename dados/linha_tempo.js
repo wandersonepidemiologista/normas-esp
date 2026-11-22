@@ -160,8 +160,16 @@ window.LINHA_TEMPO = {
   },
   {
    "ano": 2017,
-   "nome": "Portarias de Consolidação GM/MS nº 4 e nº 5/2017",
-   "desc": "Notificação compulsória e Rede Vigidesastres",
+   "nome": "Portaria de Consolidação GM/MS nº 4/2017",
+   "desc": "Sistemas de vigilância em saúde, notificação compulsória e resposta a emergências",
+   "cat": "saude",
+   "foraMatriz": false,
+   "fichaId": "prc4_2017"
+  },
+  {
+   "ano": 2017,
+   "nome": "Portaria de Consolidação GM/MS nº 5/2017",
+   "desc": "Ações e programas de saúde, incluindo a Rede Vigidesastres",
    "cat": "saude",
    "foraMatriz": false,
    "fichaId": null

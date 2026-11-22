@@ -291,5 +291,43 @@ window.NORMAS = [
   "dataAcesso": "2026-11-22",
   "idioma": "pt-BR",
   "licenca": "Domínio público (Lei nº 9.610/1998, art. 8º, IV)"
+ },
+ {
+  "id": "prc4_2017",
+  "chave": "prc4_2017",
+  "tipo": "Portaria de Consolidação",
+  "numero": "4",
+  "ano": 2017,
+  "data": "2017-09-28",
+  "titulo": "Portaria de Consolidação nº 4, de 28/09/2017 - Consolidação das normas sobre os sistemas e os subsistemas do Sistema Único de Saúde.",
+  "tituloCurto": "Consolidação dos sistemas e subsistemas do SUS",
+  "ementa": "Consolidação das normas sobre os sistemas e os subsistemas do Sistema Único de Saúde.",
+  "propositor": "Brasil. Ministério da Saúde. Gabinete do Ministro",
+  "signatarios": "Ricardo Barros",
+  "codigo": "Diário Oficial da União",
+  "volumeCodigo": null,
+  "secao": null,
+  "paginas": null,
+  "corpoLegislativo": "Ministério da Saúde",
+  "sessao": null,
+  "historico": "Consolida, entre outras, as portarias GM/MS nº 1.378/2013 (ações de vigilância em saúde), nº 204/2016 (notificação compulsória), nº 2.031/2004 (SISLAB), nº 1.565/1994 e nº 1.660/2009 (vigilância sanitária). Texto da página da BVS, com alterações posteriores (a mais recente vista: Portaria GM/MS nº 8.041/2025). Só os dispositivos ligados a emergências em saúde pública foram selecionados para o projeto.",
+  "doi": null,
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0004_03_10_2017.html",
+  "dataAcesso": "2026-11-22",
+  "idioma": "pt-BR",
+  "licenca": "Domínio público (Lei nº 9.610/1998, art. 8º, IV)",
+  "orgao": "Ministério da Saúde",
+  "douData": null,
+  "vigencia": {
+   "situacao": "vigente",
+   "verificadoEm": "2026-11-22",
+   "obs": "Texto lido em arquivo da página da BVS enviado pelo usuário (compilado, com redações posteriores). Não conferi no site se há alteração mais recente."
+  },
+  "pendencias": [
+   "Data e página de publicação no DOU (o nome do arquivo da BVS sugere 03/10/2017; conferir)",
+   "URL da BVS inferida do nome do arquivo; conferir",
+   "Reconferir vigência dos dispositivos, pois a página traz redações alteradas por portarias posteriores",
+   "Número de edição e seção do DOU em branco"
+  ]
  }
 ];
