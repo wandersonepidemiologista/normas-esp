@@ -96,11 +96,11 @@ window.NOTIFICACAO = {
 };
 
 // Lista conforme a Portaria GM/MS nº 12.508/2026, Anexo I (publicada em 17/11/2026, ainda não em vigor).
-// Texto e numeração do DOU. Colunas MS/SES/SMS/semanal reconstruídas: o texto colado traz só os X, sem a posição da coluna.
-// Cada item foi casado com a lista vigente (mesma contagem de X em todos os 82 itens). Brucelose humana tem um único X: semanal assumido, a confirmar no PDF do DOU.
+// Texto e numeração do DOU.
+// Conferido linha a linha contra o PDF do DOU (cópia de 22/11/2026): as 82 linhas e as colunas coincidem. Brucelose humana: semanal.
 window.NOTIFICACAO.novaFonte = "Portaria GM/MS nº 12.508, de 16/11/2026 (DOU de 17/11/2026, Seção 1, p. 75), Anexo I. Entra em vigor 45 dias após a publicação.";
 window.NOTIFICACAO.novaUrl = "https://www.in.gov.br/web/dou/-/portaria-gm/ms-n-12.508-de-16-de-novembro-de-2026-744731818";
-window.NOTIFICACAO.novaAviso = "Esta versão ainda não está em vigor. Até a vigência, vale a lista da Portaria de Consolidação GM/MS nº 4/2017. As colunas de periodicidade foram reconstruídas pela correspondência com a lista vigente; a periodicidade da brucelose humana (um único X no texto publicado) está assumida como semanal e precisa ser confirmada no PDF do DOU.";
+window.NOTIFICACAO.novaAviso = "Esta versão ainda não está em vigor. Até a vigência, vale a lista da Portaria de Consolidação GM/MS nº 4/2017. Texto, numeração e colunas conferidos com o Anexo I da portaria publicada no DOU de 17/11/2026.";
 window.NOTIFICACAO.novaDestaque = {"6": "Inclusão da portaria (art. 1º)", "8": "Nome alterado: Caxumba (parotidite epidêmica)", "26": "Nome alterado: ESAVI grave", "60": "Nome alterado: SRAG hospitalizado ou óbito", "66": "Nome alterado: varicela (casos leve, grave internado ou óbito)"};
 window.NOTIFICACAO.espNova = {
   "25": ["definicao", "O próprio item remete ao conceito de evento de saúde pública (art. 2º, V)."],
@@ -180,7 +180,7 @@ window.NOTIFICACAO.linhasNova = `1~a. Acidente de trabalho com exposição a mat
 57~Síndrome da Rubéola Congênita~1~1~1~0
 58~Síndrome Inflamatória Multissistêmica em Adultos (SIM-A) associada à covid-19~1~1~1~0
 59~Síndrome Inflamatória Multissistêmica Pediátrica (SIM-P) associada à covid-19~1~1~1~0
-60~Síndrome Respiratória Aguda Grave (SRAG) hospitalizado ou óbito por SRAG~1~1~1~0
+60~Síndrome Respiratória Aguda Grave (Srag) hospitalizado ou óbito por Srag~1~1~1~0
 61~Síndrome Gripal por covid-19 confirmada~1~1~1~0
 62~a. Tétano Acidental~0~1~1~0
 62~b. Tétano Neonatal~1~1~1~0
