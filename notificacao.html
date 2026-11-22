@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lista de notificação compulsória e evento de saúde pública</title>
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+<link rel="apple-touch-icon" href="img/favicon-180.png">
+<style>
+:root{--epic-primary:#4f8aac;--epic-secondary:#03658c;--epic-highlight:#02735e;--epic-attention:#ffde59;--ink:#1E293B;--muted:#64748B;--bg:#F8FAFC;--card:#fff;--line:#E2E8F0}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--bg);line-height:1.45}
+#topo{background:linear-gradient(135deg,var(--epic-secondary),#024B69);color:#fff;padding:16px 20px 12px;border-bottom:4px solid var(--epic-highlight)}
+.marca h1{margin:0;font-size:20px;font-weight:650}
+.marca p{margin:4px 0 0;font-size:13.5px;opacity:.9}
+
+.barra{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;margin-top:12px}
+.abas{display:flex;gap:6px;flex-wrap:wrap}
+.abas button{font:inherit;font-size:14px;border:1px solid rgba(255,255,255,.45);background:transparent;color:#fff;border-radius:999px;padding:6px 14px;cursor:pointer}
+.abas button[aria-selected=true]{background:#fff;color:var(--epic-secondary);font-weight:600}
+.busca{flex:1;min-width:240px}
+.busca input{width:100%;font:inherit;font-size:14.5px;padding:8px 12px;border-radius:8px;border:1px solid transparent}
+main{max-width:1240px;margin:0 auto;padding:18px 16px 60px}
+.vista[hidden]{display:none}
+.mapa{display:grid;grid-template-columns:minmax(210px,.27fr) 1fr;gap:16px}
+.faixas{display:flex;flex-direction:column;gap:14px}
+.grupo{background:var(--card);border:1.5px dashed var(--gbd,#94A3B8);border-radius:14px;padding:10px 12px 12px}
+.grupo h2{margin:0 0 8px;font-size:13px;font-weight:600;color:#475569}
+.itens{display:grid;grid-template-columns:repeat(auto-fit,minmax(138px,1fr));gap:10px}
+.col-trans .itens{grid-template-columns:1fr}
+.comp{position:relative;text-align:left;font:inherit;cursor:pointer;border:1px solid var(--bd);background:var(--bg2);color:var(--tx);border-radius:10px;padding:10px 12px}
+.comp b{display:block;font-size:15px}
+.comp small{display:block;font-size:12.5px;opacity:.88}
+.comp .n{position:absolute;top:7px;right:8px;font-size:11px;font-weight:600;background:#fff;border:1px solid var(--bd);border-radius:999px;padding:0 7px;color:var(--tx)}
+.comp.vazio{opacity:.6}
+.comp[aria-pressed=true]{outline:3px solid var(--epic-secondary);outline-offset:1px}
+.comp:focus-visible,.abas button:focus-visible,button:focus-visible,a:focus-visible{outline:3px solid var(--epic-attention);outline-offset:2px}
+.seta{align-self:center;color:#94A3B8;font-size:18px}
+#painel{margin-top:22px}
+.cab{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap;margin-bottom:6px}
+.cab h2{margin:0;font-size:18px}
+.dica,.vazio-msg{color:var(--muted);font-size:14px}
+.vazio-msg{background:#fff;border:1px dashed var(--line);border-radius:12px;padding:16px}
+.trecho{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:10px 0}
+.trecho header{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:baseline}
+.nl{font-weight:650;color:var(--epic-secondary);text-decoration:none;cursor:pointer}
+.nl:hover{text-decoration:underline}
+.disp{color:#334155;font-size:14px}
+.texto{white-space:pre-wrap;font-family:Georgia,"Times New Roman",serif;font-size:15.5px;line-height:1.55;margin:10px 0;padding-left:12px;border-left:3px solid var(--epic-primary)}
+mark{background:var(--epic-attention);padding:0 1px}
+.nota{font-size:13px;color:#475569;margin:6px 0}
+.ver{font-size:11.5px;color:var(--epic-highlight);border:1px solid #BFE3D6;background:#EAF7F2;border-radius:999px;padding:0 8px}
+.vig{font-size:11.5px;border-radius:999px;padding:0 8px;border:1px solid var(--line);background:#fff}
+.rodape{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;margin-top:8px}
+.tag{font:inherit;font-size:12px;border:1px solid var(--bd,#CBD5E1);background:var(--bg2,#fff);color:var(--tx,#334155);border-radius:999px;padding:2px 9px;cursor:pointer}
+.btn{font:inherit;font-size:13px;border:1px solid #CBD5E1;background:#fff;color:var(--ink);border-radius:8px;padding:5px 10px;cursor:pointer;text-decoration:none;display:inline-block}
+.btn:hover{background:#F1F5F9}
+.btn.pri{background:var(--epic-secondary);border-color:var(--epic-secondary);color:#fff}
+.btn.pri:hover{background:#024B69}
+.sp{flex:1}
+.chips{margin-bottom:10px}
+.chip{font:inherit;font-size:12.5px;padding:3px 11px;border-radius:999px;border:1px solid #CBD5E1;background:#fff;color:#475569;cursor:pointer;margin:0 6px 6px 0}
+.chip.on{border-color:var(--epic-secondary);background:#E6F1F6;color:var(--ink);font-weight:600}
+.dec{font-size:13px;color:var(--muted);padding:14px 0 2px 76px}
+.row{display:grid;grid-template-columns:52px 14px 1fr;gap:10px;padding:7px 0;align-items:start}
+.yr{text-align:right;font-weight:600;padding-top:1px}
+.dot{width:10px;height:10px;border-radius:50%;margin-top:6px}
+.nm{font-weight:600}
+.ds{font-size:13.5px;color:#475569}
+.tg{display:inline-block;font-size:11px;padding:1px 8px;border-radius:999px;margin:3px 6px 0 0}
+.fm{border:1px dashed #94A3B8;color:#475569}
+.pend{font-size:12px;color:var(--muted)}
+.fonte{font-size:12px;color:var(--muted);margin-top:14px}
+.acoes{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.aviso{background:#FFFBEA;border:1px solid #F2E3A0;border-radius:10px;padding:10px 12px;font-size:13.5px;margin-bottom:12px}
+.ncard{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:10px 0}
+.ncard h3{margin:0 0 4px;font-size:15.5px}
+.ncard p{margin:4px 0 8px;font-size:14px;color:#334155}
+.ficha{position:fixed;top:0;right:0;bottom:0;width:min(680px,100%);background:#fff;box-shadow:-8px 0 30px rgba(15,23,42,.25);overflow:auto;z-index:20;padding:18px 20px 40px}
+.ficha[hidden]{display:none}
+.ficha h2{margin:0 30px 6px 0;font-size:17px;line-height:1.35}
+.fx{position:absolute;top:10px;right:12px;font-size:22px;border:0;background:transparent;cursor:pointer}
+table.meta{width:100%;border-collapse:collapse;font-size:14px;margin:10px 0 16px}
+table.meta th{width:34%;text-align:left;vertical-align:top;color:#475569;font-weight:600;padding:6px 8px 6px 0;border-bottom:1px solid #EEF2F7}
+table.meta td{padding:6px 0;border-bottom:1px solid #EEF2F7;overflow-wrap:anywhere}
+.vz{color:#94A3B8}
+.ficha h3{font-size:14px;margin:18px 0 4px}
+#toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#1E293B;color:#fff;padding:8px 14px;border-radius:8px;font-size:13.5px;opacity:0;pointer-events:none;transition:opacity .2s;z-index:40}
+#toast.on{opacity:1}
+
+.tlbox{margin-top:22px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 14px 12px}
+.tlwrap{overflow-x:auto;padding-bottom:6px}
+.tl{position:relative}
+.axis{position:relative;height:24px;border-bottom:1px solid var(--line)}
+.axis span{position:absolute;top:2px;transform:translateX(-50%);font-size:12px;color:var(--muted)}
+.lanes{position:relative}
+.gl{position:absolute;top:0;bottom:0;width:1px;background:#EEF2F7}
+.lane{position:relative;border-bottom:1px dashed #EEF2F7}
+.ll{position:sticky;left:0;z-index:3;display:inline-block;width:104px;margin-top:6px;font-size:12px;font-weight:600;padding:3px 8px;border-left:4px solid;border-radius:6px}
+.pt{position:absolute;z-index:2;display:flex;align-items:center;gap:5px;font:inherit;font-size:11.5px;background:transparent;border:0;padding:0;cursor:pointer;color:var(--tx);white-space:nowrap}
+.pt i{flex:none;width:14px;height:14px;border-radius:50%;border:2px solid var(--c);background:#fff;box-sizing:border-box}
+.pt.ok i{background:var(--c)}
+.pt.fm i{border-style:dashed}
+.pt span{background:rgba(255,255,255,.85);border-radius:4px;padding:0 3px;max-width:118px;overflow:hidden;text-overflow:ellipsis}
+.pt:hover span,.pt.sel span{background:var(--bg);outline:1px solid var(--c)}
+.pt.sel i{box-shadow:0 0 0 3px var(--bg),0 0 0 5px var(--c)}
+.pt.hi i{box-shadow:0 0 0 3px var(--epic-attention),0 0 0 5px var(--c)}
+.pt.dim{opacity:.3}
+.tlleg{display:flex;gap:16px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin-top:6px}
+.lg{display:inline-block;width:11px;height:11px;border-radius:50%;border:2px solid #64748B;vertical-align:-1px;box-sizing:border-box}
+.lg.ok{background:#64748B}.lg.fm{border-style:dashed}
+.tldet{margin-top:10px;border-left:4px solid;background:#F8FAFC;border-radius:8px;padding:10px 14px}
+.tldet h3{margin:0;font-size:15px}.tldet p{margin:6px 0;font-size:14px;color:#334155}
+
+.marca{display:flex;align-items:center;gap:14px}
+.selo{flex:none;background:#fff;border-radius:14px;padding:6px;display:inline-flex;box-shadow:0 1px 4px rgba(0,0,0,.2)}
+.selo img{display:block;width:52px;height:52px}
+.embed .marca p{display:none}.embed .marca h1{font-size:16px}.embed .selo img{width:34px;height:34px}.embed .selo{padding:4px;border-radius:10px}
+#rodape{background:#fff;border-top:4px solid var(--epic-highlight);margin-top:30px;padding:20px 16px 26px}
+.rod-in{max-width:1240px;margin:0 auto;display:flex;gap:14px;align-items:center}
+.rod-in img{flex:none;border-radius:8px}
+.rod-txt p{margin:2px 0;font-size:13.5px;color:#475569}
+.rod-txt .rod-nome{font-family:Montserrat,system-ui,sans-serif;font-weight:700;font-size:15px;color:var(--epic-secondary)}
+.rod-txt a{color:var(--epic-secondary)}
+.rod-aviso{max-width:1240px;margin:12px auto 0;font-size:12px;color:var(--muted)}
+.inicio{text-decoration:none;flex:none;display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;border:1px solid rgba(255,255,255,.45);background:transparent;color:#fff;cursor:pointer;padding:0}
+.inicio:hover{background:rgba(255,255,255,.18)}
+@media(max-width:820px){.mapa{grid-template-columns:1fr}.col-trans .itens{grid-template-columns:repeat(auto-fit,minmax(138px,1fr))}.dec{padding-left:0}}
+@media print{#topo,.rodape,.abas,.busca,.acoes{display:none}.ficha{position:static;box-shadow:none;width:auto}}
+
+.voltar{font:inherit;font-size:14px;text-decoration:none;border:1px solid rgba(255,255,255,.45);color:#fff;border-radius:999px;padding:6px 14px}
+.voltar:hover{background:rgba(255,255,255,.18)}
+.conceito{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--epic-highlight);border-radius:10px;padding:12px 16px;margin-bottom:14px}
+.conceito h2{margin:0 0 6px;font-size:15px}
+.conceito p{margin:6px 0;font-size:14px}
+.conceito .art{color:var(--muted);font-size:12.5px}
+.conceito mark{background:#FFF3B0;padding:0 2px;border-radius:3px}
+.ferr{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;margin:12px 0}
+.ferr input{flex:1;min-width:220px;font:inherit;font-size:14px;padding:8px 12px;border-radius:8px;border:1px solid var(--line)}
+.fch{font:inherit;font-size:13px;border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 12px;cursor:pointer}
+.fch[aria-pressed=true]{background:var(--epic-secondary);color:#fff;border-color:var(--epic-secondary)}
+.cont{font-size:12.5px;color:var(--muted)}
+.tabnot{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:14px}
+.tabnot th,.tabnot td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.tabnot thead th{background:#EEF4F8;font-size:12.5px;color:#334155;position:sticky;top:0}
+.tabnot td.c,.tabnot th.c{text-align:center;width:54px}
+.tabnot td.n{width:40px;color:var(--muted)}
+.tabnot tr.im td{background:#F3FAF7}
+.x{display:inline-block;min-width:20px;padding:1px 6px;border-radius:6px;background:var(--epic-highlight);color:#fff;font-size:12px;font-weight:600}
+.xs{background:#94A3B8}
+.espb{display:inline-block;font-size:12px;border-radius:999px;padding:2px 9px;border:1px solid var(--epic-attention);background:#FFF8D6;color:#6B5200;white-space:nowrap}
+.espb.def{background:var(--epic-attention);border-color:var(--epic-attention);color:#1E293B;font-weight:600}
+.leg{font-size:12.5px;color:var(--muted);margin:10px 0}
+.nota-f{font-size:12.5px;color:var(--muted);margin:10px 0}
+.aviso2{background:#FFF8D6;border:1px solid var(--epic-attention);border-radius:8px;padding:8px 12px;font-size:13px;margin:10px 0}
+@media(max-width:700px){.tabnot{font-size:13px}.tabnot th,.tabnot td{padding:6px 6px}}
+</style>
+</head>
+<body>
+<header id="topo">
+  <div class="marca">
+    <span class="selo"><img src="img/logo-wandersonepidemiologista.png" alt="Logotipo wandersonepidemiologista" width="52" height="52"></span>
+    <div>
+      <h1>Lista Nacional de Notificação Compulsória e o conceito de evento de saúde pública</h1>
+      <p>Portaria de Consolidação GM/MS nº 4/2017, Anexo V</p>
+    </div>
+  </div>
+  <div class="barra">
+    <a class="inicio" href="https://www.wandersonepidemiologista.com" target="_blank" rel="noopener" title="Ir para wandersonepidemiologista.com" aria-label="Ir para o site wandersonepidemiologista.com"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 10v9.5a1 1 0 0 0 1 1H10v-6h4v6h3.5a1 1 0 0 0 1-1V10"/></svg></a>
+    <a class="voltar" id="voltar" href="semaforo.html">← Semáforo</a>
+  </div>
+</header>
+<main>
+  <section class="conceito" id="conceito" aria-label="Conceito de evento de saúde pública"></section>
+  <div class="ferr">
+    <input id="q" type="search" placeholder="Buscar doença ou agravo" aria-label="Buscar doença ou agravo">
+    <button class="fch" data-f="todas" aria-pressed="true">Todas</button>
+    <button class="fch" data-f="ims" aria-pressed="false">Imediata ao Ministério da Saúde</button>
+    <button class="fch" data-f="sem" aria-pressed="false">Somente semanal ou local</button>
+    <button class="fch" data-f="esp" aria-pressed="false">Relacionadas ao conceito de ESP</button>
+    <span class="cont" id="cont"></span>
+  </div>
+  <div class="leg"><span class="x">X</span> notificação imediata (até 24 horas) para o MS, a SES ou a SMS; <span class="x xs">X</span> notificação semanal. A linha verde clara marca itens com notificação imediata ao MS.</div>
+  <div style="overflow-x:auto"><table class="tabnot" id="tab">
+    <thead><tr><th>Nº</th><th>Doença ou agravo (ordem alfabética)</th><th class="c">Imediata MS</th><th class="c">Imediata SES</th><th class="c">Imediata SMS</th><th class="c">Semanal</th><th>Conceito de ESP</th></tr></thead>
+    <tbody id="corpo"></tbody>
+  </table></div>
+  <div class="aviso2" id="futura"></div>
+  <p class="nota-f" id="fonteNot"></p>
+  <p class="nota-f">A coluna "Conceito de ESP" é uma proposta de leitura do projeto: o item 22 é o próprio evento de saúde pública; os demais marcados têm nome que coincide com os termos da definição (ameaça, alteração do padrão clínico-epidemiológico, doença emergente). Qualquer item pode configurar evento de saúde pública se houver surto ou epidemia, conforme o art. 2º, V.</p>
+</main>
+<footer id="rodape">
+  <div class="rod-in">
+    <div class="rod-txt">
+      <p class="rod-nome">Wanderson Kleber de Oliveira</p>
+      <p>Doutor em Epidemiologia · Epidemiologista e pesquisador</p>
+      <p><a href="https://www.wandersonepidemiologista.com" target="_blank" rel="noopener">wandersonepidemiologista.com</a> · EPIC95 Capacitação, Consultoria e Assessoria</p>
+    </div>
+  </div>
+  <p class="rod-aviso">Textos extraídos de fontes oficiais (Palácio do Planalto, Diário Oficial da União e documentos institucionais) e organizados para consulta. Os trechos não substituem o texto oficial vigente. <span id="rodData"></span></p>
+</footer>
+<script src="dados/trechos.js"></script>
+<script src="dados/notificacao.js"></script>
+<script src="js/notificacao.js"></script>
+</body>
+</html>

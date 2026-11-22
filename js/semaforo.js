@@ -202,7 +202,7 @@
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape') fechar(); });
   var rz; window.addEventListener('resize', function () { clearTimeout(rz); rz = setTimeout(renderTL, 150); });
   (function () { var d = NORMAS.map(function (n) { return n.dataAcesso; }).sort().pop(); if (d) $('#rodData').textContent = 'Dados conferidos em ' + d.split('-').reverse().join('/') + '.'; })();
-  if (/[?&]embed=1/.test(location.search)) document.body.classList.add('embed');
+  if (/[?&]embed=1/.test(location.search)) { document.body.classList.add('embed'); var ln=document.getElementById('lnkNot'); if(ln) ln.href='notificacao.html?embed=1'; }
   var m = /c=([a-z_]+)/.exec(location.hash); if (m && comps[m[1]]) state.comp = m[1];
   renderMapa(); renderTL(); renderPainel();
 })();
