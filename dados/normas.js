@@ -180,5 +180,116 @@ window.NORMAS = [
    "Título curto é proposta",
    "Reconferir ausência de alterações posteriores"
   ]
+ },
+ {
+  "id": "lei6437_1977",
+  "chave": "lei6437_1977",
+  "tipo": "Lei",
+  "numero": "6.437",
+  "ano": 1977,
+  "data": "1977-08-20",
+  "titulo": "Lei nº 6.437, de 20/08/1977 - Configura infrações à legislação sanitária federal, estabelece as sanções respectivas, e dá outras providências.",
+  "tituloCurto": "Infrações sanitárias e sanções",
+  "ementa": "Configura infrações à legislação sanitária federal, estabelece as sanções respectivas, e dá outras providências.",
+  "propositor": "Brasil",
+  "corpoLegislativo": "Congresso Nacional",
+  "historico": "Texto compilado do Planalto, com alterações das Leis nº 9.005/1995, nº 9.695/1998 e nº 13.301/2016 e da Medida Provisória nº 2.190-34/2001, entre outras indicadas na própria página. Publicada no DOU de 24/08/1977 (conforme a nota da página do Planalto).",
+  "url": "https://www.planalto.gov.br/ccivil_03/leis/l6437compilado.htm",
+  "orgao": "Presidência da República",
+  "douData": "1977-08-24",
+  "vigencia": {
+   "situacao": "vigente",
+   "verificadoEm": "2026-11-22",
+   "obs": "Página do Planalto (texto compilado) lida em 22/11/2026 sem marca de revogação geral. Os trechos reproduzem o texto compilado, com as notas de redação da própria página."
+  },
+  "pendencias": [
+   "Página de publicação no DOU",
+   "Legislatura não informada na página (sessão em branco)",
+   "Conferir se o texto das alterações por medida provisória (MP 2.190-34/2001) segue válido por força da EC 32/2001"
+  ],
+  "signatarios": "Ernesto Geisel; Paulo de Almeida Machado",
+  "codigo": "Diário Oficial da União",
+  "volumeCodigo": null,
+  "secao": "Seção 1",
+  "paginas": null,
+  "sessao": null,
+  "doi": null,
+  "dataAcesso": "2026-11-22",
+  "idioma": "pt-BR",
+  "licenca": "Domínio público (Lei nº 9.610/1998, art. 8º, IV)"
+ },
+ {
+  "id": "lei9782_1999",
+  "chave": "lei9782_1999",
+  "tipo": "Lei",
+  "numero": "9.782",
+  "ano": 1999,
+  "data": "1999-01-26",
+  "titulo": "Lei nº 9.782, de 26/01/1999 - Define o Sistema Nacional de Vigilância Sanitária, cria a Agência Nacional de Vigilância Sanitária, e dá outras providências.",
+  "tituloCurto": "Sistema Nacional de Vigilância Sanitária e criação da Anvisa",
+  "ementa": "Define o Sistema Nacional de Vigilância Sanitária, cria a Agência Nacional de Vigilância Sanitária, e dá outras providências.",
+  "propositor": "Brasil",
+  "corpoLegislativo": "Congresso Nacional",
+  "historico": "Conversão da Medida Provisória nº 1.791/1998. Texto compilado do Planalto, com redações dadas pelas Medidas Provisórias nº 2.039-24/2000 e nº 2.190-34/2001 e pela Lei nº 13.097/2015, entre outras indicadas na página. Publicada no DOU de 27/01/1999 (conforme a nota da página do Planalto).",
+  "url": "https://www.planalto.gov.br/ccivil_03/leis/l9782.htm",
+  "orgao": "Presidência da República",
+  "douData": "1999-01-27",
+  "vigencia": {
+   "situacao": "vigente",
+   "verificadoEm": "2026-11-22",
+   "obs": "Página do Planalto (texto compilado) lida em 22/11/2026. Os trechos reproduzem o texto compilado; o art. 3º aparece na página com duas redações e foi usada a mais recente."
+  },
+  "pendencias": [
+   "Página de publicação no DOU",
+   "Legislatura não informada na página (sessão em branco)",
+   "Conferir se o texto das alterações por medida provisória (MP 2.190-34/2001) segue válido por força da EC 32/2001"
+  ],
+  "signatarios": "Antonio Carlos Magalhães (Presidente do Congresso Nacional, promulgação da lei de conversão)",
+  "codigo": "Diário Oficial da União",
+  "volumeCodigo": null,
+  "secao": "Seção 1",
+  "paginas": null,
+  "sessao": null,
+  "doi": null,
+  "dataAcesso": "2026-11-22",
+  "idioma": "pt-BR",
+  "licenca": "Domínio público (Lei nº 9.610/1998, art. 8º, IV)"
+ },
+ {
+  "id": "lei13979_2020",
+  "chave": "lei13979_2020",
+  "tipo": "Lei",
+  "numero": "13.979",
+  "ano": 2020,
+  "data": "2020-02-06",
+  "titulo": "Lei nº 13.979, de 06/02/2020 - Dispõe sobre as medidas para enfrentamento da emergência de saúde pública de importância internacional decorrente do coronavírus responsável pelo surto de 2019.",
+  "tituloCurto": "Medidas de enfrentamento da emergência da covid-19",
+  "ementa": "Dispõe sobre as medidas para enfrentamento da emergência de saúde pública de importância internacional decorrente do coronavírus responsável pelo surto de 2019.",
+  "propositor": "Brasil",
+  "corpoLegislativo": "Congresso Nacional",
+  "historico": "Texto compilado do Planalto, com alterações das Medidas Provisórias nº 926, 927, 928 e 951/2020 e das Leis nº 14.006, 14.019, 14.022, 14.023, 14.028 e 14.035/2020, conforme indicado na página. Publicada no DOU de 07/02/2020 (conforme a nota da página do Planalto). O art. 8º, na redação da Lei nº 14.035/2020, liga a vigência da lei ao Decreto Legislativo nº 6/2020.",
+  "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13979.htm",
+  "orgao": "Presidência da República",
+  "douData": "2020-02-07",
+  "vigencia": {
+   "situacao": "histórica",
+   "verificadoEm": "2026-11-22",
+   "obs": "Lei de vigência temporária: o art. 8º (redação da Lei nº 14.035/2020) a vincula ao Decreto Legislativo nº 6/2020. Conferir a data em que o decreto legislativo deixou de produzir efeitos. Os trechos reproduzem as redações finais mostradas na página do Planalto, que traz também redações antigas e com vigência encerrada."
+  },
+  "pendencias": [
+   "Página de publicação no DOU (o site do DOU não abriu no navegador interno; texto lido no Planalto)",
+   "Confirmar o término da vigência (Decreto Legislativo nº 6/2020)",
+   "Legislatura não informada na página (sessão em branco)"
+  ],
+  "signatarios": "Jair Messias Bolsonaro; Sérgio Moro; Luiz Henrique Mandetta",
+  "codigo": "Diário Oficial da União",
+  "volumeCodigo": null,
+  "secao": "Seção 1",
+  "paginas": null,
+  "sessao": null,
+  "doi": null,
+  "dataAcesso": "2026-11-22",
+  "idioma": "pt-BR",
+  "licenca": "Domínio público (Lei nº 9.610/1998, art. 8º, IV)"
  }
 ];

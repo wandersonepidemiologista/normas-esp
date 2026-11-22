@@ -607,5 +607,343 @@ window.TRECHOS = [
   "fonteUrl": "https://www.in.gov.br/web/dou/-/portaria-interministerial-midr/md-n-3-de-8-de-setembro-de-2025-653989190",
   "verificacao": "Extraído por programa do texto do PDF do DOU (Imprensa Nacional), sem digitação.",
   "status": "proposta"
+ },
+ {
+  "id": "lei6437_1977-art1",
+  "normaId": "lei6437_1977",
+  "dispositivo": "Art. 1º",
+  "texto": "Art. 1º - As infrações à legislação sanitária federal, ressalvadas as previstas expressamente em normas especiais, são as configuradas na presente Lei.",
+  "componentes": [
+   "proteger_mitigar",
+   "gestao_risco"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/leis/l6437compilado.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei6437_1977-art2",
+  "normaId": "lei6437_1977",
+  "dispositivo": "Art. 2º, caput e incisos I a XIII",
+  "texto": "Art. 2º - Sem prejuízo das sanções de natureza civil ou penal cabíveis, as infrações sanitárias serão punidas, alternativa ou cumulativamente, com as penalidades de:\nI - advertência;\nII - multa;\nIII - apreensão de produto;\nIV - inutilização de produto;\nV - interdição de produto;\nVI - suspensão de vendas e/ou fabricação de produto;\nVII - cancelamento de registro de produto;\nVIII - interdição parcial ou total do estabelecimento;\nIX - proibição de propaganda; (Redação dada pela Lei nº 9.695, de 1998)\nX - cancelamento de autorização para funcionamento da empresa; (Redação dada pela Lei nº 9.695, de 1998)\nXI - cancelamento do alvará de licenciamento de estabelecimento; (Redação dada pela Lei nº 9.695, de 1998)\nXI-A - intervenção no estabelecimento que receba recursos públicos de qualquer esfera. (Incluído pela Lei nº 9.695, de 1998)\nXII - imposição de mensagem retificadora; (Incluído pela Medida Provisória nº 2.190-34, de 2001)\nXIII - suspensão de propaganda e publicidade. (Incluído pela Medida Provisória nº 2.190-34, de 2001)",
+  "componentes": [
+   "proteger_mitigar",
+   "responder"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/leis/l6437compilado.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei6437_1977-art10-vi",
+  "normaId": "lei6437_1977",
+  "dispositivo": "Art. 10, caput e inciso VI",
+  "texto": "Art. 10 - São infrações sanitárias:\nVI - deixar, aquele que tiver o dever legal de fazê-lo, de notificar doença ou zoonose transmissível ao homem, de acordo com o que disponham as normas legais ou regulamentares vigentes:\npena - advertência, e/ou multa;",
+  "componentes": [
+   "notificar",
+   "vigilancia"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/leis/l6437compilado.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei6437_1977-art10-vii-ix",
+  "normaId": "lei6437_1977",
+  "dispositivo": "Art. 10, caput e incisos VII a IX",
+  "texto": "Art. 10 - São infrações sanitárias:\nVII - impedir ou dificultar a aplicação de medidas sanitárias relativas às doenças transmissíveis e ao sacrifício de animais domésticos considerados perigosos pelas autoridades sanitárias:\npena - advertência, e/ou multa;\nVIII - reter atestado de vacinação obrigatória, deixar de executar, dificultar ou opor-se à execução de medidas sanitárias que visem à prevenção das doenças transmissíveis e sua disseminação, à preservação e à manutenção da saúde:\npena - advertência, interdição, cancelamento de licença ou autorização, e/ou multa;\nIX - opor-se à exigência de provas imunológicas ou à sua execução pelas autoridades sanitárias:\npena - advertência, e/ou multa;",
+  "componentes": [
+   "responder",
+   "proteger_mitigar",
+   "prevenir"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/leis/l6437compilado.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei6437_1977-art10-x-xxxi",
+  "normaId": "lei6437_1977",
+  "dispositivo": "Art. 10, caput e incisos X e XXXI",
+  "texto": "Art. 10 - São infrações sanitárias:\nX - obstar ou dificultar a ação fiscalizadora das autoridades sanitárias competentes no exercício de suas funções:\nPena - advertência, intervenção, interdição, cancelamento de licença e/ou multa; (Redação dada pela Lei nº 9.695 de 1998)\nXXXI - descumprir atos emanados das autoridades sanitárias competentes visando à aplicação da legislação pertinente:\npena - advertência, apreensão, inutilização e/ou interdição do produto, suspensão de venda e/ou de fabricação do produto, cancelamento do registro do produto; interdição parcial ou total do estabelecimento; cancelamento de autorização para funcionamento da empresa, cancelamento do alvará de licenciamento do estabelecimento, proibição de propaganda e/ou multa; (Redação dada pela Medida Provisória nº 2.190-34, de 2001)",
+  "componentes": [
+   "gestao_risco",
+   "responder"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/leis/l6437compilado.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei6437_1977-art10-xxiii",
+  "normaId": "lei6437_1977",
+  "dispositivo": "Art. 10, caput e inciso XXIII",
+  "texto": "Art. 10 - São infrações sanitárias:\nXXIII - descumprimento de normas legais e regulamentares, medidas, formalidades e outras exigências sanitárias pelas empresas de transportes, seus agentes e consignatários, comandantes ou responsáveis diretos por embarcações, aeronaves, ferrovias, veículos terrestres, nacionais e estrangeiros:\npena - advertência, interdição, e/ou multa;",
+  "componentes": [
+   "prevenir",
+   "proteger_mitigar"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/leis/l6437compilado.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei6437_1977-art10-xlii",
+  "normaId": "lei6437_1977",
+  "dispositivo": "Art. 10, caput e inciso XLII",
+  "texto": "Art. 10 - São infrações sanitárias:\nXLII - reincidir na manutenção de focos de vetores no imóvel por descumprimento de recomendação das autoridades sanitárias: (Incluído pela Lei nº 13.301, de 2016)\nPena - multa de 10% (dez por cento) dos valores previstos no inciso I do § 1o do art. 2o, aplicada em dobro em caso de nova reincidência.",
+  "componentes": [
+   "proteger_mitigar",
+   "prevenir"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/leis/l6437compilado.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei9782_1999-art1",
+  "normaId": "lei9782_1999",
+  "dispositivo": "Art. 1º",
+  "texto": "Art. 1º O Sistema Nacional de Vigilância Sanitária compreende o conjunto de ações definido pelo § 1º do art. 6º e pelos arts. 15 a 18 da Lei nº 8.080, de 19 de setembro de 1990, executado por instituições da Administração Pública direta e indireta da União, dos Estados, do Distrito Federal e dos Municípios, que exerçam atividades de regulação, normatização, controle e fiscalização na área de vigilância sanitária.",
+  "componentes": [
+   "vigilancia",
+   "gestao_risco"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/leis/l9782.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei9782_1999-art2",
+  "normaId": "lei9782_1999",
+  "dispositivo": "Art. 2º, caput e incisos I a VIII",
+  "texto": "Art. 2º Compete à União no âmbito do Sistema Nacional de Vigilância Sanitária:\nI - definir a política nacional de vigilância sanitária;\nII - definir o Sistema Nacional de Vigilância Sanitária;\nIII - normatizar, controlar e fiscalizar produtos, substâncias e serviços de interesse para a saúde;\nIV - exercer a vigilância sanitária de portos, aeroportos e fronteiras, podendo essa atribuição ser supletivamente exercida pelos Estados, pelo Distrito Federal e pelos Municípios;\nV - acompanhar e coordenar as ações estaduais, distrital e municipais de vigilância sanitária;\nVI - prestar cooperação técnica e financeira aos Estados, ao Distrito Federal e aos Municípios;\nVII - atuar em circunstâncias especiais de risco à saúde; e\nVIII - manter sistema de informações em vigilância sanitária, em cooperação com os Estados, o Distrito Federal e os Municípios.",
+  "componentes": [
+   "vigilancia",
+   "gestao_risco",
+   "responder"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/leis/l9782.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei9782_1999-art3",
+  "normaId": "lei9782_1999",
+  "dispositivo": "Art. 3º, caput",
+  "texto": "Art. 3o Fica criada a Agência Nacional de Vigilância Sanitária - ANVISA, autarquia sob regime especial, vinculada ao Ministério da Saúde, com sede e foro no Distrito Federal, prazo de duração indeterminado e atuação em todo território nacional. (Redação dada pela Medida Provisória nº 2.039-24, de 2000) (Redação dada pela Medida Provisória nº 2.190-34, de 2001)",
+  "componentes": [
+   "gestao_risco"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/leis/l9782.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei9782_1999-art6",
+  "normaId": "lei9782_1999",
+  "dispositivo": "Art. 6º",
+  "texto": "Art. 6º A Agência terá por finalidade institucional promover a proteção da saúde da população, por intermédio do controle sanitário da produção e da comercialização de produtos e serviços submetidos à vigilância sanitária, inclusive dos ambientes, dos processos, dos insumos e das tecnologias a eles relacionados, bem como o controle de portos, aeroportos e de fronteiras.",
+  "componentes": [
+   "proteger_mitigar",
+   "prevenir"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/leis/l9782.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei9782_1999-art7-xiv-xvi",
+  "normaId": "lei9782_1999",
+  "dispositivo": "Art. 7º, caput e incisos XIV a XVI",
+  "texto": "Art. 7º Compete à Agência proceder à implementação e à execução do disposto nos incisos II a VII do art. 2º desta Lei, devendo:\nXIV - interditar, como medida de vigilância sanitária, os locais de fabricação, controle, importação, armazenamento, distribuição e venda de produtos e de prestação de serviços relativos à saúde, em caso de violação da legislação pertinente ou de risco iminente à saúde;\nXV - proibir a fabricação, a importação, o armazenamento, a distribuição e a comercialização de produtos e insumos, em caso de violação da legislação pertinente ou de risco iminente à saúde;\nXVI - cancelar a autorização de funcionamento e a autorização especial de funcionamento de empresas, em caso de violação da legislação pertinente ou de risco iminente à saúde;",
+  "componentes": [
+   "responder",
+   "proteger_mitigar"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/leis/l9782.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei9782_1999-art7-xvii-xx",
+  "normaId": "lei9782_1999",
+  "dispositivo": "Art. 7º, caput e incisos XVII, XVIII e XX",
+  "texto": "Art. 7º Compete à Agência proceder à implementação e à execução do disposto nos incisos II a VII do art. 2º desta Lei, devendo:\nXVII - coordenar as ações de vigilância sanitária realizadas por todos os laboratórios que compõem a rede oficial de laboratórios de controle de qualidade em saúde;\nXVIII - estabelecer, coordenar e monitorar os sistemas de vigilância toxicológica e farmacológica;\nXX - manter sistema de informação contínuo e permanente para integrar suas atividades com as demais ações de saúde, com prioridade às ações de vigilância epidemiológica e assistência ambulatorial e hospitalar;",
+  "componentes": [
+   "vigilancia",
+   "detectar"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/leis/l9782.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei9782_1999-art7-p3",
+  "normaId": "lei9782_1999",
+  "dispositivo": "Art. 7º, § 3º",
+  "texto": "§ 3º As atividades de vigilância epidemiológica e de controle de vetores relativas a portos, aeroportos e fronteiras, serão executadas pela Agência, sob orientação técnica e normativa do Ministério da Saúde.",
+  "componentes": [
+   "vigilancia",
+   "prevenir",
+   "detectar"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/leis/l9782.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei9782_1999-art8",
+  "normaId": "lei9782_1999",
+  "dispositivo": "Art. 8º, caput",
+  "texto": "Art. 8º Incumbe à Agência, respeitada a legislação em vigor, regulamentar, controlar e fiscalizar os produtos e serviços que envolvam risco à saúde pública.",
+  "componentes": [
+   "avaliacao_risco",
+   "gestao_risco"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/leis/l9782.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei13979_2020-art1",
+  "normaId": "lei13979_2020",
+  "dispositivo": "Art. 1º, caput e § 1º",
+  "texto": "Art. 1º Esta Lei dispõe sobre as medidas que poderão ser adotadas para enfrentamento da emergência de saúde pública de importância internacional decorrente do coronavírus responsável pelo surto de 2019.\n§ 1º As medidas estabelecidas nesta Lei objetivam a proteção da coletividade.",
+  "componentes": [
+   "proteger_mitigar",
+   "gestao_risco"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13979.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei13979_2020-art1-p2p3",
+  "normaId": "lei13979_2020",
+  "dispositivo": "Art. 1º, §§ 2º e 3º",
+  "texto": "§ 2º Ato do Ministro de Estado da Saúde disporá sobre a duração da situação de emergência de saúde pública de que trata esta Lei. (Vide Decreto nº 10.538, de 2020)\n§ 3º O prazo de que trata o § 2º deste artigo não poderá ser superior ao declarado pela Organização Mundial de Saúde.",
+  "componentes": [
+   "ativar",
+   "desativar"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13979.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei13979_2020-art2",
+  "normaId": "lei13979_2020",
+  "dispositivo": "Art. 2º, caput e incisos I e II",
+  "texto": "Art. 2º Para fins do disposto nesta Lei, considera-se:\nI - isolamento: separação de pessoas doentes ou contaminadas, ou de bagagens, meios de transporte, mercadorias ou encomendas postais afetadas, de outros, de maneira a evitar a contaminação ou a propagação do coronavírus; e\nII - quarentena: restrição de atividades ou separação de pessoas suspeitas de contaminação das pessoas que não estejam doentes, ou de bagagens, contêineres, animais, meios de transporte ou mercadorias suspeitos de contaminação, de maneira a evitar a possível contaminação ou a propagação do coronavírus.",
+  "componentes": [
+   "proteger_mitigar",
+   "responder"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13979.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei13979_2020-art3-i-iii",
+  "normaId": "lei13979_2020",
+  "dispositivo": "Art. 3º, caput e incisos I a III",
+  "texto": "Art. 3º Para enfrentamento da emergência de saúde pública de importância internacional de que trata esta Lei, as autoridades poderão adotar, no âmbito de suas competências, entre outras, as seguintes medidas: (Redação dada pela Lei nº 14.035, de 2020)\nI - isolamento;\nII - quarentena;\nIII - determinação de realização compulsória de:\na) exames médicos;\nb) testes laboratoriais;\nc) coleta de amostras clínicas;\nd) vacinação e outras medidas profiláticas; ou (Vide ADPF nº 754)\ne) tratamentos médicos específicos;",
+  "componentes": [
+   "proteger_mitigar",
+   "responder"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13979.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei13979_2020-art3-iv",
+  "normaId": "lei13979_2020",
+  "dispositivo": "Art. 3º, caput e inciso IV",
+  "texto": "Art. 3º Para enfrentamento da emergência de saúde pública de importância internacional de que trata esta Lei, as autoridades poderão adotar, no âmbito de suas competências, entre outras, as seguintes medidas: (Redação dada pela Lei nº 14.035, de 2020)\nIV - estudo ou investigação epidemiológica;",
+  "componentes": [
+   "verificar",
+   "vigilancia"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13979.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei13979_2020-art3-p1",
+  "normaId": "lei13979_2020",
+  "dispositivo": "Art. 3º, § 1º",
+  "texto": "§ 1º As medidas previstas neste artigo somente poderão ser determinadas com base em evidências científicas e em análises sobre as informações estratégicas em saúde e deverão ser limitadas no tempo e no espaço ao mínimo indispensável à promoção e à preservação da saúde pública.",
+  "componentes": [
+   "avaliacao_risco",
+   "gestao_risco"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13979.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei13979_2020-art5",
+  "normaId": "lei13979_2020",
+  "dispositivo": "Art. 5º",
+  "texto": "Art. 5º Toda pessoa colaborará com as autoridades sanitárias na comunicação imediata de:\nI - possíveis contatos com agentes infecciosos do coronavírus;\nII - circulação em áreas consideradas como regiões de contaminação pelo coronavírus.",
+  "componentes": [
+   "notificar",
+   "detectar"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13979.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei13979_2020-art6",
+  "normaId": "lei13979_2020",
+  "dispositivo": "Art. 6º, caput e §§ 1º e 2º",
+  "texto": "Art. 6º É obrigatório o compartilhamento entre órgãos e entidades da administração pública federal, estadual, distrital e municipal de dados essenciais à identificação de pessoas infectadas ou com suspeita de infecção pelo coronavírus, com a finalidade exclusiva de evitar a sua propagação.\n§ 1º A obrigação a que se refere o caput deste artigo estende-se às pessoas jurídicas de direito privado quando os dados forem solicitados por autoridade sanitária.\n§ 2º O Ministério da Saúde manterá dados públicos e atualizados sobre os casos confirmados, suspeitos e em investigação, relativos à situação de emergência pública sanitária, resguardando o direito ao sigilo das informações pessoais.",
+  "componentes": [
+   "vigilancia",
+   "comunicacao_risco",
+   "notificar"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13979.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
+ },
+ {
+  "id": "lei13979_2020-art8",
+  "normaId": "lei13979_2020",
+  "dispositivo": "Art. 8º",
+  "texto": "Art. 8º Esta Lei vigorará enquanto estiver vigente o Decreto Legislativo nº 6, de 20 de março de 2020, observado o disposto no art. 4º-H desta Lei. (Redação dada pela Lei nº 14.035, de 2020)",
+  "componentes": [
+   "desativar"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13979.htm",
+  "verificacao": "Texto conferido por hash (SHA-256 do texto normalizado) contra a página do Planalto lida em 22/11/2026.",
+  "status": "proposta"
  }
 ];

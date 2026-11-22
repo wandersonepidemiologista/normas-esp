@@ -60,7 +60,7 @@ window.LINHA_TEMPO = {
    "desc": "Infrações à legislação sanitária e sanções",
    "cat": "saude",
    "foraMatriz": true,
-   "fichaId": null
+   "fichaId": "lei6437_1977"
   },
   {
    "ano": 1990,
@@ -76,7 +76,7 @@ window.LINHA_TEMPO = {
    "desc": "Cria a Anvisa; vigilância em portos, aeroportos e fronteiras",
    "cat": "saude",
    "foraMatriz": true,
-   "fichaId": null
+   "fichaId": "lei9782_1999"
   },
   {
    "ano": 1999,
@@ -200,11 +200,20 @@ window.LINHA_TEMPO = {
   },
   {
    "ano": 2020,
-   "nome": "Portaria GM/MS nº 188/2020 e Lei nº 13.979/2020",
-   "desc": "ESPIN e medidas da covid-19; ESPIN encerrada em 2022",
+   "nome": "Portaria GM/MS nº 188/2020",
+   "desc": "Declara a ESPIN pela covid-19; encerrada em 2022",
    "cat": "trans",
    "foraMatriz": false,
    "fichaId": null
+  },
+  {
+   "ano": 2020,
+   "data": "2020-02-06",
+   "nome": "Lei nº 13.979/2020",
+   "desc": "Medidas de enfrentamento da emergência da covid-19 (isolamento, quarentena, compartilhamento de dados)",
+   "cat": "hist",
+   "foraMatriz": false,
+   "fichaId": "lei13979_2020"
   },
   {
    "ano": 2020,
