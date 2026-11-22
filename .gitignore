@@ -1,0 +1,5 @@
+# Windows / Google Drive
+desktop.ini
+**/desktop.ini
+*.lock
+l8080_raw.html
