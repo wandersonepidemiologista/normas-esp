@@ -190,3 +190,21 @@ window.NOTIFICACAO.linhasNova = `1~a. Acidente de trabalho com exposição a mat
 66~Varicela (casos leve, grave internado ou óbito)~0~1~1~0
 67~a. Violência doméstica e/ou outras violências~0~0~0~1
 67~b. Violência sexual e tentativa de suicídio~0~0~1~0`;
+
+// Lista Nacional de Doenças e Agravos a serem Monitorados pela Estratégia de Vigilância Sentinela (Anexo XLIII da Portaria de Consolidação GM/MS nº 5/2017)
+// Vigente: redação da PRT GM/MS 11.211/2026 (BVS, lida em 22/11/2026). Nova: Anexo II da Portaria GM/MS 12.508/2026 (DOU de 17/11/2026), ainda não em vigor.
+window.NOTIFICACAO.sentinela = [
+ ["I", "Vigilância sentinela de doenças bacterianas de transmissão respiratória", ["Doença invasiva por Haemophilus influenzae (DIH)", "Doença pneumocócica invasiva (DPI)"]],
+ ["II", "Vigilância sentinela de vírus respiratórios de importância em saúde pública", ["Síndrome Gripal (SG)"]],
+ ["III", "Vigilância de doenças de transmissão hídrica e/ou alimentar", ["Rotavírus", "Doença Diarreica Aguda", "Síndrome Hemolítica Urêmica"]],
+ ["IV", "Vigilância de doenças sexualmente transmissíveis", ["Síndrome de Corrimento Uretral Masculino"]],
+ ["V", "Síndrome neurológica pós infecção febril exantemática", []]
+];
+window.NOTIFICACAO.sentinelaNova = [
+ ["I", "Vigilância sentinela de doenças bacterianas de transmissão respiratória", ["Doença invasiva por Haemophilus influenzae (DIHi)", "Doença invasiva por Streptococcus pneumoniae (Doença pneumocócica invasiva - DPI)"]],
+ ["II", "Vigilância sentinela de vírus respiratórios de importância em saúde pública", ["Síndrome Gripal (SG)"]],
+ ["III", "Vigilância de doenças de transmissão hídrica e/ou alimentar", ["Rotavírus", "Doença Diarreica Aguda", "Síndrome Hemolítica Urêmica"]],
+ ["IV", "Vigilância de doenças sexualmente transmissíveis", ["Síndrome de Corrimento Uretral Masculino"]],
+ ["V", "Síndrome neurológica pós infecção febril exantemática", []]
+];
+window.NOTIFICACAO.sentinelaMudou = {"1.1": "Sigla alterada: DIHi", "1.2": "Nome alterado: doença invasiva por Streptococcus pneumoniae"};

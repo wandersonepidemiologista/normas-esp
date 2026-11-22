@@ -42,16 +42,25 @@
   st.f=b.getAttribute('data-f'); [].forEach.call(document.querySelectorAll('.ff'),function(o){o.setAttribute('aria-pressed',o===b?'true':'false')}); draw();});});
  document.getElementById('futura').textContent=D.futura;
  var f=document.getElementById('fonteNot'); f.innerHTML='Fonte: '+esc(D.fonte)+' <a href="'+esc(D.url)+'" target="_blank" rel="noopener">Abrir na BVS</a>.';
+ function drawSent(){
+  var S=(st.v==='nova'&&D.sentinelaNova)?D.sentinelaNova:D.sentinela, h='';
+  S.forEach(function(g,gi){
+   h+='<div class="sent"><div class="gr">'+esc(g[0])+'. '+esc(g[1])+'</div>';
+   if(g[2].length){h+='<ol>'+g[2].map(function(it,ii){var m=(st.v==='nova'&&D.sentinelaMudou)?D.sentinelaMudou[(gi+1)+'.'+(ii+1)]:'';return '<li>'+esc(it)+(m?'<span class="nv">'+esc(m)+'</span>':'')+'</li>'}).join('')+'</ol>';}
+   h+='</div>';
+  });
+  document.getElementById('sentinela').innerHTML=h;
+ }
  function setV(v){
   st.v=v; L=(v==='nova'&&LN)?LN:LV; ESP=(v==='nova')?D.espNova:D.esp;
   document.getElementById('vVig').setAttribute('aria-pressed',v==='vig'?'true':'false');
   document.getElementById('vNova').setAttribute('aria-pressed',v==='nova'?'true':'false');
   var av=document.getElementById('avNova'); av.hidden=(v!=='nova'); av.textContent=D.novaAviso||'';
   f.innerHTML=(v==='nova'?'Fonte: '+esc(D.novaFonte)+' <a href="'+esc(D.novaUrl)+'" target="_blank" rel="noopener">Abrir no DOU</a>.':'Fonte: '+esc(D.fonte)+' <a href="'+esc(D.url)+'" target="_blank" rel="noopener">Abrir na BVS</a>.');
-  draw();
+  draw(); drawSent();
  }
  document.getElementById('vVig').addEventListener('click',function(){setV('vig')});
  document.getElementById('vNova').addEventListener('click',function(){setV('nova')});
  if(!LN) document.getElementById('vNova').style.display='none';
- draw();
+ draw(); drawSent();
 })();
