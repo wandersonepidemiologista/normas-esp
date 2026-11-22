@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Normas ESP — Legislação em Epidemiologia e Emergências em Saúde Pública</title>
+    <meta name="description" content="Repositório interativo de Leis, Decretos, Portarias e Resoluções em Vigilância Epidemiológica e Gestão de Emergências em Saúde Pública.">
+    <style>
+        :root {
+            --primary: #0F294A;
+            --primary-mid: #1E40AF;
+            --secondary: #0369A1;
+            --accent-bg: #F0F9FF;
+            --border: #E2E8F0;
+            --highlight: #FEF08A;
+            --highlight-active: #FDBA74;
+            --highlight-ring: #EA580C;
+            --text: #1E293B;
+            --muted: #64748B;
+            --bg: #F8FAFC;
+            --card: #FFFFFF;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+            color: var(--text);
+            line-height: 1.7;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg);
+        }
+        /* Cabeçalho Editorial (ocultado automaticamente quando ?embed=1) */
+        .editorial-topbar {
+            background: linear-gradient(135deg, var(--primary) 0%, #163E73 100%);
+            color: #FFFFFF;
+            padding: 18px 20px;
+            border-bottom: 3px solid #38BDF8;
+        }
+        body.is-embed .editorial-topbar {
+            display: none;
+        }
+        .editorial-topbar-inner {
+            max-width: 980px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: 12px;
+        }
+        .brand-title {
+            margin: 0;
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+        }
+        .brand-subtitle {
+            margin: 2px 0 0 0;
+            font-size: 13px;
+            color: #BAE6FD;
+        }
+        .brand-links {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .brand-link {
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: 12.5px;
+            font-weight: 600;
+            background: rgba(255, 255, 255, 0.14);
+            padding: 6px 12px;
+            border-radius: 6px;
+            border: 1px solid rgba(255, 255, 255, 0.22);
+            transition: background 0.15s;
+        }
+        .brand-link:hover {
+            background: rgba(255, 255, 255, 0.25);
+        }
+
+        /* Painel Fixo de Navegação */
+        .sticky-header {
+            position: sticky;
+            top: 0;
+            background: var(--card);
+            border-bottom: 2px solid var(--border);
+            z-index: 1000;
+            box-shadow: 0 4px 14px rgba(15, 23, 42, 0.06);
+            padding: 14px 20px;
+        }
+        .header-inner {
+            max-width: 980px;
+            margin: 0 auto;
+        }
+        .selector-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 12px;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 12px;
+        }
+        .cat-tabs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+        .cat-tab {
+            background: #F1F5F9;
+            border: 1px solid #CBD5E1;
+            color: #334155;
+            padding: 5px 11px;
+            border-radius: 6px;
+            font-size: 12.5px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+        .cat-tab:hover {
+            background: #E2E8F0;
+        }
+        .cat-tab.active {
+            background: var(--primary);
+            color: #FFFFFF;
+            border-color: var(--primary);
+        }
+        .doc-select-wrapper {
+            display: flex;
+            flex: 1;
+            min-width: 260px;
+            max-width: 520px;
+        }
+        .doc-select {
+            width: 100%;
+            padding: 7px 12px;
+            border: 1px solid #94A3B8;
+            border-radius: 6px;
+            font-size: 13.5px;
+            font-weight: 600;
+            color: var(--primary);
+            background-color: #FFFFFF;
+            cursor: pointer;
+        }
+        .nav-label-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+        .legis-menu-title {
+            font-size: 12.5px;
+            font-weight: 700;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+        }
+        .search-controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            align-items: center;
+        }
+        .custom-search {
+            padding: 5px 10px;
+            border: 1px solid #CBD5E1;
+            border-radius: 6px;
+            font-size: 13px;
+            width: 210px;
+        }
+        .custom-search:focus {
+            outline: none;
+            border-color: var(--secondary);
+            box-shadow: 0 0 0 2px rgba(3, 105, 161, 0.15);
+        }
+        .match-nav {
+            display: none;
+            align-items: center;
+            gap: 6px;
+            background: var(--accent-bg);
+            border: 1px solid #BAE6FD;
+            padding: 3px 8px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--primary);
+        }
+        .match-nav.visible {
+            display: inline-flex;
+        }
+        .nav-arrow {
+            background: var(--secondary);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 3px 8px;
+            cursor: pointer;
+            font-size: 11px;
+            font-weight: bold;
+        }
+        .nav-arrow:hover {
+            background: var(--primary);
+        }
+        .terms-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            align-items: center;
+        }
+        .term-btn {
+            background: #FFFFFF;
+            border: 1px solid var(--secondary);
+            color: var(--secondary);
+            padding: 4px 10px;
+            border-radius: 14px;
+            font-size: 12.5px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+        .term-btn:hover:not(.disabled) {
+            background: var(--secondary);
+            color: #FFFFFF;
+        }
+        .term-btn.active-term {
+            background: var(--primary);
+            color: #FFFFFF;
+            border-color: var(--primary);
+        }
+        .term-btn.disabled {
+            border-color: #E2E8F0;
+            color: #94A3B8;
+            background: #F8FAFC;
+            cursor: not-allowed;
+        }
+        .term-btn.other-doc {
+            border-style: dashed;
+            border-color: #64748B;
+            color: #334155;
+            background: #F8FAFC;
+        }
+        .term-btn.other-doc:hover {
+            background: #E2E8F0;
+            color: var(--primary);
+        }
+        .clear-btn {
+            background: #E2E8F0;
+            border: 1px solid #CBD5E1;
+            color: #334155;
+            padding: 4px 10px;
+            border-radius: 14px;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .clear-btn:hover {
+            background: #CBD5E1;
+        }
+
+        /* Área de Leitura Editorial */
+        #legis-container {
+            max-width: 920px;
+            margin: 24px auto 48px auto;
+            background: var(--card);
+            padding: 36px 44px;
+            box-shadow: 0 2px 10px rgba(15, 23, 42, 0.05);
+            border-radius: 10px;
+            border: 1px solid var(--border);
+        }
+        .doc-banner {
+            background: #F1F5F9;
+            border-left: 4px solid var(--secondary);
+            padding: 14px 18px;
+            border-radius: 0 8px 8px 0;
+            margin-bottom: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+        }
+        .doc-badge {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 2px 8px;
+            border-radius: 4px;
+            margin-right: 8px;
+            letter-spacing: 0.04em;
+        }
+        .doc-orgao {
+            font-size: 12.5px;
+            color: var(--muted);
+            display: block;
+            margin-top: 3px;
+        }
+        .doc-actions {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        .doc-action-btn {
+            font-size: 12.5px;
+            color: var(--primary);
+            background: #FFFFFF;
+            border: 1px solid #CBD5E1;
+            padding: 5px 10px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .doc-action-btn:hover {
+            background: #E2E8F0;
+        }
+
+        /* Sumário interno da norma (Títulos/Capítulos) */
+        .doc-toc {
+            background: #F8FAFC;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 12px 16px;
+            margin-bottom: 24px;
+            font-size: 13px;
+        }
+        .doc-toc-title {
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 6px;
+            font-size: 12.5px;
+            text-transform: uppercase;
+        }
+        .doc-toc-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .doc-toc-link {
+            color: var(--secondary);
+            text-decoration: none;
+            background: #FFFFFF;
+            border: 1px solid #CBD5E1;
+            padding: 3px 9px;
+            border-radius: 5px;
+            font-size: 12px;
+        }
+        .doc-toc-link:hover {
+            background: var(--accent-bg);
+            border-color: var(--secondary);
+        }
+
+        /* Tipografia Jurídica */
+        #legis-content h2.doc-official-title {
+            color: var(--primary);
+            font-size: 20px;
+            margin: 8px 0;
+            text-align: center;
+        }
+        #legis-content h3 {
+            color: var(--primary);
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 6px;
+            margin-top: 30px;
+            font-size: 16px;
+            scroll-margin-top: 170px;
+        }
+        #legis-content p {
+            margin-bottom: 14px;
+            text-align: justify;
+        }
+        #legis-content p.doc-meta {
+            text-align: center;
+            font-size: 13px;
+            color: var(--muted);
+            margin-bottom: 4px;
+        }
+        #legis-content p.doc-ementa {
+            background: var(--accent-bg);
+            border-left: 3px solid var(--secondary);
+            padding: 12px 16px;
+            border-radius: 0 6px 6px 0;
+            color: #1E293B;
+            font-size: 14.5px;
+            margin: 14px 0 22px 0;
+        }
+        #legis-content p.artigo {
+            margin-top: 16px;
+        }
+        #legis-content p.paragrafo,
+        #legis-content p.inciso {
+            margin-left: 24px;
+        }
+        #legis-content p.doc-footer {
+            margin-top: 32px;
+            padding-top: 16px;
+            border-top: 1px solid var(--border);
+            font-size: 14px;
+            color: #475569;
+        }
+        .highlighted-term {
+            background-color: var(--highlight);
+            font-weight: 700;
+            border-radius: 3px;
+            padding: 1px 2px;
+        }
+        .highlighted-active {
+            background-color: var(--highlight-active);
+            box-shadow: 0 0 0 2px var(--highlight-ring);
+        }
+        .editorial-footer {
+            max-width: 920px;
+            margin: 0 auto 36px auto;
+            text-align: center;
+            font-size: 12.5px;
+            color: var(--muted);
+            padding: 0 16px;
+        }
+        .editorial-footer a {
+            color: var(--secondary);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        @media (max-width: 640px) {
+            #legis-container {
+                margin: 12px;
+                padding: 20px 18px;
+            }
+            .sticky-header {
+                padding: 10px 12px;
+            }
+        }
+        @media print {
+            .editorial-topbar, .sticky-header, .doc-actions, .doc-toc, .editorial-footer {
+                display: none !important;
+            }
+            #legis-container {
+                box-shadow: none;
+                border: none;
+                margin: 0;
+                padding: 0;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="editorial-topbar">
+        <div class="editorial-topbar-inner">
+            <div>
+                <h1 class="brand-title">Normas ESP &mdash; Legislação em Saúde Pública</h1>
+                <p class="brand-subtitle">Vigilância Epidemiológica, Resposta a Surtos e Gestão de Emergências</p>
+            </div>
+            <div class="brand-links">
+                <a class="brand-link" href="https://www.wandersonepidemiologista.com" target="_blank" rel="noopener">wandersonepidemiologista.com &#8599;</a>
+                <a class="brand-link" href="https://github.com/wandersonepidemiologista/normas-esp" target="_blank" rel="noopener">Repositório GitHub &#8599;</a>
+            </div>
+        </div>
+    </div>
+
+    <header class="sticky-header">
+        <div class="header-inner">
+            <div class="selector-bar">
+                <div class="cat-tabs" id="cat-tabs"></div>
+                <div class="doc-select-wrapper">
+                    <select id="doc-select" class="doc-select" aria-label="Selecionar legislação"></select>
+                </div>
+            </div>
+
+            <div class="nav-label-row">
+                <span class="legis-menu-title">Navegação Rápida &mdash; Gestão de Risco &amp; Epidemiologia</span>
+                <div class="search-controls">
+                    <input type="text" id="custom-search" class="custom-search" placeholder="Buscar termo ou artigo (Enter)..." />
+                    <div id="match-nav" class="match-nav">
+                        <button class="nav-arrow" id="prev-match" title="Ocorrência anterior (Shift+Enter)">&#9664;</button>
+                        <span id="match-counter">0 de 0</span>
+                        <button class="nav-arrow" id="next-match" title="Próxima ocorrência (Enter)">&#9654;</button>
+                    </div>
+                    <button class="clear-btn" id="clear-btn">Limpar</button>
+                </div>
+            </div>
+
+            <div class="terms-grid" id="terms-grid"></div>
+        </div>
+    </header>
+
+    <main id="legis-container">
+        <div class="doc-banner" id="doc-banner"></div>
+        <div id="doc-toc-container"></div>
+        <article id="legis-content"></article>
+    </main>
+
+    <footer class="editorial-footer">
+        Editoração digital de normas sanitárias &bull; <a href="https://www.wandersonepidemiologista.com" target="_blank" rel="noopener">Wanderson Epidemiologista</a>
+    </footer>
+
+    <!-- Catálogo de Legislações -->
+    <script src="legislacoes.js"></script>
+
+    <script>
+        // Detecta modo iframe (?embed=1) para ocultar topo redundante no Wix
+        if (new URLSearchParams(window.location.search).get("embed") === "1") {
+            document.body.classList.add("is-embed");
+        }
+
+        const CATALOGO = Array.isArray(window.LEGISLACOES) ? window.LEGISLACOES : [];
+
+        const TERMOS_CHAVE = [
+            { label: "Prevenir", root: "preven" },
+            { label: "Proteger", root: "prote" },
+            { label: "Mitigar", root: "mitig" },
+            { label: "Preparar", root: "prepar" },
+            { label: "Detectar", root: "detect" },
+            { label: "Verificar", root: "verific" },
+            { label: "Notificar", root: "notific" },
+            { label: "Ativar", root: "ativ" },
+            { label: "Responder", root: "respond" },
+            { label: "Controlar", root: "control" },
+            { label: "Conter", root: "cont" },
+            { label: "Desativar", root: "desativ" },
+            { label: "Desmobilizar", root: "desmobiliz" },
+            { label: "Recuperar", root: "recuper" },
+            { label: "Aprender", root: "aprend" },
+            { label: "Risco", root: "risco" },
+            { label: "Comunicação", root: "comunica" },
+            { label: "Lições aprendidas", root: "licoes aprendidas" },
+            { label: "emergências", root: "emergencia" },
+            { label: "surtos", root: "surto" },
+            { label: "epidemias", root: "epidemia" }
+        ];
+
+        const CATEGORIAS_FIXAS = ["Todas", "Lei", "Decreto", "Portaria", "Resolução"];
+
+        let categoriaAtiva = "Todas";
+        let legislacaoAtivaId = CATALOGO[0]?.id || "";
+        let termoAtivo = "";
+        let matches = [];
+        let currentMatchIndex = -1;
+
+        const removeAccents = (str) => str.normalize("NFD").replace(/[̀-ͯ]/g, "");
+
+        function getPlainText(html) {
+            const tmp = document.createElement("div");
+            tmp.innerHTML = html;
+            return removeAccents(tmp.textContent || "").toLowerCase();
+        }
+
+        function countRootOccurrences(normalizedText, root) {
+            if (!root) return 0;
+            const escaped = root.replace(/[.*+?^${}()|[\]\]/g, '\$&');
+            const regex = new RegExp(escaped, "g");
+            const found = normalizedText.match(regex);
+            return found ? found.length : 0;
+        }
+
+        function renderCategoryTabs() {
+            const container = document.getElementById("cat-tabs");
+            container.innerHTML = "";
+            const tiposExtras = [...new Set(CATALOGO.map(l => l.tipo))].filter(t => !CATEGORIAS_FIXAS.includes(t));
+            const todasCategorias = [...CATEGORIAS_FIXAS, ...tiposExtras];
+
+            todasCategorias.forEach(cat => {
+                const count = cat === "Todas"
+                    ? CATALOGO.length
+                    : CATALOGO.filter(l => l.tipo.toLowerCase() === cat.toLowerCase()).length;
+
+                const btn = document.createElement("button");
+                btn.className = "cat-tab" + (categoriaAtiva === cat ? " active" : "");
+                const labelPlural = cat === "Todas" ? "Todas" : (cat === "Lei" ? "Leis" : (cat === "Resolução" ? "Resoluções" : cat + "s"));
+                btn.textContent = `${labelPlural} (${count})`;
+                btn.onclick = () => {
+                    categoriaAtiva = cat;
+                    renderCategoryTabs();
+                    renderDocSelector();
+                };
+                container.appendChild(btn);
+            });
+        }
+
+        function renderDocSelector() {
+            const select = document.getElementById("doc-select");
+            select.innerHTML = "";
+            const filtradas = categoriaAtiva === "Todas"
+                ? CATALOGO
+                : CATALOGO.filter(l => l.tipo.toLowerCase() === categoriaAtiva.toLowerCase());
+
+            if (filtradas.length === 0) {
+                const opt = document.createElement("option");
+                opt.textContent = `Nenhuma norma cadastrada em "${categoriaAtiva}"`;
+                select.appendChild(opt);
+                return;
+            }
+
+            if (!filtradas.some(l => l.id === legislacaoAtivaId)) {
+                legislacaoAtivaId = filtradas[0].id;
+            }
+
+            filtradas.forEach(leg => {
+                const opt = document.createElement("option");
+                opt.value = leg.id;
+                opt.textContent = `[${leg.tipo}] ${leg.titulo}`;
+                if (leg.id === legislacaoAtivaId) opt.selected = true;
+                select.appendChild(opt);
+            });
+
+            select.onchange = (e) => {
+                legislacaoAtivaId = e.target.value;
+                renderActiveLegislation();
+            };
+
+            renderActiveLegislation();
+        }
+
+        function buildTableOfContents() {
+            const tocContainer = document.getElementById("doc-toc-container");
+            const headings = document.querySelectorAll("#legis-content h3");
+            if (headings.length === 0) {
+                tocContainer.innerHTML = "";
+                return;
+            }
+            let linksHtml = "";
+            headings.forEach((h, i) => {
+                if (!h.id) h.id = `sec-auto-${i}`;
+                linksHtml += `<a class="doc-toc-link" href="#${h.id}">${h.textContent}</a>`;
+            });
+            tocContainer.innerHTML = `
+                <nav class="doc-toc" aria-label="Estrutura da norma">
+                    <div class="doc-toc-title">Estrutura da Norma</div>
+                    <div class="doc-toc-list">${linksHtml}</div>
+                </nav>
+            `;
+        }
+
+        function renderActiveLegislation() {
+            const leg = CATALOGO.find(l => l.id === legislacaoAtivaId);
+            if (!leg) return;
+
+            const banner = document.getElementById("doc-banner");
+            banner.innerHTML = `
+                <div>
+                    <span class="doc-badge">${leg.tipo}</span>
+                    <strong>${leg.titulo}</strong>
+                    ${leg.orgao ? `<span class="doc-orgao">${leg.orgao}</span>` : ""}
+                </div>
+                <div class="doc-actions">
+                    <button class="doc-action-btn" onclick="window.print()" title="Imprimir ou salvar em PDF">Imprimir / PDF</button>
+                    <a class="doc-action-btn" href="${leg.fonteUrl}" target="_blank" rel="noopener">Texto oficial &#8599;</a>
+                </div>
+            `;
+
+            const contentDiv = document.getElementById("legis-content");
+            contentDiv.innerHTML = leg.conteudoHtml;
+            buildTableOfContents();
+
+            renderTermButtons(leg);
+            if (termoAtivo) {
+                applyHighlight(termoAtivo, false);
+            } else {
+                updateMatchNav();
+            }
+        }
+
+        function renderTermButtons(activeLeg) {
+            const grid = document.getElementById("terms-grid");
+            grid.innerHTML = "";
+            const activeText = getPlainText(activeLeg.conteudoHtml);
+
+            TERMOS_CHAVE.forEach(item => {
+                const countHere = countRootOccurrences(activeText, item.root);
+                const otherDocs = CATALOGO.filter(l => l.id !== activeLeg.id && countRootOccurrences(getPlainText(l.conteudoHtml), item.root) > 0);
+
+                const btn = document.createElement("button");
+                btn.className = "term-btn";
+
+                if (countHere > 0) {
+                    btn.textContent = `${item.label} (${countHere})`;
+                    if (termoAtivo === item.root) btn.classList.add("active-term");
+                    btn.onclick = () => {
+                        termoAtivo = item.root;
+                        document.getElementById("custom-search").value = "";
+                        renderTermButtons(activeLeg);
+                        applyHighlight(item.root, true);
+                    };
+                } else if (otherDocs.length > 0) {
+                    btn.classList.add("other-doc");
+                    btn.textContent = `${item.label} (${otherDocs.length} norma${otherDocs.length > 1 ? "s" : ""})`;
+                    btn.title = `Disponível em: ${otherDocs.map(d => d.titulo).join(", ")}. Clique para abrir.`;
+                    btn.onclick = () => {
+                        categoriaAtiva = "Todas";
+                        legislacaoAtivaId = otherDocs[0].id;
+                        termoAtivo = item.root;
+                        renderCategoryTabs();
+                        renderDocSelector();
+                    };
+                } else {
+                    btn.classList.add("disabled");
+                    btn.disabled = true;
+                    btn.textContent = item.label;
+                    btn.title = "Termo não encontrado nas legislações cadastradas";
+                }
+
+                grid.appendChild(btn);
+            });
+        }
+
+        function clearHighlights() {
+            const contentDiv = document.getElementById("legis-content");
+            const prev = contentDiv.querySelectorAll(".highlighted-term");
+            prev.forEach(el => {
+                const parent = el.parentNode;
+                parent.replaceChild(document.createTextNode(el.textContent), el);
+                parent.normalize();
+            });
+            matches = [];
+            currentMatchIndex = -1;
+            updateMatchNav();
+        }
+
+        function applyHighlight(searchRoot, scrollToFirst = true) {
+            clearHighlights();
+            if (!searchRoot) return;
+
+            const contentDiv = document.getElementById("legis-content");
+            const walker = document.createTreeWalker(contentDiv, NodeFilter.SHOW_TEXT, null, false);
+            const textNodes = [];
+            let node;
+            while ((node = walker.nextNode())) {
+                if (node.parentNode.nodeName !== "SCRIPT" && node.parentNode.nodeName !== "STYLE") {
+                    textNodes.push(node);
+                }
+            }
+
+            const normSearch = removeAccents(searchRoot).toLowerCase();
+
+            textNodes.forEach(textNode => {
+                const text = textNode.nodeValue;
+                const normText = removeAccents(text).toLowerCase();
+                let index = normText.indexOf(normSearch);
+
+                if (index !== -1) {
+                    const parent = textNode.parentNode;
+                    let lastIndex = 0;
+                    const fragment = document.createDocumentFragment();
+
+                    while (index !== -1) {
+                        let endIndex = index + normSearch.length;
+                        while (endIndex < text.length && /[a-zA-ZÀ-ÿ0-9]/.test(text[endIndex])) {
+                            endIndex++;
+                        }
+
+                        fragment.appendChild(document.createTextNode(text.substring(lastIndex, index)));
+
+                        const span = document.createElement("span");
+                        span.className = "highlighted-term";
+                        span.textContent = text.substring(index, endIndex);
+                        fragment.appendChild(span);
+                        matches.push(span);
+
+                        lastIndex = endIndex;
+                        index = normText.indexOf(normSearch, lastIndex);
+                    }
+
+                    fragment.appendChild(document.createTextNode(text.substring(lastIndex)));
+                    parent.replaceChild(fragment, textNode);
+                }
+            });
+
+            if (matches.length > 0) {
+                currentMatchIndex = 0;
+                focusMatch(0, scrollToFirst);
+            }
+            updateMatchNav();
+        }
+
+        function focusMatch(idx, smoothScroll = true) {
+            matches.forEach(m => m.classList.remove("highlighted-active"));
+            if (idx >= 0 && idx < matches.length) {
+                currentMatchIndex = idx;
+                const el = matches[idx];
+                el.classList.add("highlighted-active");
+                el.scrollIntoView({ behavior: smoothScroll ? "smooth" : "auto", block: "center" });
+                updateMatchNav();
+            }
+        }
+
+        function updateMatchNav() {
+            const nav = document.getElementById("match-nav");
+            const counter = document.getElementById("match-counter");
+            if (matches.length > 0) {
+                nav.classList.add("visible");
+                counter.textContent = `${currentMatchIndex + 1} de ${matches.length}`;
+            } else {
+                nav.classList.remove("visible");
+            }
+        }
+
+        function goPrev() {
+            if (matches.length === 0) return;
+            const prevIdx = (currentMatchIndex - 1 + matches.length) % matches.length;
+            focusMatch(prevIdx);
+        }
+
+        function goNext() {
+            if (matches.length === 0) return;
+            const nextIdx = (currentMatchIndex + 1) % matches.length;
+            focusMatch(nextIdx);
+        }
+
+        document.getElementById("prev-match").onclick = goPrev;
+        document.getElementById("next-match").onclick = goNext;
+
+        document.getElementById("clear-btn").onclick = () => {
+            termoAtivo = "";
+            document.getElementById("custom-search").value = "";
+            clearHighlights();
+            const leg = CATALOGO.find(l => l.id === legislacaoAtivaId);
+            if (leg) renderTermButtons(leg);
+        };
+
+        const searchInput = document.getElementById("custom-search");
+        searchInput.addEventListener("input", (e) => {
+            const val = e.target.value.trim();
+            termoAtivo = "";
+            const leg = CATALOGO.find(l => l.id === legislacaoAtivaId);
+            if (leg) renderTermButtons(leg);
+            if (val.length >= 2) {
+                applyHighlight(val, true);
+            } else {
+                clearHighlights();
+            }
+        });
+
+        searchInput.addEventListener("keydown", (e) => {
+            if (e.key === "Enter") {
+                e.preventDefault();
+                if (e.shiftKey) goPrev();
+                else goNext();
+            }
+        });
+
+        // Inicialização
+        renderCategoryTabs();
+        renderDocSelector();
+    </script>
+</body>
+</html>
