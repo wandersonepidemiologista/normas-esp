@@ -10,10 +10,7 @@ window.NORMAS = [
   "titulo": "Lei nº 6.259, de 30/10/1975 - Dispõe sobre a organização das ações de Vigilância Epidemiológica, sobre o Programa Nacional de Imunizações, estabelece normas relativas à notificação compulsória de doenças, e dá outras providências.",
   "tituloCurto": "Lei de Vigilância Epidemiológica e Notificação Compulsória",
   "ementa": "Dispõe sobre a organização das ações de Vigilância Epidemiológica, sobre o Programa Nacional de Imunizações, estabelece normas relativas à notificação compulsória de doenças, e dá outras providências.",
-  "propositor": {
-   "familia": "Geisel",
-   "nome": "Ernesto Beckmann"
-  },
+  "propositor": "Brasil",
   "codigo": "Diário Oficial da União",
   "volumeCodigo": null,
   "secao": "Seção 1",
@@ -37,7 +34,8 @@ window.NORMAS = [
    "Data e página de publicação no DOU",
    "Conferir número e data do decreto regulamentador (informado de memória)",
    "Sessão (legislatura) informada sem fonte na página"
-  ]
+  ],
+  "signatarios": "Ernesto Beckmann Geisel"
  },
  {
   "id": "lei8080_1990",
@@ -49,10 +47,7 @@ window.NORMAS = [
   "titulo": "Lei nº 8.080, de 19/09/1990 - Dispõe sobre as condições para a promoção, proteção e recuperação da saúde, a organização e o funcionamento dos serviços correspondentes e dá outras providências.",
   "tituloCurto": "Lei Orgânica da Saúde",
   "ementa": "Dispõe sobre as condições para a promoção, proteção e recuperação da saúde, a organização e o funcionamento dos serviços correspondentes e dá outras providências.",
-  "propositor": {
-   "familia": "Collor de Mello",
-   "nome": "Fernando Affonso"
-  },
+  "propositor": "Brasil",
   "codigo": "Diário Oficial da União",
   "volumeCodigo": null,
   "secao": "Seção 1",
@@ -76,7 +71,8 @@ window.NORMAS = [
    "Página de publicação no DOU",
    "Lista de leis modificadoras é levantamento automático; conferir quais alteram de fato o texto",
    "Sessão (legislatura) informada sem fonte na página"
-  ]
+  ],
+  "signatarios": "Fernando Affonso Collor de Mello"
  },
  {
   "id": "decreto7616_2011",
@@ -88,10 +84,7 @@ window.NORMAS = [
   "titulo": "Decreto nº 7.616, de 17/11/2011 - Dispõe sobre a declaração de Emergência em Saúde Pública de Importância Nacional - ESPIN e institui a Força Nacional do Sistema Único de Saúde - FN-SUS.",
   "tituloCurto": "Decreto da ESPIN e da FN-SUS",
   "ementa": "Dispõe sobre a declaração de Emergência em Saúde Pública de Importância Nacional - ESPIN e institui a Força Nacional do Sistema Único de Saúde - FN-SUS.",
-  "propositor": {
-   "familia": "Rousseff",
-   "nome": "Dilma Vana"
-  },
+  "propositor": "Brasil",
   "codigo": "Diário Oficial da União",
   "volumeCodigo": null,
   "secao": "Seção 1",
@@ -113,7 +106,8 @@ window.NORMAS = [
   },
   "pendencias": [
    "Página de publicação no DOU"
-  ]
+  ],
+  "signatarios": "Dilma Vana Rousseff"
  },
  {
   "id": "decreto10212_2020",
@@ -125,10 +119,7 @@ window.NORMAS = [
   "titulo": "Decreto nº 10.212, de 30/01/2020 - Promulga o texto revisado do Regulamento Sanitário Internacional, acordado na 58ª Assembleia Geral da Organização Mundial de Saúde, em 23 de maio de 2005.",
   "tituloCurto": "Promulgação do Regulamento Sanitário Internacional (2005)",
   "ementa": "Promulga o texto revisado do Regulamento Sanitário Internacional, acordado na 58ª Assembleia Geral da Organização Mundial de Saúde, em 23 de maio de 2005.",
-  "propositor": {
-   "familia": "Bolsonaro",
-   "nome": "Jair Messias"
-  },
+  "propositor": "Brasil",
   "codigo": "Diário Oficial da União",
   "volumeCodigo": null,
   "secao": "Seção 1 (edição extra)",
@@ -151,6 +142,43 @@ window.NORMAS = [
   "pendencias": [
    "Página de publicação no DOU",
    "Conferir decreto que promulga as emendas de 2024"
+  ],
+  "signatarios": "Jair Messias Bolsonaro"
+ },
+ {
+  "id": "portaria_midr_md_3_2025",
+  "chave": "portariaint_midrmd3_2025",
+  "tipo": "Portaria Interministerial MIDR/MD",
+  "numero": "3",
+  "ano": 2025,
+  "data": "2025-09-08",
+  "titulo": "Portaria Interministerial MIDR/MD nº 3, de 08/09/2025 - Institui o Protocolo de Atuação Integrada entre o Ministério da Integração e do Desenvolvimento Regional e o Ministério da Defesa, com o objetivo de estabelecer fluxos e procedimentos para a execução de ações de resposta a desastres.",
+  "tituloCurto": "Protocolo de Atuação Integrada MIDR e MD para resposta a desastres",
+  "ementa": "Institui o Protocolo de Atuação Integrada entre o Ministério da Integração e do Desenvolvimento Regional e o Ministério da Defesa, com o objetivo de estabelecer fluxos e procedimentos para a execução de ações de resposta a desastres.",
+  "propositor": "Brasil. Ministério da Integração e do Desenvolvimento Regional; Ministério da Defesa",
+  "signatarios": "Antonio Waldez Góes da Silva (Ministro da Integração e do Desenvolvimento Regional); José Mucio Monteiro Filho (Ministro da Defesa)",
+  "codigo": "Diário Oficial da União",
+  "volumeCodigo": "Edição 171",
+  "secao": "Seção 1",
+  "paginas": "42",
+  "corpoLegislativo": "Ministério da Integração e do Desenvolvimento Regional; Ministério da Defesa",
+  "sessao": null,
+  "historico": "Fundamentada na Lei nº 12.608/2012 e no Decreto nº 10.593/2020. Entra em vigor na data da publicação (art. 13). Publicada no DOU de 09/09/2025, edição 171, seção 1, p. 42.",
+  "doi": null,
+  "url": "https://www.in.gov.br/web/dou/-/portaria-interministerial-midr/md-n-3-de-8-de-setembro-de-2025-653989190",
+  "dataAcesso": "2026-11-22",
+  "idioma": "pt-BR",
+  "licenca": "Domínio público (Lei nº 9.610/1998, art. 8º, IV)",
+  "orgao": "Ministério da Integração e do Desenvolvimento Regional; Ministério da Defesa",
+  "douData": "2025-09-09",
+  "vigencia": {
+   "situacao": "vigente",
+   "verificadoEm": null,
+   "obs": "Texto conferido no PDF do DOU (Imprensa Nacional). Nenhuma revogação ou alteração localizada em busca na web em 22/11/2026; reconferir no DOU."
+  },
+  "pendencias": [
+   "Título curto é proposta",
+   "Reconferir ausência de alterações posteriores"
   ]
  }
 ];

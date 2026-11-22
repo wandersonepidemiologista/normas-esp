@@ -442,5 +442,170 @@ window.TRECHOS = [
   "fonteUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/d10212.htm",
   "verificacao": "Digitado a partir da página do Planalto e conferido por hash SHA-256 contra o texto da página em 22/11/2026 (idêntico).",
   "status": "proposta"
+ },
+ {
+  "id": "portaria_midr_md_3_2025-art1",
+  "normaId": "portaria_midr_md_3_2025",
+  "dispositivo": "Art. 1º",
+  "texto": "Art. 1º Esta Portaria Interministerial institui o Protocolo de Atuação Integrada, entre o Ministério da Integração e do Desenvolvimento Regional e o Ministério da Defesa, para estabelecer fluxos e procedimentos para a execução de ações de resposta a desastres.",
+  "componentes": [
+   "responder",
+   "ativar"
+  ],
+  "nota": "Objeto do protocolo de atuação integrada MIDR e MD.",
+  "fonteUrl": "https://www.in.gov.br/web/dou/-/portaria-interministerial-midr/md-n-3-de-8-de-setembro-de-2025-653989190",
+  "verificacao": "Extraído por programa do texto do PDF do DOU (Imprensa Nacional), sem digitação.",
+  "status": "proposta"
+ },
+ {
+  "id": "portaria_midr_md_3_2025-art2",
+  "normaId": "portaria_midr_md_3_2025",
+  "dispositivo": "Art. 2º, caput e incisos I a IV",
+  "texto": "Art. 2º Para os fins desta Portaria Interministerial, adotam-se os conceitos definidos na Classificação e Codificação Brasileira de Desastres - Cobrade, no Decreto nº 10.593, de 24 de dezembro de 2020, assim como os seguintes:\nI - requisição: solicitação emergencial de recursos humanos, materiais, financeiros ou institucionais para atuar em situação de desastre, precedida de consulta formal sobre a disponibilidade de recursos para apoio federal;\nII - mobilização: emprego emergencial de apoio federal requisitado;\nIII - desmobilização: encerramento da atuação emergencial de apoio federal requisitado; e\nIV - apoio federal: conjunto de ações executadas pelos órgãos federais em ações de resposta a desastres.",
+  "componentes": [
+   "ativar",
+   "desativar"
+  ],
+  "nota": "Define requisição, mobilização, desmobilização e apoio federal.",
+  "fonteUrl": "https://www.in.gov.br/web/dou/-/portaria-interministerial-midr/md-n-3-de-8-de-setembro-de-2025-653989190",
+  "verificacao": "Extraído por programa do texto do PDF do DOU (Imprensa Nacional), sem digitação.",
+  "status": "proposta"
+ },
+ {
+  "id": "portaria_midr_md_3_2025-art3",
+  "normaId": "portaria_midr_md_3_2025",
+  "dispositivo": "Art. 3º, caput e §§ 1º e 2º",
+  "texto": "Art. 3º As ações de socorro e de assistência humanitária terão prioridade na aplicação dos recursos estabelecidos nesta Portaria Interministerial.\n§ 1º Nos casos de desastres simultâneos ou ações concorrentes, a ordem de priorização para o emprego dos meios será definida, conjuntamente, pelos órgãos federais do Sistema Federal de Proteção e Defesa Civil, considerando:\nI - critérios técnicos definidos por órgão envolvido; e\nII - as especificidades do desastre.\n§ 2º Permanecendo a divergência quanto à definição da priorização, a decisão ficará a cargo do Secretário Nacional de Proteção e Defesa Civil do Ministério da Integração e do Desenvolvimento Regional.",
+  "componentes": [
+   "responder",
+   "gestao_risco"
+  ],
+  "nota": "Prioridade e critério de desempate em desastres simultâneos.",
+  "fonteUrl": "https://www.in.gov.br/web/dou/-/portaria-interministerial-midr/md-n-3-de-8-de-setembro-de-2025-653989190",
+  "verificacao": "Extraído por programa do texto do PDF do DOU (Imprensa Nacional), sem digitação.",
+  "status": "proposta"
+ },
+ {
+  "id": "portaria_midr_md_3_2025-art4",
+  "normaId": "portaria_midr_md_3_2025",
+  "dispositivo": "Art. 4º, caput e incisos I a VII",
+  "texto": "Art. 4º A atuação integrada de que trata esta Portaria Interministerial observará as seguintes etapas:\nI - solicitação de apoio federal, pelos entes federados ou órgão integrante do Sistema Federal de Proteção e Defesa Civil, à Secretaria Nacional de Proteção e Defesa Civil do Ministério da Integração e do Desenvolvimento Regional;\nII - identificação no âmbito federal, pela Secretaria Nacional de Proteção e Defesa Civil, dos órgãos e entidades com capacidades e meios para atender à demanda apresentada, conforme respectivas competências legais;\nIII - encaminhamento, se for o caso, da consulta de apoio federal ao Ministério da Defesa, para avaliação;\nIV - resposta à consulta do Ministério da Integração e do Desenvolvimento Regional pelo Ministério da Defesa;\nV - encaminhamento da requisição de apoio federal ao Ministério da Defesa, para avaliação;\nVI - atendimento da demanda, com coordenação do órgão central do Sistema Nacional de Proteção e Defesa Civil, em articulação com o Ministério da Defesa, o ente federado afetado e, quando for o caso, o órgão federal solicitante; e\nVII - desmobilização do apoio federal pela Secretaria Nacional de Proteção e Defesa Civil, mediante solicitação motivada apresentada pelo ente federado afetado, pelo Ministério da Defesa ou pelo órgão federal solicitante.",
+  "componentes": [
+   "ativar",
+   "responder",
+   "desativar"
+  ],
+  "nota": "Sequência da solicitação do apoio federal até a desmobilização.",
+  "fonteUrl": "https://www.in.gov.br/web/dou/-/portaria-interministerial-midr/md-n-3-de-8-de-setembro-de-2025-653989190",
+  "verificacao": "Extraído por programa do texto do PDF do DOU (Imprensa Nacional), sem digitação.",
+  "status": "proposta"
+ },
+ {
+  "id": "portaria_midr_md_3_2025-art5",
+  "normaId": "portaria_midr_md_3_2025",
+  "dispositivo": "Art. 5º, caput e incisos I a IX",
+  "texto": "Art. 5º A atuação integrada de que trata esta Portaria Interministerial poderá incluir a execução das seguintes ações:\nI - transporte de carga e pessoas;\nII - evacuação aeromédica; assistência hospitalar, social e psicológica; e desinfecção;\nIII - apoio logístico para combate a incêndios florestais;\nIV - organização de centros de comando e controle, instalação e operacionalização de estações de comunicações e de controle de espaço aéreo;\nV - desobstrução de vias de acesso e remoção de escombros, instalação de pontes móveis;\nVI - realização de busca, salvamento e remoção de vítimas;\nVII - confecção de alimentos, tratamento de água, alojamento, fornecimento de energia elétrica;\nVIII - segurança em áreas afetadas por desastres; e\nIX - outras que se fizerem necessárias e disponíveis.",
+  "componentes": [
+   "responder"
+  ],
+  "nota": "O inciso II prevê evacuação aeromédica e desinfecção.",
+  "fonteUrl": "https://www.in.gov.br/web/dou/-/portaria-interministerial-midr/md-n-3-de-8-de-setembro-de-2025-653989190",
+  "verificacao": "Extraído por programa do texto do PDF do DOU (Imprensa Nacional), sem digitação.",
+  "status": "proposta"
+ },
+ {
+  "id": "portaria_midr_md_3_2025-art6_i_ii",
+  "normaId": "portaria_midr_md_3_2025",
+  "dispositivo": "Art. 6º, caput e incisos I e II",
+  "texto": "Art. 6º No âmbito da atuação integrada de que trata esta Portaria Interministerial, incumbe à Secretaria Nacional de Proteção e Defesa Civil do Ministério da Integração e do Desenvolvimento Regional, por meio do Centro Nacional de Gerenciamento de Riscos e Desastres:\nI - consultar formalmente o Estado-Maior Conjunto das Forças Armadas do Ministério da Defesa quanto à possibilidade de realização de apoio, apresentando as seguintes informações iniciais:\na) municípios atingidos;\nb) tipo de desastre;\nc) indicação dos danos humanos e materiais ocorridos;\nd) descrição sucinta do objeto da consulta;\ne) prazo para o cumprimento da solicitação;\nf) ponto de contato local; e\ng) ponto de contato no Centro Nacional de Gerenciamento de Riscos e Desastres.\nII - solicitar ao Estado-Maior Conjunto das Forças Armadas do Ministério da Defesa a mobilização dos recursos necessários à execução das ações previstas, mediante encaminhamento por meio eletrônico de formulário de mobilização contendo as informações demandadas pelo Ministério da Defesa quando da resposta à consulta;",
+  "componentes": [
+   "ativar"
+  ],
+  "nota": "Consulta formal e solicitação de mobilização ao Estado-Maior Conjunto das Forças Armadas. Trecho encerrado no fim do inciso II.",
+  "fonteUrl": "https://www.in.gov.br/web/dou/-/portaria-interministerial-midr/md-n-3-de-8-de-setembro-de-2025-653989190",
+  "verificacao": "Extraído por programa do texto do PDF do DOU (Imprensa Nacional), sem digitação.",
+  "status": "proposta"
+ },
+ {
+  "id": "portaria_midr_md_3_2025-art6_vi_vii",
+  "normaId": "portaria_midr_md_3_2025",
+  "dispositivo": "Art. 6º, incisos VI e VII",
+  "texto": "VI - coordenar as ações de resposta a desastres no âmbito do Sistema Nacional de Proteção e Defesa Civil e, sempre que necessário, instalar um Centro de Operações no cenário do desastre e mobilizar o Grupo de Apoio a Desastres;\nVII - manter de forma permanente, nas dependências do Centro Nacional de Gerenciamento de Riscos e Desastres, um posto com estrutura tecnológica essencial para um representante do Ministério da Defesa, com vistas à atuação conjunta no gerenciamento de desastres; e",
+  "componentes": [
+   "gestao_risco",
+   "responder"
+  ],
+  "nota": "Começa no inciso VI, sem o caput do art. 6º, que está no trecho anterior.",
+  "fonteUrl": "https://www.in.gov.br/web/dou/-/portaria-interministerial-midr/md-n-3-de-8-de-setembro-de-2025-653989190",
+  "verificacao": "Extraído por programa do texto do PDF do DOU (Imprensa Nacional), sem digitação.",
+  "status": "proposta"
+ },
+ {
+  "id": "portaria_midr_md_3_2025-art7_iv",
+  "normaId": "portaria_midr_md_3_2025",
+  "dispositivo": "Art. 7º, inciso IV",
+  "texto": "IV - participar de reuniões de preparação e resposta a desastres, sempre que convidado, e manter os meios e recursos disponíveis para a atuação nas ações previstas nesta Portaria Interministerial;",
+  "componentes": [
+   "preparar"
+  ],
+  "nota": "Compromisso do Ministério da Defesa de manter meios e recursos disponíveis.",
+  "fonteUrl": "https://www.in.gov.br/web/dou/-/portaria-interministerial-midr/md-n-3-de-8-de-setembro-de-2025-653989190",
+  "verificacao": "Extraído por programa do texto do PDF do DOU (Imprensa Nacional), sem digitação.",
+  "status": "proposta"
+ },
+ {
+  "id": "portaria_midr_md_3_2025-art7_vii_ix",
+  "normaId": "portaria_midr_md_3_2025",
+  "dispositivo": "Art. 7º, incisos VII a IX",
+  "texto": "VII - enviar relatórios periódicos de acompanhamento, durante a execução do apoio, para fins da descrição das ações realizadas pelas Forças Armadas em apoio ao Sistema Nacional de Proteção e Defesa Civil;\nVIII - enviar Relatório Parcial ou Final de atividades, para fins de ressarcimento, descrevendo as ações de apoio realizadas pelas Forças Armadas, contendo as informações a seguir:\na) situação das ações executadas desde o início da mobilização;\nb) os meios empregados;\nc) os resultados alcançados;\nd) análise dos pontos fortes, oportunidades de melhorias e lições aprendidas; e\ne) os custos financeiros totais envolvidos, com descrição da memória de cálculo indicativa da ação executada.\nIX - comunicar a desmobilização à Secretaria Nacional de Proteção e Defesa Civil e enviar a solicitação de ressarcimento financeiro com os custos decorrentes, discriminados por natureza de despesa e tipo de ação desenvolvida, em conjunto com o relatório de atividades.",
+  "componentes": [
+   "aprender",
+   "desativar"
+  ],
+  "nota": "A alínea d do inciso VIII exige análise de pontos fortes, oportunidades de melhoria e lições aprendidas.",
+  "fonteUrl": "https://www.in.gov.br/web/dou/-/portaria-interministerial-midr/md-n-3-de-8-de-setembro-de-2025-653989190",
+  "verificacao": "Extraído por programa do texto do PDF do DOU (Imprensa Nacional), sem digitação.",
+  "status": "proposta"
+ },
+ {
+  "id": "portaria_midr_md_3_2025-art8",
+  "normaId": "portaria_midr_md_3_2025",
+  "dispositivo": "Art. 8º, caput e incisos I a IV",
+  "texto": "Art. 8º No âmbito da atuação integrada de que trata esta Portaria Interministerial, incumbe ao Ministério da Integração e do Desenvolvimento Regional e ao Ministério da Defesa:\nI - disponibilizar representantes (titular e substituto), em regime de escala de plantão, presencial ou remoto, com capacidade de resposta imediata às requisições, ações e deliberações previstas nesta Portaria Interministerial;\nII - informar o representante do órgão responsável pela gestão operacional e execução das ações de resposta, no cenário do desastre;\nIII - promover capacitações, treinamentos e simulados, em seus órgãos e conjuntamente, visando as melhorias cabíveis e a operacionalização das ações previstas nesta Portaria Interministerial; e\nIV - manter atualizadas as instituições quanto aos procedimentos constantes nesta Portaria Interministerial, necessários para a operacionalização do apoio federal.",
+  "componentes": [
+   "preparar"
+  ],
+  "nota": "Plantão, capacitações, treinamentos e simulados conjuntos.",
+  "fonteUrl": "https://www.in.gov.br/web/dou/-/portaria-interministerial-midr/md-n-3-de-8-de-setembro-de-2025-653989190",
+  "verificacao": "Extraído por programa do texto do PDF do DOU (Imprensa Nacional), sem digitação.",
+  "status": "proposta"
+ },
+ {
+  "id": "portaria_midr_md_3_2025-art9",
+  "normaId": "portaria_midr_md_3_2025",
+  "dispositivo": "Art. 9º",
+  "texto": "Art. 9º Durante o período de mobilização, a Secretaria Nacional de Proteção e Defesa Civil do Ministério da Integração e do Desenvolvimento Regional instalará gabinete de gerenciamento de crise junto ao Centro Nacional de Gerenciamento de Riscos e Desastres, com participação do Ministério da Defesa, dos entes federativos afetados e dos demais órgãos federais envolvidos, com o objetivo de coordenar, de forma conjunta e articulada, as ações de resposta a desastres, o levantamento de informações e o emprego dos recursos disponibilizados e mobilizados para atendimento da situação.",
+  "componentes": [
+   "gestao_risco",
+   "responder",
+   "ativar"
+  ],
+  "nota": "Gabinete de gerenciamento de crise junto ao CENAD.",
+  "fonteUrl": "https://www.in.gov.br/web/dou/-/portaria-interministerial-midr/md-n-3-de-8-de-setembro-de-2025-653989190",
+  "verificacao": "Extraído por programa do texto do PDF do DOU (Imprensa Nacional), sem digitação.",
+  "status": "proposta"
+ },
+ {
+  "id": "portaria_midr_md_3_2025-art10",
+  "normaId": "portaria_midr_md_3_2025",
+  "dispositivo": "Art. 10, caput e parágrafo único",
+  "texto": "Art. 10. A desmobilização dos recursos emergenciais empregados na modalidade de apoio federal será formalmente declarada pela Secretaria Nacional de Proteção e Defesa Civil do Ministério da Integração e do Desenvolvimento Regional, a partir de solicitação motivada apresentada pelo ente federado, pelo Ministério da Defesa ou pelo órgão federal solicitante.\nParágrafo único. A desmobilização deverá ser motivada com a atualização da situação do cenário, com indicação de interrupção parcial ou integral das atividades de apoio federal.",
+  "componentes": [
+   "desativar"
+  ],
+  "nota": null,
+  "fonteUrl": "https://www.in.gov.br/web/dou/-/portaria-interministerial-midr/md-n-3-de-8-de-setembro-de-2025-653989190",
+  "verificacao": "Extraído por programa do texto do PDF do DOU (Imprensa Nacional), sem digitação.",
+  "status": "proposta"
  }
 ];

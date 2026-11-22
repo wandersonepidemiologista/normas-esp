@@ -248,6 +248,15 @@ window.LINHA_TEMPO = {
   },
   {
    "ano": 2025,
+   "data": "2025-09-08",
+   "nome": "Portaria Interministerial MIDR/MD nº 3/2025",
+   "desc": "Protocolo de atuação integrada entre MIDR e MD para resposta a desastres",
+   "cat": "dc",
+   "foraMatriz": false,
+   "fichaId": "portaria_midr_md_3_2025"
+  },
+  {
+   "ano": 2025,
    "nome": "Portaria GM-MD nº 4.822/2025 (MD33-I-01)",
    "desc": "Emprego das Forças Armadas em apoio à defesa civil",
    "cat": "defesa",
