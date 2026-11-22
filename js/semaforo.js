@@ -186,6 +186,7 @@
   document.addEventListener('click', function (ev) {
     var el = ev.target.closest('button,a'); if (!el) return;
     var d = el.dataset;
+    if (d.inicio) { state.comp = null; state.q = ''; state.cat = 'all'; state.tl = null; $('#q').value = ''; fechar(); vista('semaforo'); tudo(); window.scrollTo({ top: 0, behavior: 'smooth' }); return; }
     if (d.v) return vista(d.v);
     if (d.comp) { state.comp = (state.comp === d.comp && el.classList.contains('comp')) ? null : d.comp; if (state.v !== 'semaforo') vista('semaforo'); fechar(); tudo(); if (state.comp) $('#painel').scrollIntoView({ behavior: 'smooth', block: 'start' }); return; }
     if (d.limpar) { state.comp = null; state.q = ''; $('#q').value = ''; return tudo(); }
